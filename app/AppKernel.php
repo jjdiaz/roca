@@ -28,7 +28,7 @@ class AppKernel extends Kernel
     protected function registerProjectBundles()
     {
         return [
-            // your app bundles should be registered here
+           new Asm\AppBundle\AsmAppBundle(),
         ];
     }
 
@@ -137,6 +137,8 @@ class AppKernel extends Kernel
             new Pim\Bundle\VersioningBundle\PimVersioningBundle(),
             new PimEnterprise\Bundle\CatalogRuleBundle\PimEnterpriseCatalogRuleBundle(),
             new PimEnterprise\Bundle\ReferenceDataBundle\PimEnterpriseReferenceDataBundle(),
+            //Custom Entitu Bundle
+            new \Pim\Bundle\CustomEntityBundle\PimCustomEntityBundle(),
         ];
     }
 

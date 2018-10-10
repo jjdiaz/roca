@@ -1,0 +1,46 @@
+extensions:
+#    pim-menu-reference-data:
+#        module: pim/menu/tab
+#        parent: pim-menu
+#        position: 65
+#        targetZone: mainMenu
+#        aclResourceId: reference_data_acl_key
+#        config:
+#            title: pim_menu.tab.reference_data
+#            iconModifier: iconCard
+#
+    acme-custom-root-element:                          # The unique key of your extension
+        module: pim/menu/tab                           # The module provided by akeneo for root elements
+        parent: pim-menu                               # The parent is the root of the menu
+        targetZone: mainMenu
+        aclResourceId: my_custom_acl_key               # [optional] You can define a acl check - remove if this acl has not been created yet
+        position: 110                                  # [optional] The position in the tree where you want to add the item
+        config:
+            title: pim_menu.item.import_profile
+
+#    pim-menu-reference-data-column:
+#        module: pim/menu/column
+#        parent: pim-menu
+#        position: 500
+#        targetZone: column
+#        config:
+#            stateCode: pim-menu-reference-data
+#            tab: pim-menu-reference-dat
+#            navigationTitle: pim_menu.navigation.reference_data
+#
+#    pim-menu-reference-data-navigation-block:
+#      module: pim/menu/navigation-block
+#      parent: pim-menu-reference-data-column
+#      targetZone: navigation
+#      config:
+#        title: pim_menu.navigation.reference_data
+
+#    pim-menu-reference-data-suppliers:
+#        module: pim/menu/item
+#        parent: pim-menu-reference-data-navigation-block
+#        position: 100
+#        config:
+#            title: pim_menu.item.reference_data.supplier
+#            to: pim_customentity_index
+#            routeParams:
+#                customEntityName: supplier
