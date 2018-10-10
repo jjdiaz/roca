@@ -30,10 +30,10 @@ parameters:
     # installer_data: %kernel.root_dir%/../vendor/akeneo/catalogs/master/enterprise/small/fixtures
     # or you can use one of the provided catalogs
     # use PimEnterpriseInstallerBundle:minimal
-    installer_data:       PimEnterpriseInstallerBundle:icecat_demo_dev
+    installer_data:       PimEnterpriseInstallerBundle:minimal
 
     uservoice_key:                 ~
-    max_products_category_removal: 100
+    max_products_category_removal: 10000
 
     pim_catalog_image_allowed_extensions: [gif, jfif, jif, jpeg, jpg, pdf, png, psd, tif, tiff]
     pim_catalog_file_allowed_extensions: [csv, doc, docx, mp3, pdf, ppt, pptx, rtf, svg, txt, wav]
@@ -46,7 +46,7 @@ parameters:
     api_pagination_limit_max: 100
 
     # Number of items returned by default if limit is not filled in request
-    api_pagination_limit_by_default: 10
+    api_pagination_limit_by_default: 100
 
     # Maximum length in bytes of the resource's json representation when updating a list of resources
     api_input_buffer_size: 1000000

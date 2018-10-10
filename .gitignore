@@ -15,6 +15,7 @@ app/uploads/*
 app/uploads/product/*
 app/file_storage/*
 app/bootstrap.php.cache
+app/config/pìm_parameters.yml
 var/bootstrap.php.cache
 app/phpunit.xml
 build/
@@ -29,6 +30,8 @@ vendor
 !/bin/docker/pim-front.sh
 !/bin/docker/pim-initialize.sh
 !/bin/console
+bin/console
+
 behat.yml
 .phpspec/*.tpl
 composer.phar
