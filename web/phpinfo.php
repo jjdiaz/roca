@@ -1,6 +1,7 @@
 <?php
-echo "<h1>Usuario";
-exec("whoami");
-echo "</h1>";
+
+
+echo "<h1> El modulo $res </h1>";
 phpinfo();
+
 ?>

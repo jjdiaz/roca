@@ -1,0 +1,34 @@
+Roca\Bundle\RefdataBundle\Entity\SolutionTranslation:
+    type: entity
+    table: asm_solution_translation
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    uniqueConstraints:
+        locale_foreign_key_idx:
+            columns:
+                - locale
+                - foreign_key
+    fields:
+#    required
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+#    required
+        locale:
+            type: string
+            length: 20
+
+        description:
+            type: string
+            length: 100
+            nullable: true
+
+    manyToOne:
+        foreignKey:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Solution
+            inversedBy: translations
+            joinColumns:
+                foreign_key:
+                    referencedColumnName: id
+                    onDelete: CASCADE

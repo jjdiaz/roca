@@ -1,0 +1,32 @@
+Roca\Bundle\RefdataBundle\Entity\Designer:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_designer
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        pcmName:
+            type: string
+            length: 50
+        websort:
+            type: string
+            length: 10
+            nullable: true
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignerTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    lifecycleCallbacks: {  }

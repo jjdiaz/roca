@@ -1,0 +1,2 @@
+parameters:
+    roca_custom_entity.entity.suplier.class: Roca\Bundle\RocaReferenceDataBundle\Entity\Supplier

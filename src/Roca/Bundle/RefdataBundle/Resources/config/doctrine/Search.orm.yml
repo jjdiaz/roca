@@ -1,0 +1,48 @@
+Roca\Bundle\RefdataBundle\Entity\Search:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_search
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        websort:
+            type: integer
+            nullable: true
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\SearchTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    manyToMany:
+        sellings:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Selling
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_search_selling
+                joinColumns:
+                    search_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    selling_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+    lifecycleCallbacks: {  }

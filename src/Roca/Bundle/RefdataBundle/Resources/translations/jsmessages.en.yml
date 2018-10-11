@@ -1,0 +1,23 @@
+roca_custom:
+    brand:
+        index_title: "] -Inf, 1] {{ count }} Brand|] 1, Inf [{{ count }} Brands"
+        selected: brands selected
+        field.label:
+            code: Code
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Brand successfully updated
+            update_failed: The brand could not be updated
+            field_not_ready: "The brand cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    menu.item.reference_data:
+        brand: Brand
+
+    acl:
+        brand:
+            index: List Brand
+            create: Create Brand
+            edit: Edit Brand
+            delete: Delete Brand

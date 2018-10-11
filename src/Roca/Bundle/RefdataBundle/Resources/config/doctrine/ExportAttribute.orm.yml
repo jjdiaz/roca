@@ -1,0 +1,60 @@
+Roca\Bundle\RefdataBundle\Entity\ExportAttribute:
+#    repositoryClass: Pim\Bundle\ReferenceDataBundle\Doctrine\ORM\Repository\ReferenceDataRepository
+    repositoryClass: Roca\Bundle\RefdataBundle\Entity\Repository\ExportAttributeRepository
+    type: entity
+    table: asm_export_attribute
+    indexes:
+        idx_exportattribute_path:
+          columns: [ path ]
+        idx_exportattribute_attribute:
+          columns: [ attributeName ]
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+#            unique: true
+        name:
+            type: string
+            length: 75
+            nullable: false
+        type:
+            type: string
+            length: 100
+            nullable: true
+        path:
+            type: string
+            length: 100
+            nullable: false
+        entity:
+            type: string
+            length: 50
+            nullable: true
+        acronym:
+            type: string
+            length: 75
+            nullable: true
+        hierarchy:
+            type: string
+            length: 100
+            nullable: true
+        attributeName:
+            type: string
+            length: 100
+            nullable: true
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\ExportAttributeTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    lifecycleCallbacks: {  }

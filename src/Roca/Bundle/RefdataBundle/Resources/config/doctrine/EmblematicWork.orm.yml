@@ -1,0 +1,50 @@
+Roca\Bundle\RefdataBundle\Entity\EmblematicWork:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_emblematicwork
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        pcmName:
+            type: string
+            length: 100
+#        category:
+#            type: string
+#            length: 100
+        architect:
+            type: string
+            length: 100
+            nullable: true
+        installationDate:
+            type: integer
+            nullable: true
+        pcmCreationDate:
+            type: datetime
+            nullable: true
+
+    manyToOne:
+        country:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Country
+        principalFor:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+        category:
+            targetEntity: Pim\Bundle\CatalogBundle\Entity\AttributeOption
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\EmblematicWorkTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    lifecycleCallbacks: {  }

@@ -1,0 +1,42 @@
+Roca\Bundle\RefdataBundle\Entity\DistinctionTranslation:
+    type: entity
+    table: asm_distinction_translation
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    uniqueConstraints:
+        locale_foreign_key_idx:
+            columns:
+                - locale
+                - foreign_key
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        descriptionName:
+            type: string
+            length: 100
+            nullable: true
+        descriptionCategory:
+            type: string
+            length: 100
+            nullable: true
+        descriptionLead:
+            type: string
+            length: 500
+            nullable: true
+        descriptionBody:
+            type: string
+            length: 500
+            nullable: true
+        locale:
+            type: string
+            length: 20
+    manyToOne:
+        foreignKey:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Distinction
+            inversedBy: translations
+            joinColumns:
+                foreign_key:
+                    referencedColumnName: id
+                    onDelete: CASCADE

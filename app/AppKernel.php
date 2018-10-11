@@ -28,7 +28,8 @@ class AppKernel extends Kernel
     protected function registerProjectBundles()
     {
         return [
-           new Asm\AppBundle\AsmAppBundle(),
+            //new Acme\Bundle\CustomBundle\AcmeCustomBundle(),
+            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
         ];
     }
 

@@ -1,0 +1,68 @@
+Roca\Bundle\RefdataBundle\Entity\Market:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_market
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+#        locales:
+#            type: string
+#            length: 100
+        currency:
+            type: string
+            length: 10
+        webBaseUrl:
+            type: string
+            length: 100
+            nullable: true
+        mdmMarket:
+            type: boolean
+            nullable: false
+
+    manyToMany:
+        locales:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Locale
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_market_locale
+                joinColumns:
+                    market_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    locale_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\MarketTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+        countries:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Country
+            mappedBy: market
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+
+    lifecycleCallbacks: {  }

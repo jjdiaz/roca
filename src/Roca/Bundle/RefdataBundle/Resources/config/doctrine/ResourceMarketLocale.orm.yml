@@ -1,0 +1,31 @@
+Roca\Bundle\RefdataBundle\Entity\ResourceMarketLocale:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_resource_market_locale
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        activo:
+            type: boolean
+            nullable: false
+
+    manyToOne:
+        locale:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Locale
+            joinColumn:
+                name: locale_id
+                referencedColumnName: id
+        market:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+            joinColumn:
+                name: market_id
+                referencedColumnName: id
+
+    lifecycleCallbacks: {  }

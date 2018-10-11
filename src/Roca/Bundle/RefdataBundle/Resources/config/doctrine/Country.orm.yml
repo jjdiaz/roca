@@ -1,0 +1,45 @@
+Roca\Bundle\RefdataBundle\Entity\Country:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_country
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        isoCode:
+            type: string
+            length: 2
+        continent:
+            type: string
+            length: 20
+        mainCountry:
+            type: boolean
+#        name:
+#            type: string
+#            length: 100
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\CountryTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    manyToOne:
+        market:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+            inversedBy: countries
+#            joinColumns:
+#                foreign_key:
+#                    referencedColumnName: id
+#                    onDelete: CASCADE
+
+    lifecycleCallbacks: {  }

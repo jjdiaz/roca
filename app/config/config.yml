@@ -3,7 +3,6 @@ imports:
     - { resource: pim_parameters.yml }
     - { resource: parameters.yml }
     - { resource: security.yml }
-
 framework:
     #esi:             ~
     translator:      { fallback: en }

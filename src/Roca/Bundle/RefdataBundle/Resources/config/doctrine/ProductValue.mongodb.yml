@@ -1,0 +1,20 @@
+ASM\Bundle\ASMBundle\Document\ProductValue:
+    type: embeddedDocument
+    fields:
+        designline:
+            type: entity
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignLine
+        sellings:
+            notSaved: true
+            type: entities
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Selling
+            idsField: sellingIds
+        sellingIds:
+            type: collection
+
+#    referenceOne:
+#        designline:
+#            targetDocument: ASM\Bundle\ASMBundle\Designline
+#            type: entity
+#            nullable: true
+#            column: value_designline

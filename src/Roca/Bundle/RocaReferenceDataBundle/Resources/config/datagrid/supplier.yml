@@ -1,0 +1,16 @@
+datagrid:
+    supplier:
+        options:
+            entityHint: supplier
+            manageFilters: false
+    source:
+        type: pim_datasource_default
+        entity: Acme\Bundle\SupplierBundle\Entity\Supplier
+        repository_method: createDatagridQueryBuilder
+    columns:
+        code:
+            label: acme.supplier.field.code
+        name:
+            label: acme.supplier.field.name
+        email:
+          label: acme.supplier.field.name
