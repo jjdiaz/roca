@@ -45,6 +45,7 @@ package-lock.json
 yarn-error.log
 
 # User-specific stuff:
+.idea
 .idea/
 .idea/**/workspace.xml
 .idea/**/tasks.xml
