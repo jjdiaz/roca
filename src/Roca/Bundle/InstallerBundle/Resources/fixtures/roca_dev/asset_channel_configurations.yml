@@ -1,0 +1,5 @@
+asset_channel_configurations:
+    ecommerce:
+        configuration:
+            scale:
+                ratio: 99

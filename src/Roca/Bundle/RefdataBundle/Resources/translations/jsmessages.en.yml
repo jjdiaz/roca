@@ -1,0 +1,80 @@
+roca_custom:
+    brand:
+        index_title: "] -Inf, 1] {{ count }} Brand|] 1, Inf [{{ count }} Brands"
+        selected: brands selected
+        field.label:
+            code: Code Brand
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Brand successfully updated
+            update_failed: The brand could not be updated
+            field_not_ready: "The brand cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    designer:
+        index_title: "] -Inf, 1] {{ count }} Designer|] 1, Inf [{{ count }} Designers"
+        selected: brands selected
+        field.label:
+            code: Code
+            pcmname: PCMName
+            websort: WebSort
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Designer successfully updated
+            update_failed: The designer could not be updated
+            field_not_ready: "The designer cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    designline:
+        index_title: "] -Inf, 1] {{ count }} DesingLines|] 1, Inf [{{ count }} DesignLines"
+        selected: brands selected
+
+        field.label:
+            code: Code
+            name: Name
+            designer: Designer
+            status: Status
+            version: Version
+
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Design Line successfully updated
+            update_failed: The Design Line could not be updated
+            field_not_ready: "The Design Line cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    menu.item:
+        reference_data:
+            it: IT
+            manager: Manager
+            hierarchies: Hierarchies
+            brand: Brand
+            country: Countries
+            markets: Markets
+            resources: Resources
+            designers: Designers
+            designlines: Design Lines
+            distinctions: Distinctions
+            emblematic_works: Emblematic Works
+            finish: Finish
+            solutions: Solutions
+            pictos: Pictos
+            sellings: Sellings
+            searchs: Searchs
+
+
+acl:
+    brand:
+        index: List Brand
+        create: Create Brand
+        edit: Edit Brand
+        delete: Delete Brand
+
+roca_custom_entity:
+    form.tab:
+        resources.title: Resources
+
+roca_test: Resources

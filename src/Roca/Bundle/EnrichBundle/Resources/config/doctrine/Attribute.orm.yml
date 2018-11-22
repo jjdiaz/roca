@@ -1,0 +1,19 @@
+Roca\Bundle\EnrichBundle\Entity\Attribute:
+    type: entity
+    table: pim_catalog_attribute
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    indexes:
+        searchcode_idx:
+            columns:
+            - code
+    repositoryClass: Pim\Bundle\CatalogBundle\Doctrine\ORM\Repository\AttributeRepository
+    uniqueConstraints:
+        searchunique_idx:
+            columns:
+            - code
+            - entity_type
+    fields:
+        marketizable:
+            type: boolean
+            column: is_marketizable
+            nullable: true

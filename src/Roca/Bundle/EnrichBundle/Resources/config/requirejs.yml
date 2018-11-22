@@ -1,0 +1,4 @@
+config:
+    paths:
+       # Attribute
+        pim/attribute-edit-form/properties/marketizable:            rocaenrich/js/attribute/form/properties/marketizable

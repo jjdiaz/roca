@@ -1,0 +1,31 @@
+Roca\Bundle\RefdataBundle\Entity\MarketTranslation:
+    type: entity
+    table: asm_market_translation
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    uniqueConstraints:
+        locale_foreign_key_idx:
+            columns:
+                - locale
+                - foreign_key
+    fields:
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        locale:
+            type: string
+            length: 20
+
+        description:
+            type: string
+            length: 100
+            nullable: true
+    manyToOne:
+        foreignKey:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+            inversedBy: translations
+            joinColumns:
+                foreign_key:
+                    referencedColumnName: id
+                    onDelete: CASCADE

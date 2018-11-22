@@ -1,0 +1,38 @@
+Roca\Bundle\RefdataBundle\Entity\DesignLineTranslation:
+    type: entity
+    table: asm_designline_translation
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    uniqueConstraints:
+        locale_foreign_key_idx:
+            columns:
+                - locale
+                - foreign_key
+    fields:
+#    required
+        id:
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+#    required
+        locale:
+            type: string
+            length: 20
+
+        title:
+            type: string
+            length: 100
+            nullable: true
+        lead:
+            type: string
+            length: 1000
+            nullable: true
+
+    manyToOne:
+        foreignKey:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignLine
+            inversedBy: translations
+            joinColumns:
+                foreign_key:
+                    referencedColumnName: id
+                    onDelete: CASCADE

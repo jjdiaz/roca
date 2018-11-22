@@ -1,0 +1,32 @@
+Roca\Bundle\RefdataBundle\Entity\Finish:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_finish
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 40
+            unique: true
+        descrition:
+            type: string
+            length: 100
+            nullable: true
+        finishkey:
+            type: string
+            length: 60
+            nullable: true
+        resourcefile:
+            type: string
+            length: 60
+            nullable: true
+        resourcetitle:
+            type: string
+            length: 600
+            nullable: true
+
+    lifecycleCallbacks: {  }

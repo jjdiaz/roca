@@ -1,0 +1,1414 @@
+code;label-en_GB_INT;label-cs_CZ;label-es_ES;attribute;sort_order
+1__barrier_free;;;Barrier free;sanitaryware_cps_specialfeatures;1
+2__children;;;Children;sanitaryware_cps_specialfeatures;1
+3__sustainable_product;;;Sustainable product;sanitaryware_cps_specialfeatures;1
+1__new;;;New;sanitaryware_cps_novelty;1
+11_1__vitreous_china;;;Ceramics;sanitaryware_cps_material;1
+11_2__acrylic;;;Sanitary Acrylic;sanitaryware_cps_material;1
+11_3__steel;;;Steel;sanitaryware_cps_material;1
+11_4__furniture_colors_finishes;;;Furniture;sanitaryware_cps_material;1
+11_6__faucets___accessories;;;Accessories;sanitaryware_cps_material;1
+11_7__others;;;Others;sanitaryware_cps_material;1
+11_9__solid_surface;;;Sentec;sanitaryware_cps_material;1
+11_10__saphirkeramik;SaphirKeramik;SaphirKeramik;SaphirKeramik;sanitaryware_cps_material;1
+11_12__marbond;Marbond;Marbond;Marbond;sanitaryware_cps_material;1
+7__unassigned;Unassigned;Unassigned;Unassigned;sanitaryware_cps_material;1
+11__11__laufen;LAUFEN;LAUFEN;LAUFEN;sanitaryware_cps_material;1
+11_8__seats___covers;;;Seats and covers;sanitaryware_cps_material;1
+1__1;1;1;1;sanitaryware_cps_packagings_packaging;1
+2__3;3;3;3;sanitaryware_cps_packagings_packaging;1
+1__residences;Residences;;Residences;sanitaryware_cps_projectcategories;1
+2__council_housing;Council housing;;Council housing;sanitaryware_cps_projectcategories;1
+3__medical_range;Medical range;;Medical range;sanitaryware_cps_projectcategories;1
+4__hospitality;Hospitality;;Hospitality;sanitaryware_cps_projectcategories;1
+5__public_semi_public_spaces;Public/Semi public spaces;;Public/Semi public spaces;sanitaryware_cps_projectcategories;1
+1__active;Active;Aktivní;Active;sanitaryware_cps_status;1
+2__development;Development;Development;Development;sanitaryware_cps_status;1
+4__inactive;Inactive;Inactive;Inactive;sanitaryware_cps_status;1
+5__cancellation;Cancellation;Zrušení;Cancellation;sanitaryware_cps_status;1
+1__saphirkeramik;;;SaphirKeramik;sanitaryware_cps_specificproductbenefits;1
+2__lcc;;;LCC;sanitaryware_cps_specificproductbenefits;1
+3__whirlpool;;;Whirlpool;sanitaryware_cps_specificproductbenefits;1
+1__en_32;EN 32;EN 32;EN 32;sanitaryware_cps_normsandhomologations;1
+2__en_33;EN 33;EN 33;EN 33;sanitaryware_cps_normsandhomologations;1
+3__din_1390;DIN 1390;DIN 1390;DIN 1390;sanitaryware_cps_normsandhomologations;1
+4__swiss_energy_label_a;A;;;sanitaryware_cps_normsandhomologations;1
+5__swiss_energy_label_b;B;;;sanitaryware_cps_normsandhomologations;1
+6__swiss_energy_label_c;C;;;sanitaryware_cps_normsandhomologations;1
+7__swiss_energy_label_d;D;;;sanitaryware_cps_normsandhomologations;1
+12__swiss_energy_label_e;E;;;sanitaryware_cps_normsandhomologations;1
+14__swiss_energy_label_f;F;;;sanitaryware_cps_normsandhomologations;1
+16__swiss_energy_label_g;G;;;sanitaryware_cps_normsandhomologations;1
+1__basin_faucet;Basin mixer;;;sanitaryware_cps_producttype;1
+2__bath_faucet;Bath mixer;;;sanitaryware_cps_producttype;1
+3__bidet_faucet;Bidet mixer;;;sanitaryware_cps_producttype;1
+4__concealed_body;Concealed body;;;sanitaryware_cps_producttype;1
+5__faucet_accessory;Faucet accessory;;;sanitaryware_cps_producttype;1
+6__garden_valve;Garden valve;;;sanitaryware_cps_producttype;1
+7__kitchen_faucet;Sink mixer;;;sanitaryware_cps_producttype;1
+8__shower_accessory;Shower accessory;;;sanitaryware_cps_producttype;1
+9__shower_faucet;Shower mixer;;;sanitaryware_cps_producttype;1
+10__urinal_system;Urinal flushing system;;;sanitaryware_cps_producttype;1
+1__left;Left;;;pf_basins_iss_towelrailposition;1
+2__right;Right;;;pf_basins_iss_towelrailposition;1
+3__frontal;Frontal;;;pf_basins_iss_towelrailposition;1
+1__left;Left;Vlevo;Left;pf_basins_iss_shelfposition;1
+2__right;Right;Vpravo;Right;pf_basins_iss_shelfposition;1
+3__on_both_sides;On both sides;Na obou stranách;On both sides;pf_basins_iss_shelfposition;1
+1__included;Included;;;pf_basins_iss_trap;1
+2__not_included;Not included;;;pf_basins_iss_trap;1
+1__left;Left;Vlevo;Left;pf_basins_iss_bowlposition;1
+2__right;Right;Vpravo;Right;pf_basins_iss_bowlposition;1
+3__central;Central;Uprostřed;Central;pf_basins_iss_bowlposition;1
+1__included;Included;;;pf_basins_iss_plugwaste;1
+2__not_included;Not included;;;pf_basins_iss_plugwaste;1
+1__vitreous_china;Vitreous china;Sanitární keramika;Vitreous china;pf_basins_iss_material;1
+2__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pf_basins_iss_material;1
+3__steel;Steel;Ocelové;Steel;pf_basins_iss_material;1
+4__fineceramic;FINECERAMIC ®;FINECERAMIC ®;FINECERAMIC ®;pf_basins_iss_material;1
+5__saphirkeramik;SaphirKeramik;SaphirKeramik;SaphirKeramik;pf_basins_iss_material;1
+1__included;Included;Včetně;Included;pf_basins_iss_fixingkit;1
+2__not_included;Not included;Není dodáváno včetně;Not included;pf_basins_iss_fixingkit;1
+1__round;Round;Kulaté;Round;pf_basins_iss_shape;1
+2__square;Square;Hranaté;Square;pf_basins_iss_shape;1
+3__corner;Corner;;;pf_basins_iss_shape;1
+4__oval;Oval;;;pf_basins_iss_shape;1
+5__soft;Soft;;;pf_basins_iss_shape;1
+1__standard;Standard;Standardní;Standard;pf_basins_iss_overflowtype;1
+2__clou;Clou;Systém Clou;Clou;pf_basins_iss_overflowtype;1
+1__included;Included;;;pf_basins_iss_waste;1
+2__not_included;Not included;;;pf_basins_iss_waste;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pf_basins_iss_installationtype;1
+5__vanity;Vanity;Do nábytku;Vanity;pf_basins_iss_installationtype;1
+6__semirecessed;Semirecessed;Polozápustné;Semi-recessed;pf_basins_iss_installationtype;1
+7__floorstanding;Floorstanding;Stojící;Floor-standing;pf_basins_iss_installationtype;1
+2__bowl___overcountertop;Bowl / Overcountertop;Umyvadlová mísa;Bowl / On countertop;pf_basins_iss_installationtype;1
+3__dropin___countertop;Drop-in / Countertop;Zápustné;Drop-in / Countertop;pf_basins_iss_installationtype;1
+4__builtin___undercountertop;Built-in / Undercountertop;Vestavné;Built-in / Under countertop;pf_basins_iss_installationtype;1
+8__semiinsert;Semi-insert;;;pf_basins_iss_installationtype;1
+1__1_taphole_in_the_middle;1 Taphole in the middle;1 otvor pro baterii uprostřed;1 taphole in the middle;pf_basins_iss_tapholeconfiguration;1
+2__no_tapholes;No tapholes;Bez otvoru pro baterii;No tapholes;pf_basins_iss_tapholeconfiguration;1
+3__1_taphole_on_the_left_side;1 Taphole on the left side;1 otvor pro baterii na levé straně;1 taphole on the left side;pf_basins_iss_tapholeconfiguration;1
+4__1_taphole_on_the_right_side;1 Taphole on the right side;1 otvor pro baterii na pravé straně;1 taphole on the right side;pf_basins_iss_tapholeconfiguration;1
+5__3_tapholes;3 Tapholes;3 otvory pro baterii;3 tapholes;pf_basins_iss_tapholeconfiguration;1
+6__2_tapholes;2 Tapholes;2 otvory pro baterii;2 tapholes;pf_basins_iss_tapholeconfiguration;1
+13__3_prepunched;3 Prepunched tapholes;3 předvypíchnuté otvory pro baterii;3 prepunched;pf_basins_iss_tapholeconfiguration;1
+14__1_taphole_on_the_left_side_centered;1 Taphole on the left side centered;;;pf_basins_iss_tapholeconfiguration;1
+15__1_taphole_on_the_right_side_centered;1 Taphole on the right side centered;;;pf_basins_iss_tapholeconfiguration;1
+1__ber;Berlin;;;pf_basins_iss_graphics;1
+2__sha;Shangay;;;pf_basins_iss_graphics;1
+3__rio;Rio de Janeiro;;;pf_basins_iss_graphics;1
+4__lnd;London;;;pf_basins_iss_graphics;1
+5__bcn;Barcelona;;;pf_basins_iss_graphics;1
+6__nyc;New York;;;pf_basins_iss_graphics;1
+1__straight;Straight;Rovný;Straight;pf_basins_iss_cuttingtype;1
+2__angle;Angle;Šikmý;Angle;pf_basins_iss_cuttingtype;1
+1__included;Included;V rámci dodávky;Included;pf_bidets_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_bidets_iss_fixingkit;1
+1__round;Round;Oblé;Round;pf_bidets_iss_shape;1
+2__square;Square;Čtvercové;Square;pf_bidets_iss_shape;1
+3__soft;Soft;;;pf_bidets_iss_shape;1
+4__elongated;Elongated;;;pf_bidets_iss_shape;1
+1__wallhung;Wall-hung;Závěsný;Wall-hung;pf_bidets_iss_installationtype;1
+2__floorstanding;Floorstanding;Stojící;Floor-standing;pf_bidets_iss_installationtype;1
+1__1_prepunched;1 Prepunched;1 předvypíchnutý otvor;1 prepunched;pf_bidets_iss_tapholeconfiguration;1
+2__1_taphole;1 Taphole;1 otvor pro baterii;1 taphole;pf_bidets_iss_tapholeconfiguration;1
+3__2_tapholes;2 Tapholes;2 otvory pro baterii;2 tapholes;pf_bidets_iss_tapholeconfiguration;1
+4__3_tapholes;3 tapholes;3 otvory pro baterii;3 tapholes;pf_bidets_iss_tapholeconfiguration;1
+1__wallhung;Wall-hung;Závěsný;Wall-hung;pf_toilets_iss_installationtype;1
+2__floorstanding;Floorstanding;Stojící;Floor-standing;pf_toilets_iss_installationtype;1
+1__round;Round;Oblé;Round;pf_toilets_iss_shape;1
+2__square;Square;Čtvercové;Square;pf_toilets_iss_shape;1
+3__soft;Soft;;;pf_toilets_iss_shape;1
+4__elongated;Elongated;;;pf_toilets_iss_shape;1
+1__bottom_inlet;Bottom Inlet;;;pf_toilets_iss_waterinletsystem;1
+2__back_inlet;Back Inlet;;;pf_toilets_iss_waterinletsystem;1
+1__washout;Washout;Ploché splachování;Washout;pf_toilets_iss_flushingsystem;1
+2__washdown;Washdown;Hluboké splachování;Washdown;pf_toilets_iss_flushingsystem;1
+3__siphonic;Siphonic;Sifonické;Siphonic;pf_toilets_iss_flushingsystem;1
+1__vertical;Vertical;Svislý;Vertical;pf_toilets_iss_outlettype;1
+2__horizontal;Horizontal;Vodorovný;Horizontal;pf_toilets_iss_outlettype;1
+3__dual_vario_;Dual (vario);Duální (vario);Dual;pf_toilets_iss_outlettype;1
+1__low;Low;;;pf_toilets_iss_cisterntype;1
+2__high;High;;;pf_toilets_iss_cisterntype;1
+3__concealed;Concealed;;;pf_toilets_iss_cisterntype;1
+1__neutral;Neutral;;;pf_toilets_iss_style;1
+2__minimal;Minimal;;;pf_toilets_iss_style;1
+3__opulent;Opulent;;;pf_toilets_iss_style;1
+4__traditional;Traditional;;;pf_toilets_iss_style;1
+1__open;Open;Otevřený;Open;pf_toilets_iss_rimtype;1
+2__closed;Closed;Uzavřený;Closed;pf_toilets_iss_rimtype;1
+3__rimless;Rimless;Rimless;Rimless;pf_toilets_iss_rimtype;1
+1__included;Included;V rámci dodávky;Included;pf_toilets_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_toilets_iss_fixingkit;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;Duální splachování 3/6 litrů;Dual flush 6/3 litres;pt_onepiece_toilet_iss_flushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;Duální splachování 3/4,5 litru;Dual flush 4.5/3 litres;pt_onepiece_toilet_iss_flushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;Duální splachování 2/4 litrů;Dual flush 4/2 litres;pt_onepiece_toilet_iss_flushingtype;1
+4__startstop;Start-Stop;Systém Start-Stop;Start-Stop;pt_onepiece_toilet_iss_flushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;Duální splachování 3/5 litrů;Dual flush 5/3 litres;pt_onepiece_toilet_iss_flushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;Jednoduché splachování 4,5 litru;Single flush 4.5 litres;pt_onepiece_toilet_iss_flushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;Jednoduché splachování 6 litrů;Single flush 6 litres;pt_onepiece_toilet_iss_flushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;Jednoduché splachování 4,8 litru;Single flush 4.8 litres;pt_onepiece_toilet_iss_flushingtype;1
+1__side_left;Side left;Boční vlevo;Side left;pt_onepiece_toilet_iss_waterinletposition;1
+2__side_right;Side right;Boční vpravo;Side right;pt_onepiece_toilet_iss_waterinletposition;1
+3__back_left;Back left;Zadní levý;Back left;pt_onepiece_toilet_iss_waterinletposition;1
+4__back_right;Back right;Zadní pravý;Back right;pt_onepiece_toilet_iss_waterinletposition;1
+5__bottom_left;Bottom left;Spodní vlevo;Bottom left;pt_onepiece_toilet_iss_waterinletposition;1
+6__bottom_right;Bottom right;Spodní vpravo;Bottom right;pt_onepiece_toilet_iss_waterinletposition;1
+7__back_inlet;Back inlet;;;pt_onepiece_toilet_iss_waterinletposition;1
+8__bottom_inlet;Bottom inlet;;;pt_onepiece_toilet_iss_waterinletposition;1
+1__round;Round;;;pf_wellness_toilet_iss_shape;1
+2__square;Square;;;pf_wellness_toilet_iss_shape;1
+3__soft;Soft;;;pf_wellness_toilet_iss_shape;1
+4__elongated;Elongated;;;pf_wellness_toilet_iss_shape;1
+1__integrated_wellness_toilet;Integrated smart toilet;Integrovaná wellness toaleta;Integrated smart toilet;pf_wellness_toilet_iss_wellnesstoilettype;1
+2__multiclean;Multiclean ®;Sedátko s funkcí bidetu;Multiclin;pf_wellness_toilet_iss_wellnesstoilettype;1
+1__remote_control;Remote control;Dálkové ovládání;Remote control;pf_wellness_toilet_iss_controlpanel;1
+2__fixed;Fixed;Pevný;Fixed;pf_wellness_toilet_iss_controlpanel;1
+3__none;None;;;pf_wellness_toilet_iss_controlpanel;1
+1__included;Included;V rámci dodávky;Included;pf_wellness_toilet_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_wellness_toilet_iss_fixingkit;1
+1__washout;Washout;Ploché splachování;Washout;pt_integrated_wellness_toilet_iss_flushingsystem;1
+2__washdown;Washdown;Splachovací;Washdown;pt_integrated_wellness_toilet_iss_flushingsystem;1
+3__siphonic;Siphonic;Sifonové;Siphonic;pt_integrated_wellness_toilet_iss_flushingsystem;1
+1__vertical;Vertical;Svislé;Vertical;pt_integrated_wellness_toilet_iss_outlettype;1
+2__horizontal;Horizontal;Vodorovné;Horizontal;pt_integrated_wellness_toilet_iss_outlettype;1
+3__dual_vario_;Dual (vario);Dvojité (variabilní);Dual;pt_integrated_wellness_toilet_iss_outlettype;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;Dvojité splachování 3/6 litrů;Dual flush 6/3 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;Dvojité splachování 3/4,5 litru;Dual flush 4.5/3 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;Dvojité splachování 2/4 litrů;Dual flush 4/2 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+4__startstop;Start-Stop;Systém Start-Stop;Start-Stop;pt_integrated_wellness_toilet_iss_flushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;Dvojité splachování 3/5 litrů;Dual flush 5/3 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;Jednoduché splachování 4,5 litru;Single flush 4.5 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;Jednoduché splachování 6 litrů;Single flush 6 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;Jednoduché splachování 4,8 litru;Single flush 4.8 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+9__dual_flush_4_8_3_litres;Dual flush 4.8/3 litres;Dvojité splachování 4,8/3 litrů;Dual flush 4.8/3 litres;pt_integrated_wellness_toilet_iss_flushingtype;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pt_integrated_wellness_toilet_iss_installationtype;1
+2__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pt_integrated_wellness_toilet_iss_installationtype;1
+1__open;Open;Otevřené;Open;pt_integrated_wellness_toilet_iss_rimtype;1
+2__closed;Closed;Zavřené;Closed;pt_integrated_wellness_toilet_iss_rimtype;1
+3__rimless;Rimless;Rimless;Rimless;pt_integrated_wellness_toilet_iss_rimtype;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;Dvojité splachování 3/6 litrů;Dual flush 6/3 litres;pf_cisterns_iss_flushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;Dvojité splachování 3/4,5 litru;Dual flush 4.5/3 litres;pf_cisterns_iss_flushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;Dvojité splachování 2/4 litrů;Dual flush 4/2 litres;pf_cisterns_iss_flushingtype;1
+4__startstop;Start-Stop;Systém Start-Stop;Start-Stop;pf_cisterns_iss_flushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;Dvojité splachování 3/5 litrů;Dual flush 5/3 litres;pf_cisterns_iss_flushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;Jednoduché splachování 4,5 litru;Single flush 4.5 litres;pf_cisterns_iss_flushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;Jednoduché splachování 6 litrů;Single flush 6 litres;pf_cisterns_iss_flushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;Jednoduché splachování 4,8 litru;Single flush 4.8 litres;pf_cisterns_iss_flushingtype;1
+9__single_flush_8_litres;Single flush 8 litres;Jednoduché splachování 8 litrů;Single flush 8 litres;pf_cisterns_iss_flushingtype;1
+10__single_flush_10_litres;Single flush 10 litres;Jednoduché splachování 10 litrů;Single flush 10 litres;pf_cisterns_iss_flushingtype;1
+1__side_left;Side left;Levostranné;Side left;pf_cisterns_iss_waterinletposition;1
+2__side_right;Side right;Pravostranné;Side right;pf_cisterns_iss_waterinletposition;1
+3__back_left;Back left;Zadní levé;Back left;pf_cisterns_iss_waterinletposition;1
+4__back_right;Back right;Zadní pravé;Back right;pf_cisterns_iss_waterinletposition;1
+5__bottom_left;Bottom left;Dolní levá;Bottom left;pf_cisterns_iss_waterinletposition;1
+6__bottom_right;Bottom right;Dolní pravá;Bottom right;pf_cisterns_iss_waterinletposition;1
+7__back_inlet;Back Inlet;;;pf_cisterns_iss_waterinletposition;1
+8__bottom_inlet;Bottom Inlet;;;pf_cisterns_iss_waterinletposition;1
+9__back___bottom_inlet;Back & Bottom Inlet;;;pf_cisterns_iss_waterinletposition;1
+1__included;Included;V rámci dodávky;Included;pf_cisterns_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_cisterns_iss_fixingkit;1
+1__external_vertical;External vertical;Vnější svislý;External vertical;pf_urinals_iss_waterinletposition;1
+2__back_horizontal;Back horizontal;Zadní vodorovný;Back horizontal;pf_urinals_iss_waterinletposition;1
+1__infrared;Infrared;Infračervené;Infrared;pf_urinals_iss_remotecontroltype;1
+2__ultrasonic;Ultrasonic;Ultrazvuk;Ultrasonic;pf_urinals_iss_remotecontroltype;1
+3__radar;Radar;Radar;Radar;pf_urinals_iss_remotecontroltype;1
+1__included;Included;V rámci dodávky;Included;pf_urinals_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_urinals_iss_fixingkit;1
+1__included;Included;V rámci dodávky;Included;pf_special_ceramics_products_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_special_ceramics_products_iss_fixingkit;1
+1__vertical;Vertical;Svisle;Vertical;pf_special_ceramics_products_iss_waterinletposition;1
+2__horizontal;Horizontal;Vodorovný;Horizontal;pf_special_ceramics_products_iss_waterinletposition;1
+3__exterior;Exterior;Vnější;Exterior;pf_special_ceramics_products_iss_waterinletposition;1
+1__vertical;Vertical;Svislé;Vertical;pf_special_ceramics_products_iss_outlettype;1
+2__horizontal;Horizontal;Vodorovné;Horizontal;pf_special_ceramics_products_iss_outlettype;1
+3__dual_vario_;Dual (vario);Dvojité (variabilní);Dual;pf_special_ceramics_products_iss_outlettype;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pf_special_ceramics_products_iss_installationtype;1
+2__dropin___countertop;Drop-in / Countertop;Zapuštěné / k zabudování shora;Drop-in / In countertop;pf_special_ceramics_products_iss_installationtype;1
+3__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pf_special_ceramics_products_iss_installationtype;1
+1__1;1;1;1;pt_operating_plate_iss_numberofbuttons;1
+2__2;2;2;2;pt_operating_plate_iss_numberofbuttons;1
+1__wallhung_toilet;Wall-hung toilet;Závěsné WC;Wall-hung WC;pt_structure_iss_suitablefor;1
+2__floorstanding_toilet;Floorstanding toilet;Stojící toaleta;Floor-standing toilet;pt_structure_iss_suitablefor;1
+3__wallhung_bidet;Wall-hung bidet;Závěsný bidet;Wall-hung bidet;pt_structure_iss_suitablefor;1
+4__urinal;Urinal;Pisoár;Urinal;pt_structure_iss_suitablefor;1
+5__washbasin;Washbasin;Umyvadlo;Basin;pt_structure_iss_suitablefor;1
+1__frontal;Frontal;Čelní;Frontal;pt_structure_iss_operatingplateposition;1
+2__top;Top;Horní;Top;pt_structure_iss_operatingplateposition;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;Dvojité splachování 3/6 litrů;Dual flush 6/3 litres;pt_structure_iss_flushingtype;1
+2__dual_flush_3_5_litres;Dual flush 3/5 litres;Dvojité splachování 3/5 litrů;Dual flush 5/3 litres;pt_structure_iss_flushingtype;1
+3__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;Dvojité splachování 3/4,5 litru;Dual flush 4.5/3 litres;pt_structure_iss_flushingtype;1
+4__dual_flush_2_4_litres;Dual flush 2/4 litres;Dvojité splachování 2/4 litrů;Dual flush 4/2 litres;pt_structure_iss_flushingtype;1
+5__startstop;Start-Stop;Systém Start-Stop;Start-Stop;pt_structure_iss_flushingtype;1
+6__single_flush_6_litres;Single flush 6 litres;Jednoduché splachování 6 litrů;Single flush 6 litres;pt_structure_iss_flushingtype;1
+7__single_flush_4_8_litres;Single flush 4.8 litres;Jednoduché splachování 4,8 litru;Single flush 4.8 litres;pt_structure_iss_flushingtype;1
+8__single_flush_4_5_litres;Single flush 4.5 litres;Jednoduché splachování 4,5 litru;Single flush 4.5 litres;pt_structure_iss_flushingtype;1
+1__screws;Screws;Šrouby;Screws;pf_covers_iss_mountingsystem;1
+2__fixing_springs;Fixing springs;Montážní pružiny;Fixing springs;pf_covers_iss_mountingsystem;1
+3__fixing_plate;Fixing plate;Upevňovací deska;Fixing plate;pf_covers_iss_mountingsystem;1
+1__included;Included;V rámci dodávky;Included;pf_covers_iss_fixingkit;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_covers_iss_fixingkit;1
+1__corner;Corner;Do rohu;Corner;pf_tubs_iss_locationoftheborderforfaucet;1
+2__long_side;Long side;Dlouhá strana;Long side;pf_tubs_iss_locationoftheborderforfaucet;1
+3__short_side;Short side;Krátká strana;Short side;pf_tubs_iss_locationoftheborderforfaucet;1
+1__2_4_mm;2.4 mm;2,4 mm;2.4mm;pf_tubs_iss_steelthickness;1
+3__3_5_mm;3.5 mm;3,5 mm;3.5mm;pf_tubs_iss_steelthickness;1
+2__3_mm;3 mm;3 mm;3mm;pf_tubs_iss_steelthickness;1
+1__cast_iron;Cast iron;Litina;Cast-Iron;pf_tubs_iss_material;1
+2__steel;Steel;Ocelové;Steel;pf_tubs_iss_material;1
+3__acrylic;Acrylic;Akrylát;Acrylic;pf_tubs_iss_material;1
+4__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pf_tubs_iss_material;1
+5__sentec;Sentec;Sentec;Sentec;pf_tubs_iss_material;1
+6__marbond;Marbond;Marbond;Marbond;pf_tubs_iss_material;1
+1__included;Included;V rámci dodávky;Included;pf_tubs_iss_drain;1
+2__not_included;Not included;Není zahrnuto;Not included;pf_tubs_iss_drain;1
+1__left;Left;;;pf_tubs_iss_tapholeposition;1
+2__right;Right;;;pf_tubs_iss_tapholeposition;1
+3__center;Center;;;pf_tubs_iss_tapholeposition;1
+1__dropin;Drop-in;Zápustné;Drop-in;pf_tubs_iss_installationtype;1
+2__semirecessed;Semirecessed;Polozápustná;Semi-recessed;pf_tubs_iss_installationtype;1
+3__with_front_panel;With front panel;S čelním panelem;With front panel;pf_tubs_iss_installationtype;1
+4__with_l_panel_left;With L panel left;S levým bočním panelem;With L panel left hand;pf_tubs_iss_installationtype;1
+5__with_l_panel_right;With L panel right;S pravým bočním panelem;With L panel right hand;pf_tubs_iss_installationtype;1
+6__with_c_panel;With C panel;S C panelem;With C shaped panel;pf_tubs_iss_installationtype;1
+7__freestanding;Freestanding;Volně stojící;Freestanding;pf_tubs_iss_installationtype;1
+1__1_taphole_diameter_35_mm_;1 Taphole (diameter 35 mm);1 otvor pro baterii (průměr 35 mm);1 taphole (diameter 35mm);pf_tubs_iss_tapholeconfiguration;1
+2__2_tapholes_diameter_30_mm_;2 Tapholes (diameter 30 mm);2 otvory pro baterii (průměr 30 mm);2 tapholes (diameter 30mm);pf_tubs_iss_tapholeconfiguration;1
+3__2_tapholes_diameter_36_mm_;2 Tapholes (diameter 36 mm);2 otvory pro baterii (průměr 36 mm);2 tapholes (diameter 36mm);pf_tubs_iss_tapholeconfiguration;1
+4__2_tapholes_diameter_35_mm_;2 Tapholes (diameter 35 mm);2 otvory pro baterii (průměr 35 mm);2 tapholes (diameter 35mm);pf_tubs_iss_tapholeconfiguration;1
+1__rectangular;Rectangular;Obdélníková;Rectangular;pf_tubs_iss_shape;1
+2__oval;Oval;Oválná;Oval;pf_tubs_iss_shape;1
+3__round;Round;Kulatá;Round;pf_tubs_iss_shape;1
+5__square;Square;Čtvercová;Square;pf_tubs_iss_shape;1
+6__pentagonal;Pentagonal;Pětiúhelníková;Pentagonal;pf_tubs_iss_shape;1
+4__spacesaving;Space-saving;Pro malé prostory;Space-saving;pf_tubs_iss_shape;1
+7__hexagonal;Hexagonal;Šestiúhelníková;Hexagonal;pf_tubs_iss_shape;1
+8__corner_symmetric;Corner symmetric;Rohová symetrická;Corner symmetrical;pf_tubs_iss_shape;1
+9__corner_asymmetric;Corner asymmetric;Rohová asymetrická;Corner asymmetrical;pf_tubs_iss_shape;1
+1__naked;Naked;Bez rámu;Naked;pf_tubs_iss_installationstructure;1
+2__with_feet;With feet;S nožkami;With feet;pf_tubs_iss_installationstructure;1
+4__with_frame_and_panel;With frame and panel;S rámem a panelem;With frame and panel;pf_tubs_iss_installationstructure;1
+3__with_frame_fitted_;With frame (fitted);S rámem;With frame (fitted);pf_tubs_iss_installationstructure;1
+1__with_legs;With legs;;;pf_tubs_iss_installationlegs;1
+2__screw_legs;Screw legs;;;pf_tubs_iss_installationlegs;1
+3__paste_legs;Paste legs;;;pf_tubs_iss_installationlegs;1
+4__optional_legs;Optional legs;;;pf_tubs_iss_installationlegs;1
+1__grey;Grey;;;pf_tubs_iss_externalfinish;1
+2__black;Black;;;pf_tubs_iss_externalfinish;1
+3__bordeaux;Bordeaux;;;pf_tubs_iss_externalfinish;1
+4__blue_marine;Blue marine;;;pf_tubs_iss_externalfinish;1
+5__white;White;;;pf_tubs_iss_externalfinish;1
+6__copper;Copper;;;pf_tubs_iss_externalfinish;1
+1__tonic;Tonic;Tonic;Tonic;pt_whirlpool_iss_whirpoolsystem;1
+2__tonic_premium;Tonic Premium;Tonic Premium;Tonic Premium;pt_whirlpool_iss_whirpoolsystem;1
+3__total;Total;Total;Total;pt_whirlpool_iss_whirpoolsystem;1
+4__total_premium;Total Premium;Total Premium;Total Premium;pt_whirlpool_iss_whirpoolsystem;1
+5__special;Special;Special;Special;pt_whirlpool_iss_whirpoolsystem;1
+6__air;Air;Vzduch;Air;pt_whirlpool_iss_whirpoolsystem;1
+7__water;Water;Voda;Water;pt_whirlpool_iss_whirpoolsystem;1
+8__air_and_water;Air and water;Vzduch a voda;Air and water;pt_whirlpool_iss_whirpoolsystem;1
+9__basic;Basic;Basic;Basic;pt_whirlpool_iss_whirpoolsystem;1
+1__water_temperature_indicator;Water temperature indicator;Ukazatel teploty vody;Water temperature indicator;pt_whirlpool_iss_securitysystems;1
+2__acoustic_alarm;Acoustic alarm;Zvukový alarm;Alarm;pt_whirlpool_iss_securitysystems;1
+3__automatic_stop_with_timer;Automatic stop with timer;Automatické zastavení pomocí časového spínače;Automatic stop with timer;pt_whirlpool_iss_securitysystems;1
+4__automatic_jet_purge;Automatic jet purge;Automatické čištění trysek;Automatic jet purge;pt_whirlpool_iss_securitysystems;1
+5__selfcleaning_system_with_ozone_and_final_blow;Self-cleaning system with ozone and final blow;Samočisticí systém s ozónem a závěrečným profukováním;Self-cleaning system with ozone and final clean through;pt_whirlpool_iss_securitysystems;1
+6__automatic_initial_selfcheck;Automatic initial self-check;Automatická počáteční autokontrola;Automatic initial self-check;pt_whirlpool_iss_securitysystems;1
+1__preset;Preset;Přednastavené;Preset;pt_whirlpool_iss_massageprogrammes;1
+2__customizable;Customizable;Personalizovaný;Customisable;pt_whirlpool_iss_massageprogrammes;1
+1__digital_remote_control;Digital remote control;Digitální dálkové ovládání;Digital remote control;pt_whirlpool_iss_controltype;1
+2__digital_fix_control;Digital fix control;Digitální řízení oprav chyb;Digital fixed control;pt_whirlpool_iss_controltype;1
+3__touch_screen;Touch screen;Dotyková obrazovka;Touch screen;pt_whirlpool_iss_controltype;1
+4__electronic_pushbutton;Electronic pushbutton;Elektronické tlačítko;Electronic pushbutton;pt_whirlpool_iss_controltype;1
+5__pneumatic_pushbutton;Pneumatic pushbutton;Pneumatické tlačítko;Pneumatic pushbutton;pt_whirlpool_iss_controltype;1
+1__continuous;Continuous;Průběžná;Continuous;pt_whirlpool_iss_watermassagetype;1
+2__pulsating;Pulsating;Pulzační;Pulsating;pt_whirlpool_iss_watermassagetype;1
+1__continuous;Continuous;Průběžná;Continuous;pt_whirlpool_iss_airmassagetype;1
+2__pulsating;Pulsating;Pulzační;Pulsating;pt_whirlpool_iss_airmassagetype;1
+1__digital_remote_control;Digital remote control;Digitální dálkové ovládání;Digital remote control;pt_spa_iss_controltype;1
+2__digital_fix_control;Digital fix control;Digitální řízení oprav chyb;Digital fixed control;pt_spa_iss_controltype;1
+3__touch_screen;Touch screen;Dotyková obrazovka;Touch screen;pt_spa_iss_controltype;1
+4__electronic_pushbutton;Electronic pushbutton;Elektronické tlačítko;Electronic pushbutton;pt_spa_iss_controltype;1
+5__pneumatic_pushbutton;Pneumatic pushbutton;Pneumatické tlačítko;Pneumatic pushbutton;pt_spa_iss_controltype;1
+1__included;Included;Včetně;Included;pt_spa_iss_cover;1
+2__optional;Optional;Volitelné;Optional;pt_spa_iss_cover;1
+0;;;90909;pt_spa_iss_cover;1
+1__private;Private;Soukromé;Private;pt_spa_iss_usage;1
+2__public;Public;Veřejné;Public;pt_spa_iss_usage;1
+1__air;Air;Vzduch;Air;pt_spa_iss_whirlpoolsystem;1
+2__water;Water;Voda;Water;pt_spa_iss_whirlpoolsystem;1
+3__air_and_water;Air and water;Vzduch a voda;Air and water;pt_spa_iss_whirlpoolsystem;1
+1__water_temperature_indicator;Water temperature indicator;Ukazatel teploty vody;Water temperature indicator;pt_spa_iss_securitysystems;1
+2__acoustic_alarm;Acoustic alarm;Zvukový alarm;Alarm;pt_spa_iss_securitysystems;1
+3__automatic_stop_with_timer;Automatic stop with timer;Automatické zastavení pomocí časového spínače;Automatic stop with timer;pt_spa_iss_securitysystems;1
+4__automatic_jet_purge;Automatic jet purge;Automatické čištění trysek;Automatic jet purge;pt_spa_iss_securitysystems;1
+5__selfcleaning_system_with_ozone_and_final_blow;Self-cleaning system with ozone and final blow;Samočisticí systém s ozónem a závěrečným profukováním;Self-cleaning system with ozone and final clean through;pt_spa_iss_securitysystems;1
+6__automatic_initial_selfcheck;Automatic initial self-check;Automatická počáteční vlastní kontrola;Automatic initial self-check;pt_spa_iss_securitysystems;1
+1__2_4_mm;2.4 mm;2,4 mm;2.4mm;pf_trays_iss_steelthickness;1
+2__3_mm;3 mm;3 mm;3mm;pf_trays_iss_steelthickness;1
+3__3_5_mm;3.5 mm;3,5 mm;3.5mm;pf_trays_iss_steelthickness;1
+1__vitreous_china;Vitreous china;Sanitární keramika;Vitreous china;pf_trays_iss_material;1
+2__steel;Steel;Ocelové;Steel;pf_trays_iss_material;1
+3__acrylic;Acrylic;Akrylát;Acrylic;pf_trays_iss_material;1
+4__stonex;STONEX ®;STONEX ®;STONEX ®;pf_trays_iss_material;1
+5__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pf_trays_iss_material;1
+6__sentec;Sentec;Sentec;Sentec;pf_trays_iss_material;1
+7__marbond;Marbond;Marbond;Marbond;pf_trays_iss_material;1
+1__integrated;Integrated;Integrované;Integrated;pf_trays_iss_antisliptype;1
+2__added;Added;Přídavné;Added;pf_trays_iss_antisliptype;1
+1__freestanding;Freestanding;Volně stojící;Freestanding;pf_trays_iss_installationtype;1
+2__corner;Corner;Do rohu;Corner;pf_trays_iss_installationtype;1
+3__builtin___niche;Built-in / Niche;Vestavná / do niky;Built-in;pf_trays_iss_installationtype;1
+4__central___back_to_wall;Central / Back to wall;Do středu / kapotovaná;Central / Back-to-wall;pf_trays_iss_installationtype;1
+1__floor_even;Floor even;V úrovni s podlahou;Flush with floor;pf_trays_iss_settingmethod;1
+2__heightened;Heightened;Zvýšené;Elevated;pf_trays_iss_settingmethod;1
+3__lay_down;Lay down;Pokládka;On floor;pf_trays_iss_settingmethod;1
+1__left;Left;Vlevo;Left;pf_furniture_units_iss_basinposition;1
+2__right;Right;Vpravo;Right;pf_furniture_units_iss_basinposition;1
+3__central;Central;Ve středu;Central;pf_furniture_units_iss_basinposition;1
+1__glass;Glass;Sklo;Glass;pf_furniture_units_iss_material;1
+2__chipboard;Chipboard;Dřevotříska;Chipboard;pf_furniture_units_iss_material;1
+3__mdf;MDF;MDF;MDF;pf_furniture_units_iss_material;1
+4__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pf_furniture_units_iss_material;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pf_furniture_units_iss_material;1
+6__melamine;Melamine;Melamin;Melamine;pf_furniture_units_iss_material;1
+7__laminated;Laminated;Laminováno;Laminated;pf_furniture_units_iss_material;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pf_furniture_units_iss_material;1
+9__marble;Marble;Mramor;Marble;pf_furniture_units_iss_material;1
+10__compac;Compac;Kompaktní;Compac;pf_furniture_units_iss_material;1
+11__aluminium;Aluminium;Hliník;Aluminium;pf_furniture_units_iss_material;1
+12__lacquered;Lacquered;Lakováno;Lacquered;pf_furniture_units_iss_material;1
+13__pvc;PVC;PVC;PVC;pf_furniture_units_iss_material;1
+14__plywood;Plywood;Překližka;Plywood;pf_furniture_units_iss_material;1
+1__left;Left;Vlevo;Left;pf_furniture_units_iss_towelrailposition;1
+2__right;Right;Vpravo;Right;pf_furniture_units_iss_towelrailposition;1
+3__frontal;Frontal;Čelní;Frontal;pf_furniture_units_iss_towelrailposition;1
+4__frontal_double_;Frontal (double);Čelní (dvojité);Frontal (double);pf_furniture_units_iss_towelrailposition;1
+1__central;Central;Ve středu;Central;pf_furniture_units_iss_faucetposition;1
+2__on_the_left_side;On the left side;Na levé straně;On the left side;pf_furniture_units_iss_faucetposition;1
+3__on_the_right_side;On the right side;Na pravé straně;On the right side;pf_furniture_units_iss_faucetposition;1
+5__on_the_wall;On the wall;Na zdi;On the wall;pf_furniture_units_iss_faucetposition;1
+4__on_the_basin;On the basin;Na umyvadle;On the basin;pf_furniture_units_iss_faucetposition;1
+1__bowl___overcountertop;Bowl / Overcountertop;Umyvadlová mísa;Bowl / On countertop;pf_furniture_units_iss_washbasintype;1
+2__dropin___countertop;Drop-in / Countertop;Zápustné;Drop-in / In countertop;pf_furniture_units_iss_washbasintype;1
+3__builtin___undercountertop;Built-in / Undercountertop;Vestavné / k zabudování zespodu;Built-in / Under countertop;pf_furniture_units_iss_washbasintype;1
+4__vanity;Vanity;Do nábytku;Vanity;pf_furniture_units_iss_washbasintype;1
+5__semirecessed;Semirecessed;Polozápustné;Semi-recessed;pf_furniture_units_iss_washbasintype;1
+2__auxiliary_unit;Auxiliary unit;Skříň;Auxiliary unit;pt_countertop_iss_suitablefor;1
+3__modular_unit;Modular unit;Modulární nábytek;Modular unit;pt_countertop_iss_suitablefor;1
+1__base_unit;Base unit;Skříňka pod umyvadlo;Base unit;pt_countertop_iss_suitablefor;1
+1__sliding;Sliding;Posuvné;Sliding;pt_base_unit_iss_doortype;1
+2__hinged;Hinged;Výklopné;Hinged;pt_base_unit_iss_doortype;1
+1__2_legs;2 Legs;;;pt_base_unit_iss_legscompatibles;1
+2__4_legs;4 Legs;;;pt_base_unit_iss_legscompatibles;1
+1__1_door;1 Door;1 dvířka;1 door;pt_base_unit_iss_doorsanddrawerscombination;1
+2__1_drawer;1 Drawer;1 zásuvka;1 drawer;pt_base_unit_iss_doorsanddrawerscombination;1
+3__2_doors;2 Doors;2 dvířka;2 doors;pt_base_unit_iss_doorsanddrawerscombination;1
+4__2_drawers;2 Drawers;2 zásuvky;2 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+5__1_door_and_1_drawer;1 Door and 1 Drawer;1 dvířka a 1 zásuvka;1 door and 1 drawer;pt_base_unit_iss_doorsanddrawerscombination;1
+6__1_door_and_2_drawers;1 Door and 2 Drawers;1 dvířka a 2 zásuvky;1 door and 2 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+7__1_door_and_3_drawers;1 Door and 3 Drawers;1 dvířka a 3 zásuvky;1 door and 3 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+8__2_doors_and_2_drawers;2 Doors and 2 Drawers;2 dvířka a 2 zásuvky;2 doors and 2 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+9__2_doors_and_1_drawer;2 Doors and 1 Drawer;2 dvířka a 1 zásuvka;2 doors and 1 drawer;pt_base_unit_iss_doorsanddrawerscombination;1
+11__3_drawers;3 Drawers;3 zásuvky;3 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+10__2_doors_and_3_drawers;2 Doors and 3 Drawers;2 dvířka a 3 zásuvky;2 doors and 3 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+12__4_drawers;4 Drawers;4 zásuvky;4 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+13__6_drawers;6 Drawers;6 zásuvek;6 drawers;pt_base_unit_iss_doorsanddrawerscombination;1
+1__glass;Glass;Sklo;Glass;pt_base_unit_iss_shelvesmaterial;1
+2__chipboard;Chipboard;Dřevotříska;Chipboard;pt_base_unit_iss_shelvesmaterial;1
+3__mdf;MDF;MDF;MDF;pt_base_unit_iss_shelvesmaterial;1
+4__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_base_unit_iss_shelvesmaterial;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_base_unit_iss_shelvesmaterial;1
+6__melamine;Melamine;Melamin;Melamine;pt_base_unit_iss_shelvesmaterial;1
+7__laminated;Laminated;Laminováno;Laminated;pt_base_unit_iss_shelvesmaterial;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pt_base_unit_iss_shelvesmaterial;1
+10__marble;Marble;Mramor;Marble;pt_base_unit_iss_shelvesmaterial;1
+11__compac;Compac;Kompaktní;Compac;pt_base_unit_iss_shelvesmaterial;1
+12__aluminium;Aluminium;Hliník;Aluminium;pt_base_unit_iss_shelvesmaterial;1
+13__lacquered;Lacquered;Lak;Lacquered;pt_base_unit_iss_shelvesmaterial;1
+14__pvc;PVC;PVC;PVC;pt_base_unit_iss_shelvesmaterial;1
+15__plywood;Plywood;Překližka;Plywood;pt_base_unit_iss_shelvesmaterial;1
+5__push_to_open;Push to open;Push to open;Push to open;pt_base_unit_iss_closingandopeningsystem;1
+2__soft_and_self_close_drawers;Soft and self close drawers;Zásuvky s plnovýsuvem a s tlumeným dojezdem;Soft and self close drawers;pt_base_unit_iss_closingandopeningsystem;1
+4__soft_close_drawers;Soft close drawers;Zásuvky se zpomaleným zavíráním;Soft close drawers;pt_base_unit_iss_closingandopeningsystem;1
+1__soft_and_self_close_doors;Soft and self close doors;Dvířka s automatickým zpomaleným dovíráním;Soft and self close doors;pt_base_unit_iss_closingandopeningsystem;1
+3__soft_close_doors;Soft close doors;Dvířka se zpomaleným zavíráním;Soft close doors;pt_base_unit_iss_closingandopeningsystem;1
+1__doors_and_drawers_combination;Doors and drawers combination;Kombinace dvířek a zásuvek;Doors and drawers combination;pt_base_unit_iss_furniturestructure;1
+2__doors;Doors;Dveře;Doors;pt_base_unit_iss_furniturestructure;1
+3__drawers;Drawers;Zásuvky;Drawers;pt_base_unit_iss_furniturestructure;1
+1__chrome;Chrome;Chrom;Chrome;pt_base_unit_iss_legsfinish;1
+2__plastic;Plastic;Plast;Plastic;pt_base_unit_iss_legsfinish;1
+3__steel;Steel;Ocel;Steel;pt_base_unit_iss_legsfinish;1
+4__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_base_unit_iss_legsfinish;1
+5__wood;Wood;Dřevo;Wood;pt_base_unit_iss_legsfinish;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pt_base_unit_iss_installationtype;1
+2__wallhung_with_legs;Wall-hung with legs;Závěsné s nohami;Wall-hung with legs;pt_base_unit_iss_installationtype;1
+3__with_legs;With legs;S nožkami;With legs;pt_base_unit_iss_installationtype;1
+4__with_castors;With castors;S pojezdovými kolečky;With castors;pt_base_unit_iss_installationtype;1
+5__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pt_base_unit_iss_installationtype;1
+1__1_taphole_in_the_middle;1 Taphole in the middle;;;pt_base_unit_iss_tapholeconfiguration;1
+2__no_tapholes;No tapholes;;;pt_base_unit_iss_tapholeconfiguration;1
+3__2_tapholes;2 Tapholes;;;pt_base_unit_iss_tapholeconfiguration;1
+1__glass;Glass;Sklo;Glass;pf_auxiliary_units_iss_shelvesmaterial;1
+2__chipboard;Chipboard;Třísková deska;Chipboard;pf_auxiliary_units_iss_shelvesmaterial;1
+3__mdf;MDF;MDF;MDF;pf_auxiliary_units_iss_shelvesmaterial;1
+4__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pf_auxiliary_units_iss_shelvesmaterial;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pf_auxiliary_units_iss_shelvesmaterial;1
+6__melamine;Melamine;Melamin;Melamine;pf_auxiliary_units_iss_shelvesmaterial;1
+7__laminated;Laminated;Vrstvené;Laminated;pf_auxiliary_units_iss_shelvesmaterial;1
+11__aluminium;Aluminium;Hliník;Aluminium;pf_auxiliary_units_iss_shelvesmaterial;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pf_auxiliary_units_iss_shelvesmaterial;1
+9__marble;Marble;Mramor;Marble;pf_auxiliary_units_iss_shelvesmaterial;1
+10__compac;Compac;Kompaktní;Compac;pf_auxiliary_units_iss_shelvesmaterial;1
+12__lacquered;Lacquered;Lakované;Lacquered;pf_auxiliary_units_iss_shelvesmaterial;1
+13__pvc;PVC;PVC;PVC;pf_auxiliary_units_iss_shelvesmaterial;1
+14__plywood;Plywood;Překližka;Plywood;pf_auxiliary_units_iss_shelvesmaterial;1
+1__ip_20;IP 20;IP 20;IP 20;pf_auxiliary_units_iss_ingressprotectionrating;1
+2__ip_21;IP 21;IP 21;IP 21;pf_auxiliary_units_iss_ingressprotectionrating;1
+3__ip_22;IP 22;IP 22;IP 22;pf_auxiliary_units_iss_ingressprotectionrating;1
+4__ip_23;IP 23;IP 23;IP 23;pf_auxiliary_units_iss_ingressprotectionrating;1
+5__ip_24;IP 24;IP 24;IP 24;pf_auxiliary_units_iss_ingressprotectionrating;1
+6__ip_40;IP 40;IP 40;IP 40;pf_auxiliary_units_iss_ingressprotectionrating;1
+7__ip_41;IP 41;IP 41;IP 41;pf_auxiliary_units_iss_ingressprotectionrating;1
+8__ip_42;IP 42;IP 42;IP 42;pf_auxiliary_units_iss_ingressprotectionrating;1
+9__ip_43;IP 43;IP 43;IP 43;pf_auxiliary_units_iss_ingressprotectionrating;1
+10__ip_44;IP 44;IP 44;IP 44;pf_auxiliary_units_iss_ingressprotectionrating;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pf_auxiliary_units_iss_installationtype;1
+2__wallhung_with_legs;Wall-hung with legs;Závěsné s nožkami;Wall-hung with optional legs;pf_auxiliary_units_iss_installationtype;1
+4__with_castors;With castors;Se samostavnými kolečky;With castors;pf_auxiliary_units_iss_installationtype;1
+5__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pf_auxiliary_units_iss_installationtype;1
+3__with_legs;With legs;S nožkami;With legs;pf_auxiliary_units_iss_installationtype;1
+5__push_to_open;Push to open;Stisknutím otevřete;Push to open;pf_auxiliary_units_iss_closingandopeningsystem;1
+1__soft_and_self_close_doors;Soft and self close doors;Samozavírací dvířka s tlumeným dojezdem;Soft and self close doors;pf_auxiliary_units_iss_closingandopeningsystem;1
+2__soft_and_self_close_drawers;Soft and self close drawers;Samozavírací zásuvky s tlumeným dojezdem;Soft and self close drawers;pf_auxiliary_units_iss_closingandopeningsystem;1
+3__soft_close_doors;Soft close doors;Dvířka s tichým zavíráním;Soft close doors;pf_auxiliary_units_iss_closingandopeningsystem;1
+4__soft_close_drawers;Soft close drawers;Zásuvky s tichým zavíráním;Soft close drawers;pf_auxiliary_units_iss_closingandopeningsystem;1
+1__sliding;Sliding;Posuvné;Sliding;pf_auxiliary_units_iss_doortype;1
+2__hinged;Hinged;Sklopné;Hinged;pf_auxiliary_units_iss_doortype;1
+1__1_door;1 Door;1 dvířka;1 door;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+2__1_drawer;1 Drawer;1 zásuvka;1 drawer;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+3__2_doors;2 Doors;2 dvířka;2 doors;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+4__2_drawers;2 Drawers;2 zásuvky;2 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+5__1_door_and_1_drawer;1 Door and 1 Drawer;1 dvířka a 1 zásuvka;1 door and 1 drawer;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+6__1_door_and_2_drawers;1 Door and 2 Drawers;1 dvířka a 2 zásuvky;1 door and 2 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+8__2_doors_and_2_drawers;2 Doors and 2 Drawers;2 dvířka a 2 zásuvky;2 doors and 2 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+9__2_doors_and_1_drawer;2 Doors and 1 Drawer;2 dvířka a 1 zásuvka;2 doors and 1 drawer;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+11__3_drawers;3 Drawers;3 zásuvky;3 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+7__1_door_and_3_drawers;1 Door and 3 Drawers;1 dvířka a 3 zásuvky;1 door and 3 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+10__2_doors_and_3_drawers;2 Doors and 3 Drawers;2 dvířka a 3 zásuvky;2 doors and 3 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+12__4_drawers;4 Drawers;4 zásuvky;4 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+13__6_drawers;6 Drawers;6 zásuvek;6 drawers;pf_auxiliary_units_iss_doorsanddrawerscombination;1
+1__top_left;Top left;;;pf_auxiliary_units_iss_handleposition;1
+2__middle_left;Middle left;;;pf_auxiliary_units_iss_handleposition;1
+3__bottom_left;Bottom left;;;pf_auxiliary_units_iss_handleposition;1
+4__top_right;Top right;;;pf_auxiliary_units_iss_handleposition;1
+5__middle_right;Middle right;;;pf_auxiliary_units_iss_handleposition;1
+6__bottom_right;Bottom right;;;pf_auxiliary_units_iss_handleposition;1
+7__top_middle;Top middle;;;pf_auxiliary_units_iss_handleposition;1
+8__middle_middle;Middle middle;;;pf_auxiliary_units_iss_handleposition;1
+9__bottom_middle;Bottom middle;;;pf_auxiliary_units_iss_handleposition;1
+1__2_legs;2 Legs;;;pf_auxiliary_units_iss_legscompatibles;1
+2__4_legs;4 Legs;;;pf_auxiliary_units_iss_legscompatibles;1
+1__glass;Glass;Sklo;Glass;pf_auxiliary_units_iss_material;1
+2__chipboard;Chipboard;Třísková deska;Chipboard;pf_auxiliary_units_iss_material;1
+3__mdf;MDF;MDF;MDF;pf_auxiliary_units_iss_material;1
+4__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pf_auxiliary_units_iss_material;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pf_auxiliary_units_iss_material;1
+6__melamine;Melamine;Melamin;Melamine;pf_auxiliary_units_iss_material;1
+7__laminated;Laminated;Vrstvené;Laminated;pf_auxiliary_units_iss_material;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pf_auxiliary_units_iss_material;1
+9__marble;Marble;Mramor;Marble;pf_auxiliary_units_iss_material;1
+10__compac;Compac;Kompaktní;Compac;pf_auxiliary_units_iss_material;1
+11__aluminium;Aluminium;Hliník;Aluminium;pf_auxiliary_units_iss_material;1
+12__lacquered;Lacquered;Lakované;Lacquered;pf_auxiliary_units_iss_material;1
+13__pvc;PVC;PVC;PVC;pf_auxiliary_units_iss_material;1
+14__plywood;Plywood;Překližka;Plywood;pf_auxiliary_units_iss_material;1
+1__chrome;Chrome;Chrom;Chrome;pt_trolley_iss_castorsfinish;1
+2__plastic;Plastic;Plast;Plastic;pt_trolley_iss_castorsfinish;1
+3__steel;Steel;Ocel;Steel;pt_trolley_iss_castorsfinish;1
+1__horizontal;Horizontal;Vodorově;Horizontal;pf_mirrors_iss_mirrororientation;1
+2__vertical;Vertical;Svisle;Vertical;pf_mirrors_iss_mirrororientation;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pf_mirrors_iss_installationtype;1
+2__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pf_mirrors_iss_installationtype;1
+3__countertop;Countertop;Na desku;Countertop;pf_mirrors_iss_installationtype;1
+1__integrated_in_the_mirror;Integrated in the mirror;Integrované v zrcadle;Integrated in the mirror;pf_mirrors_iss_lighting;1
+2__spotlights_included;Spotlights included;Včetně osvětlení;Spotlights included;pf_mirrors_iss_lighting;1
+1__tempered_glass;Tempered glass;Tvrzené sklo;Tempered glass;pf_mirrors_iss_framematerial;1
+2__chipboard;Chipboard;Dřevotříska;Chipboard;pf_mirrors_iss_framematerial;1
+3__mdf;MDF;MDF;MDF;pf_mirrors_iss_framematerial;1
+4__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pf_mirrors_iss_framematerial;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pf_mirrors_iss_framematerial;1
+6__melamine;Melamine;Melamin;Melamine;pf_mirrors_iss_framematerial;1
+7__laminated;Laminated;Laminováno;Laminated;pf_mirrors_iss_framematerial;1
+8__pvc;PVC;PVC;PVC;pf_mirrors_iss_framematerial;1
+9__aluminium;Aluminium;Hliník;Aluminium;pf_mirrors_iss_framematerial;1
+10__plywood;Plywood;Prekližka;Plywood;pf_mirrors_iss_framematerial;1
+1__light_bulb;Light bulb;Žárovka;Bulb;pf_mirrors_iss_lighttype;1
+2__fluorescent;Fluorescent;Fluorescenční;Fluorescent;pf_mirrors_iss_lighttype;1
+3__led;Led;LED;LED;pf_mirrors_iss_lighttype;1
+1__light_bulb;Light bulb;Žárovka;Bulb;pf_mirrors_iss_ambientlighttype;1
+2__fluorescent;Fluorescent;Fluorescenční;Fluorescent;pf_mirrors_iss_ambientlighttype;1
+3__led;Led;LED;LED;pf_mirrors_iss_ambientlighttype;1
+1__left;Left;Levá;Left;pf_mirrors_iss_movableside;1
+2__right;Right;Pravá;Right;pf_mirrors_iss_movableside;1
+3__left_and_right;Left and right;Levá a pravá;Left and right;pf_mirrors_iss_movableside;1
+4__left_or_right;Left or right;Levá nebo pravá;Left or right;pf_mirrors_iss_movableside;1
+1__round;Round;Oblé;Round;pf_mirrors_iss_shape;1
+2__oval;Oval;Oválné;Oval;pf_mirrors_iss_shape;1
+3__square;Square;Čtvercové;Square;pf_mirrors_iss_shape;1
+4__rectangular;Rectangular;Pravoúhlé;Rectangular;pf_mirrors_iss_shape;1
+1__upper_and_lower;Upper and lower;Horní a spodní;Upper and lower;pf_mirrors_iss_ambientlightposition;1
+2__lateral;Lateral;Boční;Lateral;pf_mirrors_iss_ambientlightposition;1
+3__perimetral;Perimetral;Obvodové;Edge;pf_mirrors_iss_ambientlightposition;1
+4__lower;Lower;Dolní;Lower;pf_mirrors_iss_ambientlightposition;1
+1__sliding;Sliding;Posuvné;Sliding;pt_mirror_cabinet_iss_doortype;1
+2__hinged;Hinged;Sklopné;Hinged;pt_mirror_cabinet_iss_doortype;1
+1__glass;Glass;Sklo;Glass;pt_mirror_cabinet_iss_material;1
+2__chipboard;Chipboard;Třísková deska;Chipboard;pt_mirror_cabinet_iss_material;1
+3__mdf;MDF;MDF;MDF;pt_mirror_cabinet_iss_material;1
+4__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pt_mirror_cabinet_iss_material;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_mirror_cabinet_iss_material;1
+6__melamine;Melamine;Melamin;Melamine;pt_mirror_cabinet_iss_material;1
+7__laminated;Laminated;Vrstvené;Laminated;pt_mirror_cabinet_iss_material;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pt_mirror_cabinet_iss_material;1
+9__marble;Marble;Mramor;Marble;pt_mirror_cabinet_iss_material;1
+10__compac;Compac;Kompaktní;Compac;pt_mirror_cabinet_iss_material;1
+11__aluminium;Aluminium;Hliník;Aluminium;pt_mirror_cabinet_iss_material;1
+12__lacquered;Lacquered;Lakované;Lacquered;pt_mirror_cabinet_iss_material;1
+13__pvc;PVC;PVC;PVC;pt_mirror_cabinet_iss_material;1
+14__plywood;Plywood;Překližka;Plywood;pt_mirror_cabinet_iss_material;1
+1__7_years;7 years;;;pf_faucets_iss_warrantydomesticuse;1
+2__10_years;10 years;;;pf_faucets_iss_warrantydomesticuse;1
+1__group_1_up_to_20_db_;Group 1 (Up to 20 dB);Skupina 1 (do 20 dB);Group 1 (Up to 20 dB);pf_faucets_iss_acousticleveldb;1
+2__group_2_2030_db_;Group 2 (20-30 dB);Skupina 2 (20–30 dB);Group 2 (20-30 dB);pf_faucets_iss_acousticleveldb;1
+3__group_3_more_than_30_db_;Group 3 (More than 30 dB);Skupina 3 (více než 30 dB);Group 3 (More than 30 dB);pf_faucets_iss_acousticleveldb;1
+1__integrated_aerator;Integrated aerator;Integrovaný perlátor;Integrated;pf_faucets_iss_aeratortype;1
+2__cascade;Cascade;Kaskáda;Cascade;pf_faucets_iss_aeratortype;1
+3__laminar;Laminar;Laminární;Laminar;pf_faucets_iss_aeratortype;1
+4__honeycomb;Honeycomb;Honeycomb;Honeycomb;pf_faucets_iss_aeratortype;1
+5__honeycomb_pca;Honeycomb PCA;Honeycomb PCA;Honeycomb PCA;pf_faucets_iss_aeratortype;1
+6__coin_slot;Coin slot;Coin slot;Coin slot;pf_faucets_iss_aeratortype;1
+7__coin_slot_pca;Coin slot PCA;Coin slot PCA;Coin slot PCA;pf_faucets_iss_aeratortype;1
+8__flow_straightener;Flow straightener;Regulátor průtoku;Flow straightener;pf_faucets_iss_aeratortype;1
+9__slim_air;Slim air;Slim air;Slim air;pf_faucets_iss_aeratortype;1
+1__washbasin;Basin;Umyvadlo;Basin;pf_faucets_iss_applicationplace;1
+2__bidet;Bidet;Bidet;Bidet;pf_faucets_iss_applicationplace;1
+3__bath;Bathtub;Vana;Bath;pf_faucets_iss_applicationplace;1
+4__shower;Shower;Sprcha;Shower;pf_faucets_iss_applicationplace;1
+5__urinal;Urinal;Urinál;Urinal;pf_faucets_iss_applicationplace;1
+6__kitchen_sink;Kitchen sink;Kuchyňský dřez;Kitchen sink;pf_faucets_iss_applicationplace;1
+7__laundry_sink;Laundry sink;Dřez na prádlo;Laundry sink;pf_faucets_iss_applicationplace;1
+8__toilet;Toilet;Toaleta;WC;pf_faucets_iss_applicationplace;1
+9__outdoors;Outdoors;Pro venkovní použití;Outdoors;pf_faucets_iss_applicationplace;1
+1__floorstanding;Floorstanding;Stojící;Floor-standing;pf_faucets_iss_installationtype;1
+2__wallmounted;Wall-mounted;Nástěnné;Wall-mounted;pf_faucets_iss_installationtype;1
+3__builtin;Built-in;Vestavné;Built-in;pf_faucets_iss_installationtype;1
+4__deckmounted;Deck-mounted;Do okraje vany;Deck-mounted;pf_faucets_iss_installationtype;1
+5__ceiling_hung;Ceiling hung;Stropní;Ceiling;pf_faucets_iss_installationtype;1
+1__chrome;Chrome;Chrom;Chrome;pf_faucets_iss_finish;1
+2__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pf_faucets_iss_finish;1
+3__matt_stainless_steel;Matt stainless steel;Ocel inox mat;Matt stainless steel;pf_faucets_iss_finish;1
+4__white;White;Bílá;White;pf_faucets_iss_finish;1
+5__black_ice;Black Ice;Černý led;Black Ice;pf_faucets_iss_finish;1
+6__raw_brass;Raw brass;Neopracovaná mosaz;Unpolished brass;pf_faucets_iss_finish;1
+7__unpolished_brass_chromed;Unpolished brass chromed;Neleštěná mosaz chromovaná;Unpolished chrome-plated brass;pf_faucets_iss_finish;1
+8__pvd_stainless_steel;PVD stainless steel;Ocel inox PVD;PVD stainless steel;pf_faucets_iss_finish;1
+9__black;Black;Černý;Black;pf_faucets_iss_finish;1
+10__velours;Velours;Velours;Velvet;pf_faucets_iss_finish;1
+11__chrome_black;Chrome / Black;Chrom/černá;Chrome/Black;pf_faucets_iss_finish;1
+12__chrome_orange;Chrome / Orange;Chrom/oranžová;Chrome/Orange;pf_faucets_iss_finish;1
+13__chrome_beigegrey;Chrome / Beige-grey;Chrom/béžově šedá;Chrome/Beige-Grey;pf_faucets_iss_finish;1
+14__chrome_pigeonblue;Chrome / Pigeon-blue;Chrom/šedomodrá;Chrome/Pigeon-Blue;pf_faucets_iss_finish;1
+15__chrome_red;Chrome / Red;Chrom/červená;Chrome/Red;pf_faucets_iss_finish;1
+16__chrome_green;Chrome / Green;Chrom/zelená;Chrome/Green;pf_faucets_iss_finish;1
+1__automatic;Automatic;Automatický;Automatic;pt_thermostatic_iss_diverter;1
+2__manual;Manual;Manuální;Manual;pt_thermostatic_iss_diverter;1
+1__included;Included;;;pt_thermostatic_iss_waterconnectionincluded;1
+2__not_included;Not included;;;pt_thermostatic_iss_waterconnectionincluded;1
+1__wallmounted;Wall-mounted;;;pt_thermostatic_iss_handshowerbracket;1
+2__integrated;Integrated;;;pt_thermostatic_iss_handshowerbracket;1
+1__hand_shower;Hand shower;;;pt_thermostatic_iss_installationcompatiblewith;1
+2__shower_head;Shower head;;;pt_thermostatic_iss_installationcompatiblewith;1
+3__jet;Jet;;;pt_thermostatic_iss_installationcompatiblewith;1
+1__ceramic;Ceramic;Keramická;Ceramic Disc;pt_thermostatic_iss_typeofcartridge;1
+2__thermostatic;Thermostatic;Termostatická;Thermostatic;pt_thermostatic_iss_typeofcartridge;1
+3__standard_headwork;Standard headwork;Standardní hlavice;Standard headwork;pt_thermostatic_iss_typeofcartridge;1
+4__ceramic_headwork;Ceramic headwork;Keramická hlavice;Ceramic headwork;pt_thermostatic_iss_typeofcartridge;1
+1__low;Low;Nízký;Low;pt_thermostatic_iss_spoutposition;1
+2__high;High;Vysoký;High;pt_thermostatic_iss_spoutposition;1
+3__central;Central;Ve středu;Central;pt_thermostatic_iss_spoutposition;1
+1__included;Included;;;pt_thermostatic_iss_showerjet;1
+2__not_included;Not included;;;pt_thermostatic_iss_showerjet;1
+1__included;Included;;;pt_thermostatic_iss_handshower;1
+2__not_included;Not included;;;pt_thermostatic_iss_handshower;1
+1__included;Included;;;pt_thermostatic_iss_showerhead;1
+2__not_included;Not included;;;pt_thermostatic_iss_showerhead;1
+1__high;High;;;pt_single_lever_iss_neckheight;1
+2__medium;Medium;;;pt_single_lever_iss_neckheight;1
+3__standard;Standard;;;pt_single_lever_iss_neckheight;1
+1__automatic;Automatic;Automatický;Automatic;pt_single_lever_iss_diverter;1
+2__manual;Manual;Manuální;Manual;pt_single_lever_iss_diverter;1
+1__1_body;1 body;;;pt_single_lever_iss_numberofbodies;1
+2__2_bodies;2 bodies;;;pt_single_lever_iss_numberofbodies;1
+3__3_bodies;3 bodies;;;pt_single_lever_iss_numberofbodies;1
+4__4_bodies;4 bodies;;;pt_single_lever_iss_numberofbodies;1
+1__included;Included;;;pt_single_lever_iss_showerjet;1
+2__not_included;Not included;;;pt_single_lever_iss_showerjet;1
+1__hand_shower;Hand shower;;;pt_single_lever_iss_installationcompatiblewith;1
+2__shower_head;Shower head;;;pt_single_lever_iss_installationcompatiblewith;1
+3__jet;Jet;;;pt_single_lever_iss_installationcompatiblewith;1
+1__wallmounted;Wall-mounted;;;pt_single_lever_iss_handshowerbracket;1
+2__integrated;Integrated;;;pt_single_lever_iss_handshowerbracket;1
+1__included;Included;;;pt_single_lever_iss_handshower;1
+2__not_included;Not included;;;pt_single_lever_iss_handshower;1
+1__flow_brake;Flow brake;Zadržovač průtoku;Flow brake;pt_single_lever_iss_cartridgefeatures;1
+2__temperature_brake;Temperature brake;Teplotní pojistka;Temperature brake;pt_single_lever_iss_cartridgefeatures;1
+3__flow_limiter;Flow limiter;Omezovač průtoku;Flow limiter;pt_single_lever_iss_cartridgefeatures;1
+4__temperature_limiter;Temperature limiter;Omezovač teploty;Temperature limiter;pt_single_lever_iss_cartridgefeatures;1
+1__top;Top;;;pt_single_lever_iss_handleposition;1
+2__lateral;Lateral;;;pt_single_lever_iss_handleposition;1
+1__included;Included;;;pt_single_lever_iss_showerhead;1
+2__not_included;Not included;;;pt_single_lever_iss_showerhead;1
+1__low;Low;Spodní;Low;pt_single_lever_iss_spoutposition;1
+2__high;High;Vysoký;High;pt_single_lever_iss_spoutposition;1
+3__central;Central;Uprostřed;Central;pt_single_lever_iss_spoutposition;1
+1__ceramic;Ceramic;Keramická;Ceramic Disc;pt_single_lever_iss_typeofcartridge;1
+2__thermostatic;Thermostatic;Termostatická;Thermostatic;pt_single_lever_iss_typeofcartridge;1
+3__standard_headwork;Standard headwork;Standard headwork;Standard headwork;pt_single_lever_iss_typeofcartridge;1
+4__ceramic_headwork;Ceramic headwork;Ceramic headwork;Ceramic headwork;pt_single_lever_iss_typeofcartridge;1
+1__automatic;Automatic;Automatický;Automatic;pt_twin_lever_faucet_iss_diverter;1
+2__manual;Manual;Manuální;Manual;pt_twin_lever_faucet_iss_diverter;1
+1__1_body;1 body;;;pt_twin_lever_faucet_iss_numberofbodies;1
+2__2_bodies;2 bodies;;;pt_twin_lever_faucet_iss_numberofbodies;1
+3__3_bodies;3 bodies;;;pt_twin_lever_faucet_iss_numberofbodies;1
+4__4_bodies;4 bodies;;;pt_twin_lever_faucet_iss_numberofbodies;1
+1__included;Included;;;pt_twin_lever_faucet_iss_showerjet;1
+2__not_included;Not included;;;pt_twin_lever_faucet_iss_showerjet;1
+1__hand_shower;Hand shower;;;pt_twin_lever_faucet_iss_installationcompatiblewith;1
+2__shower_head;Shower head;;;pt_twin_lever_faucet_iss_installationcompatiblewith;1
+3__jet;Jet;;;pt_twin_lever_faucet_iss_installationcompatiblewith;1
+1__wallmounted;Wall-mounted;;;pt_twin_lever_faucet_iss_handshowerbracket;1
+2__integrated;Integrated;;;pt_twin_lever_faucet_iss_handshowerbracket;1
+1__1_4_turn;1/4 Turn;1/4 otáčky;1/4 Turn;pt_twin_lever_faucet_iss_twinlevercontrol;1
+2__1_2_turn;1/2 Turn;1/2 otáčky;1/2 Turn;pt_twin_lever_faucet_iss_twinlevercontrol;1
+3__conventional;Conventional;Konvenční;Conventional;pt_twin_lever_faucet_iss_twinlevercontrol;1
+1__included;Included;;;pt_twin_lever_faucet_iss_handshower;1
+2__not_included;Not included;;;pt_twin_lever_faucet_iss_handshower;1
+1__included;Included;;;pt_twin_lever_faucet_iss_showerhead;1
+2__not_included;Not included;;;pt_twin_lever_faucet_iss_showerhead;1
+1__high;High;;;pt_twin_lever_faucet_iss_neckheight;1
+2__medium;Medium;;;pt_twin_lever_faucet_iss_neckheight;1
+3__standard;Standard;;;pt_twin_lever_faucet_iss_neckheight;1
+1__low;Low;Spodní;Low;pt_twin_lever_faucet_iss_spoutposition;1
+2__high;High;Vysoký;High;pt_twin_lever_faucet_iss_spoutposition;1
+3__central;Central;Uprostřed;Central;pt_twin_lever_faucet_iss_spoutposition;1
+1__ceramic;Ceramic;Keramická;Ceramic Disc;pt_twin_lever_faucet_iss_typeofcartridge;1
+2__thermostatic;Thermostatic;Termostatická;Thermostatic;pt_twin_lever_faucet_iss_typeofcartridge;1
+3__standard_headwork;Standard headwork;Standard headwork;Standard headwork;pt_twin_lever_faucet_iss_typeofcartridge;1
+4__ceramic_headwork;Ceramic headwork;Ceramic headwork;Ceramic headwork;pt_twin_lever_faucet_iss_typeofcartridge;1
+1__cold_or_premixed_water;Cold or Pre-mixed water;Studená nebo předmíchaná voda;Cold or pre-mixed water;pt_electronics_iss_temperaturecontrol;1
+2__mechanical_mixer;Mechanical mixer;Mechanický směšovač;Mechanical mixer;pt_electronics_iss_temperaturecontrol;1
+3__thermostatic_mixer;Thermostatic mixer;Termostatický směšovač;Thermostatic mixer;pt_electronics_iss_temperaturecontrol;1
+1__batteries;Batteries;Baterie;Batteries;pt_electronics_iss_powersupply;1
+2__mains_operated;Mains operated;Se síťovým napájením;Mains operated;pt_electronics_iss_powersupply;1
+1__cold_or_premixed_water;Cold or Pre-mixed water;Studená nebo předem smíchaná voda;Cold or pre-mixed water;pt_self_closing_iss_temperaturecontrol;1
+2__mechanical_mixer;Mechanical mixer;Mechanická směšovací baterie;Mechanical mixer;pt_self_closing_iss_temperaturecontrol;1
+3__thermostatic_mixer;Thermostatic mixer;Termostatická směšovací baterie;Thermostatic mixer;pt_self_closing_iss_temperaturecontrol;1
+1__automatic;Automatic;Automatický;Automatic;pt_wall_spouts_iss_diverter;1
+2__manual;Manual;Manuální;Manual;pt_wall_spouts_iss_diverter;1
+1__lever;Lever;Páka;Lever;pt_flush_valvues_iss_typeofhandle;1
+2__rotating_wheel;Rotating wheel;Otočné kolečko;Rotating wheel;pt_flush_valvues_iss_typeofhandle;1
+3__thandle;T-Handle;Ve tvaru T;T-Handle;pt_flush_valvues_iss_typeofhandle;1
+4__sanitary_handle;Sanitary handle;Lékářská páka;Sanitary handle;pt_flush_valvues_iss_typeofhandle;1
+5__push_button;Push button;Tlačítko;Push button;pt_flush_valvues_iss_typeofhandle;1
+1__batteries;Batteries;Baterie;Batteries;pt_flush_valvues_iss_powersupply;1
+2__mains_operated;Mains operated;S napájením ze sítě;Mains operated;pt_flush_valvues_iss_powersupply;1
+1__curved;Curved;Zahnutý;Curved;pt_flush_valvues_iss_dischargepipe;1
+2__straight;Straight;Rovný;Straight;pt_flush_valvues_iss_dischargepipe;1
+1__batteries;Batteries;Baterie;Batteries;pt_hybrid_faucet_iss_powersupply;1
+2__mains_operated;Mains operated;S napájením ze sítě;Mains operated;pt_hybrid_faucet_iss_powersupply;1
+1__cold_or_premixed_water;Cold or Pre-mixed water;Studená nebo předem smíchaná voda;Cold or pre-mixed water;pt_hybrid_faucet_iss_temperaturecontrol;1
+2__mechanical_mixer;Mechanical mixer;Mechanický směšovač;Mechanical mixer;pt_hybrid_faucet_iss_temperaturecontrol;1
+3__thermostatic_mixer;Thermostatic mixer;Termostatický směšovač;Thermostatic mixer;pt_hybrid_faucet_iss_temperaturecontrol;1
+1__ceramic;Ceramic;Keramická;Ceramic Disc;pt_concealed_box_iss_typeofcartridge;1
+2__thermostatic;Thermostatic;Termostatická;Thermostatic;pt_concealed_box_iss_typeofcartridge;1
+3__standard_headwork;Standard headwork;Standard headwork;Standard headwork;pt_concealed_box_iss_typeofcartridge;1
+4__ceramic_headwork;Ceramic headwork;Ceramic headwork;Ceramic headwork;pt_concealed_box_iss_typeofcartridge;1
+1__flow_brake;Flow brake;Průtoková brzda;Flow brake;pt_concealed_box_iss_cartridgefeatures;1
+2__temperature_brake;Temperature brake;Teplotní brzda;Temperature brake;pt_concealed_box_iss_cartridgefeatures;1
+3__flow_limiter;Flow limiter;Omezovač průtoku;Flow limiter;pt_concealed_box_iss_cartridgefeatures;1
+4__temperature_limiter;Temperature limiter;Omezovač teploty;Temperature limiter;pt_concealed_box_iss_cartridgefeatures;1
+1__ceilling;Ceiling;Stropní;Ceiling;pt_shower_heads_iss_showerarminstallation;1
+2__wall;Wall;Na stěnu;Wall;pt_shower_heads_iss_showerarminstallation;1
+1__included;Included;Včetně;Included;pt_shower_heads_iss_supportkitshowerarm;1
+2__not_included;Not included;Není včetně;Not included;pt_shower_heads_iss_supportkitshowerarm;1
+1__rain;Rain;Rain;Rain;pt_shower_heads_iss_functiontypes;1
+2__softy;Softy;Softy;Softy;pt_shower_heads_iss_functiontypes;1
+3__spray;Spray;Spray;Spray;pt_shower_heads_iss_functiontypes;1
+4__ech2o;Ech2o;Ech2o;Ech2o;pt_shower_heads_iss_functiontypes;1
+5__aquair;Aquair;Aquair;Aquair;pt_shower_heads_iss_functiontypes;1
+6__pulse;Pulse;Pulse;Pulse;pt_shower_heads_iss_functiontypes;1
+1__curved;Curved;Zahnutý;Curved;pt_shower_heads_iss_showerarmtypes;1
+2__straight;Straight;Rovné;Straight;pt_shower_heads_iss_showerarmtypes;1
+1__square;Square;Čtverec;Square;pt_shower_heads_iss_showerheadshape;1
+2__rectangular;Rectangular;Obdélník;Rectangular;pt_shower_heads_iss_showerheadshape;1
+3__circular;Circular;Kruhový;Circular;pt_shower_heads_iss_showerheadshape;1
+4__oval;Oval;Ovál;Oval;pt_shower_heads_iss_showerheadshape;1
+1__chrome;Chrome;Chrom;Chrome;pt_shower_heads_iss_finish;1
+2__stainless_steel;Stainless steel;Nerezová ocel;Stainless steel;pt_shower_heads_iss_finish;1
+3__matt_stainless_steel;Matt stainless steel;Matná nerezová ocel;Matt stainless steel;pt_shower_heads_iss_finish;1
+4__white;White;Bílá;White;pt_shower_heads_iss_finish;1
+5__black_ice;Black Ice;Ledově černá;Black Ice;pt_shower_heads_iss_finish;1
+1__rectangular;Rectangular;Obdelníkový;Rectangular;pt_handshowers_iss_shape;1
+2__circular;Circular;Kruhový;Circular;pt_handshowers_iss_shape;1
+3__stick;Stick;Tyčovitý;Cylindrical;pt_handshowers_iss_shape;1
+1__rain;Rain;Rain;Rain;pt_handshowers_iss_functiontypes;1
+2__softy;Softy;Softy;Softy;pt_handshowers_iss_functiontypes;1
+3__spray;Spray;Spray;Spray;pt_handshowers_iss_functiontypes;1
+4__ech2o;Ech2o;Ech2o;Ech2o;pt_handshowers_iss_functiontypes;1
+5__aquair;Aquair;Aquair;Aquair;pt_handshowers_iss_functiontypes;1
+6__pulse;Pulse;Pulse;Pulse;pt_handshowers_iss_functiontypes;1
+7__massage;Massage;Masážní;Massage;pt_handshowers_iss_functiontypes;1
+8__rainstorm;RainStorm;RainStorm;RainStorm;pt_handshowers_iss_functiontypes;1
+9__tonic;Tonic;Tonic;Tonic;pt_handshowers_iss_functiontypes;1
+10__nightrain;NightRain;NightRain;NightRain;pt_handshowers_iss_functiontypes;1
+1__chrome;Chrome;Chrom;Chrome;pt_handshowers_iss_finish;1
+2__stainless_steel;Stainless steel;Nerezová ocel;Stainless steel;pt_handshowers_iss_finish;1
+3__matt_stainless_steel;Matt stainless steel;Matná nerezová ocel;Matt stainless steel;pt_handshowers_iss_finish;1
+4__white;White;Bílá;White;pt_handshowers_iss_finish;1
+5__black_ice;Black Ice;Ledově černá;Black Ice;pt_handshowers_iss_finish;1
+1__rain;Rain;Dešťové;Rain;pt_shower_jets_iss_functiontypes;1
+2__softy;Softy;Jemné rozprašování;Softy;pt_shower_jets_iss_functiontypes;1
+3__spray;Spray;Rozprašování;Spray;pt_shower_jets_iss_functiontypes;1
+4__ech2o;Ech2o;Ech2o;Ech2o;pt_shower_jets_iss_functiontypes;1
+5__aquair;Aquair;Aquair;Aquair;pt_shower_jets_iss_functiontypes;1
+6__pulse;Pulse;Impulz;Pulse;pt_shower_jets_iss_functiontypes;1
+7__massage;Massage;Masáž;Massage;pt_shower_jets_iss_functiontypes;1
+1__builtin;Built-in;Vestavěné;Built-in;pt_shower_jets_iss_installationtype;1
+2__wallmounted;Wall-mounted;Nástěnné;Wall-mounted;pt_shower_jets_iss_installationtype;1
+3__semi_builtin;Semi built-in;Polovestavěné;Semi-recessed;pt_shower_jets_iss_installationtype;1
+1__chrome;Chrome;Chrom;Chrome;pt_shower_jets_iss_finish;1
+2__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pt_shower_jets_iss_finish;1
+3__matt_stainless_steel;Matt stainless steel;Matná nerezavějící ocel;Matt stainless steel;pt_shower_jets_iss_finish;1
+4__white;White;Bílá;White;pt_shower_jets_iss_finish;1
+5__black_ice;Black Ice;Černý led;Black Ice;pt_shower_jets_iss_finish;1
+1__rain;Rain;Rain;Rain;pf_shower_columns_iss_showerheadfunctions;1
+2__softy;Softy;Softy;Softy;pf_shower_columns_iss_showerheadfunctions;1
+3__spray;Spray;Spray;Spray;pf_shower_columns_iss_showerheadfunctions;1
+4__ech2o;Ech2o;Ech2o;Ech2o;pf_shower_columns_iss_showerheadfunctions;1
+5__aquair;Aquair;Aquair;Aquair;pf_shower_columns_iss_showerheadfunctions;1
+6__pulse;Pulse;Pulse;Pulse;pf_shower_columns_iss_showerheadfunctions;1
+1__included;Included;Včetně;Included;pf_shower_columns_iss_handshower;1
+2__not_included;Not included;Není včetně;Not included;pf_shower_columns_iss_handshower;1
+1__single_lever;Single lever;Páková;Single-lever;pf_shower_columns_iss_mixertype;1
+2__twin_lever;Twin lever;Kohoutková;Twin-lever;pf_shower_columns_iss_mixertype;1
+3__thermostatic;Thermostatic;Termostatická;Thermostatic;pf_shower_columns_iss_mixertype;1
+4__electronic;Electronic;Elektronická;Electronic;pf_shower_columns_iss_mixertype;1
+5__self_closing;Self closing;Samouzavírací;Self-closing;pf_shower_columns_iss_mixertype;1
+6__hybrid;Hybrid;Hybridní;Hybrid;pf_shower_columns_iss_mixertype;1
+1__rain;Rain;Rain;Rain;pf_shower_columns_iss_handshowerfunctions;1
+2__softy;Softy;Softy;Softy;pf_shower_columns_iss_handshowerfunctions;1
+3__spray;Spray;Spray;Spray;pf_shower_columns_iss_handshowerfunctions;1
+4__ech2o;Ech2o;Ech2o;Ech2o;pf_shower_columns_iss_handshowerfunctions;1
+5__aquair;Aquair;Aquair;Aquair;pf_shower_columns_iss_handshowerfunctions;1
+6__pulse;Pulse;Pulse;Pulse;pf_shower_columns_iss_handshowerfunctions;1
+7__massage;Massage;Masáž;Massage;pf_shower_columns_iss_handshowerfunctions;1
+1__included;Included;Včetně;Included;pf_shower_columns_iss_faucet;1
+2__not_included;Not included;Není včetně;Not included;pf_shower_columns_iss_faucet;1
+1__shower;Shower;Sprcha;Shower;pf_shower_columns_iss_suitablefor;1
+2__bath;Bath;Vana;Bath;pf_shower_columns_iss_suitablefor;1
+1__wallmounted;Wall-mounted;Nástěnná;Wall-mounted;pf_shower_columns_iss_installationtype;1
+2__builtin;Built-in;Podomítková;Built-in;pf_shower_columns_iss_installationtype;1
+3__semi_builtin;Semi built-in;Částěčně zapuštěná;Semi-recessed;pf_shower_columns_iss_installationtype;1
+4__freestanding;Freestanding;Volně stojící;Freestanding;pf_shower_columns_iss_installationtype;1
+1__aluminium;Aluminium;Hliník;Aluminium;pf_shower_columns_iss_finish;1
+2__matt_aluminium;Matt aluminium;Hliník mat;Matt aluminium;pf_shower_columns_iss_finish;1
+3__stainless_steel;Stainless steel;Nerez ocel;Stainless steel;pf_shower_columns_iss_finish;1
+4__matt_stainless_steel;Matt stainless steel;Matná nerez ocel;Matt stainless steel;pf_shower_columns_iss_finish;1
+5__chrome;Chrome;Chrom;Chrome;pf_shower_columns_iss_finish;1
+6__grey;Grey;Šedé;Grey;pf_shower_columns_iss_finish;1
+7__white;White;Bílá;White;pf_shower_columns_iss_finish;1
+8__black_ice;Black Ice;Ledově černá;Black Ice;pf_shower_columns_iss_finish;1
+1__square;Square;Čtvercová;Square;pf_shower_columns_iss_showerheadshape;1
+2__rectangular;Rectangular;Obdelníková;Rectangular;pf_shower_columns_iss_showerheadshape;1
+3__circular;Circular;Kulatá;Circular;pf_shower_columns_iss_showerheadshape;1
+1__relaxing;Relaxing;Relaxační;Relaxing;pt_hydromassage_columns_iss_typeofhydromassage;1
+2__stimulating;Stimulating;Stimulační;Stimulating;pt_hydromassage_columns_iss_typeofhydromassage;1
+1__lumbar;Lumbar;Bederní páteř;Lumbar;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+2__neck;Neck;Krční páteř;Neck;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+3__feet;Feet;Nožky;Feet;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+4__back;Back;Záda;Back;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+5__thighs;Thighs;Stehna;Upper legs;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+6__knees;Knees;Kolena;Knees;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+7__calves;Calves;Dvojité;Lower legs;pt_hydromassage_columns_iss_hydromassagejetsfunctions;1
+1__wood;Wood;Dřevo;Wood;pf_cabins_iss_seatmaterial;1
+3__aluminium;Aluminium;Hliník;Aluminium;pf_cabins_iss_seatmaterial;1
+4__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pf_cabins_iss_seatmaterial;1
+2__acrylic;Acrylic;Akrylát;Acrylic;pf_cabins_iss_seatmaterial;1
+1__single_lever;Single lever;Jednopákové;Single-lever;pf_cabins_iss_mixertype;1
+2__twin_lever;Twin lever;Dvoupákové;Twin-lever;pf_cabins_iss_mixertype;1
+3__thermostatic;Thermostatic;Termostatické;Thermostatic;pf_cabins_iss_mixertype;1
+4__electronic;Electronic;Elektronické;Electronic;pf_cabins_iss_mixertype;1
+5__self_closing;Self closing;Samouzavírací;Self-closing;pf_cabins_iss_mixertype;1
+6__hybrid;Hybrid;Hybridní;Hybrid;pf_cabins_iss_mixertype;1
+1__rectangular;Rectangular;Obdélníková;Rectangular;pf_cabins_iss_shape;1
+2__square;Square;Čtvercová;Square;pf_cabins_iss_shape;1
+3__pentagonal;Pentagonal;Pětiúhelníková;Pentagonal;pf_cabins_iss_shape;1
+4__round;Round;Kulatá;Round;pf_cabins_iss_shape;1
+5__corner;Corner;Rohové;Corner;pf_cabins_iss_shape;1
+1__sliding;Sliding;Posuvné;Sliding;pf_cabins_iss_typeofdoors;1
+2__folding;Folding;Skládací;Folding;pf_cabins_iss_typeofdoors;1
+3__hinged;Hinged;Výklopné;Hinged;pf_cabins_iss_typeofdoors;1
+1__relaxing;Relaxing;Relaxační;Relaxing;pf_cabins_iss_typeofhydromassage;1
+2__stimulating;Stimulating;Stimulační;Stimulating;pf_cabins_iss_typeofhydromassage;1
+1__hydrosauna;Hydrosauna;Hydrosauna;Hydrosauna;pf_cabins_iss_cabintype;1
+2__hydromassage;Hydromassage;Hydromasáž;Hydromassage;pf_cabins_iss_cabintype;1
+1__clear_glass;Clear glass;Transparentní sklo;Clear glass;pf_cabins_iss_screenfinish;1
+2__silkscreening;Silkscreening;Sítotisk;Silkscreening;pf_cabins_iss_screenfinish;1
+3__maxiclean;Maxiclean;Maxiclean;MaxiClean;pf_cabins_iss_screenfinish;1
+4__fumato;Fumato;Fumato;Smoked;pf_cabins_iss_screenfinish;1
+1__lumbar;Lumbar;Bederní páteř;Lumbar;pf_cabins_iss_hydromassagefunctions;1
+2__neck;Neck;Krční páteř;Neck;pf_cabins_iss_hydromassagefunctions;1
+3__feet;Feet;Nožky;Feet;pf_cabins_iss_hydromassagefunctions;1
+4__thighs;Thighs;Stehna;Upper legs;pf_cabins_iss_hydromassagefunctions;1
+5__knees;Knees;Kolena;Knees;pf_cabins_iss_hydromassagefunctions;1
+6__calves;Calves;Dvojité;Lower legs;pf_cabins_iss_hydromassagefunctions;1
+7__dorsal;Dorsal;;Dorsal;pf_cabins_iss_hydromassagefunctions;1
+1__central___back_to_wall;Central / Back to wall;Do středu;Central / Back-to-wall;pf_cabins_iss_installationtype;1
+2__corner;Corner;Do rohu;Corner;pf_cabins_iss_installationtype;1
+3__freestanding;Freestanding;Samostatně stojící;Freestanding;pf_cabins_iss_installationtype;1
+4__builtin___niche;Built-in / Niche;Vestavné;Built-in;pf_cabins_iss_installationtype;1
+1__4;4;4;4;pf_screens_iss_glassthicknessmm;1
+2__5;5;5;5;pf_screens_iss_glassthicknessmm;1
+3__6;6;6;6;pf_screens_iss_glassthicknessmm;1
+4__8;8;8;8;pf_screens_iss_glassthicknessmm;1
+5__10;10;10;10;pf_screens_iss_glassthicknessmm;1
+1__shower_tray;Shower tray;Sprchová vanička;Shower tray;pf_screens_iss_suitablefor;1
+2__bath;Bath;Vana;Bath;pf_screens_iss_suitablefor;1
+1__sliding_doors;Sliding doors;S posuvnými dveřmi;Sliding doors;pf_screens_iss_typeofdoors;1
+2__hinged_doors_90;Hinged doors 90°;Výklopná dvířka 90°;Hinged doors 90°;pf_screens_iss_typeofdoors;1
+3__hinged_doors_180;Hinged doors 180°;Výklopná dvířka 180°;Hinged doors 180°;pf_screens_iss_typeofdoors;1
+4__folding_doors;Folding doors;Se skládácímí dveřmi;Folding doors;pf_screens_iss_typeofdoors;1
+5__fixed_panel;Fixed panel;Pevný panel;Fixed panel;pf_screens_iss_typeofdoors;1
+1__wallmounted;Wall-mounted;Závěsné;Wall-mounted;pf_accessories_iss_installationtype;1
+2__countertop;Countertop;Provedení do nábytku;Countertop;pf_accessories_iss_installationtype;1
+3__floorstanding;Floorstanding;Stojící;Floor-standing;pf_accessories_iss_installationtype;1
+4__mirror_hung;Mirror hung;Zavěsné zrcadlo;On mirror;pf_accessories_iss_installationtype;1
+1__polished;Polished;Leštěné;Polished;pf_accessories_iss_finish;1
+2__matt;Matt;Mat;Matt;pf_accessories_iss_finish;1
+3__wenge;Wenge;Wenge;Wenge;pf_accessories_iss_finish;1
+4__white;White;Bílá;White;pf_accessories_iss_finish;1
+5__black;Black;Černá;Black;pf_accessories_iss_finish;1
+6__grey;Grey;Šedá;Grey;pf_accessories_iss_finish;1
+7__chrome;Chrome;;;pf_accessories_iss_finish;1
+1__metal;Metal;Kov;Metal;pf_accessories_iss_material;1
+2__stainless_steel;Stainless steel;Nerez ocel;Stainless steel;pf_accessories_iss_material;1
+3__wood;Wood;Dřevo;Wood;pf_accessories_iss_material;1
+4__vitreous_china;Vitreous china;Porcelán;Vitreous china;pf_accessories_iss_material;1
+5__plastic;Plastic;Plast;Plastic;pf_accessories_iss_material;1
+6__glass;Glass;Sklo;Glass;pf_accessories_iss_material;1
+7__solid_surface;Solid Surface;;Solid Surface;pf_accessories_iss_material;1
+1__included;Included;;;pt_shelf_iss_fixingkit;1
+2__not_included;Not included;;;pt_shelf_iss_fixingkit;1
+1__included;Included;;;pt_soap_dispense_iss_fixingkit;1
+2__not_included;Not included;;;pt_soap_dispense_iss_fixingkit;1
+1__included;Included;;;pt_soap_dish_iss_fixingkit;1
+2__not_included;Not included;;;pt_soap_dish_iss_fixingkit;1
+1__included;Included;;;pt_hook_iss_fixingkit;1
+2__not_included;Not included;;;pt_hook_iss_fixingkit;1
+1__included;Included;;;pt_towel_rail_iss_fixingkit;1
+2__not_included;Not included;;;pt_towel_rail_iss_fixingkit;1
+1__washbasin;Basin;Umyvadlo;Basin;pt_towel_rail_iss_suitablefor;1
+4__toilet;Toilet;Toaleta;WC;pt_towel_rail_iss_suitablefor;1
+5__shower;Shower;Sprcha;Shower;pt_towel_rail_iss_suitablefor;1
+6__bath;Bath;Vana;Bath;pt_towel_rail_iss_suitablefor;1
+3__semipedestal;Semipedestal;Kryt na sifon;Semi-pedestal;pt_towel_rail_iss_suitablefor;1
+2__bidet;Bidet;Bidet;Bidet;pt_towel_rail_iss_suitablefor;1
+1__included;Included;;;pt_toilet_roll_holder_iss_fixingkit;1
+2__not_included;Not included;;;pt_toilet_roll_holder_iss_fixingkit;1
+1__included;Included;;;pt_toilet_brush_holder_iss_fixingkit;1
+2__not_included;Not included;;;pt_toilet_brush_holder_iss_fixingkit;1
+1__included;Included;;;pt_container_iss_fixingkit;1
+2__not_included;Not included;;;pt_container_iss_fixingkit;1
+1__included;Included;;;pt_tumbler_holder_iss_fixingkit;1
+2__not_included;Not included;;;pt_tumbler_holder_iss_fixingkit;1
+1__included;Included;;;pt_grab_rail_iss_fixingkit;1
+2__not_included;Not included;;;pt_grab_rail_iss_fixingkit;1
+1__included;Included;;;pt_roll_brush_holder_iss_fixingkit;1
+2__not_included;Not included;;;pt_roll_brush_holder_iss_fixingkit;1
+1__ip_20;IP 20;IP 20;IP 20;pt_spotlight_iss_ingressprotectionrating;1
+2__ip_21;IP 21;IP 21;IP 21;pt_spotlight_iss_ingressprotectionrating;1
+3__ip_22;IP 22;IP 22;IP 22;pt_spotlight_iss_ingressprotectionrating;1
+4__ip_23;IP 23;IP 23;IP 23;pt_spotlight_iss_ingressprotectionrating;1
+5__ip_24;IP 24;IP 24;IP 24;pt_spotlight_iss_ingressprotectionrating;1
+6__ip_40;IP 40;IP 40;IP 40;pt_spotlight_iss_ingressprotectionrating;1
+7__ip_41;IP 41;IP 41;IP 41;pt_spotlight_iss_ingressprotectionrating;1
+8__ip_42;IP 42;IP 42;IP 42;pt_spotlight_iss_ingressprotectionrating;1
+9__ip_43;IP 43;IP 43;IP 43;pt_spotlight_iss_ingressprotectionrating;1
+10__ip_44;IP 44;IP 44;IP 44;pt_spotlight_iss_ingressprotectionrating;1
+1__horizontal;Horizontal;Vodorovná;Horizontal;pt_spotlight_iss_position;1
+2__vertical;Vertical;Svisle;Vertical;pt_spotlight_iss_position;1
+1__light_bulb;Light bulb;Žárovka;Bulb;pt_spotlight_iss_lighttype;1
+2__fluorescent;Fluorescent;Fluorescenční;Fluorescent;pt_spotlight_iss_lighttype;1
+3__led;Led;LED;LED;pt_spotlight_iss_lighttype;1
+1__included;Included;;;pt_glass_iss_fixingkit;1
+2__not_included;Not included;;;pt_glass_iss_fixingkit;1
+1__included;Included;;;pt_toothbrush_holder_iss_fixingkit;1
+2__not_included;Not included;;;pt_toothbrush_holder_iss_fixingkit;1
+1__underworktop___undercountertop;Under-worktop / Under-countertop;Vestavný zdola;Under-worktop / Under-countertop;pf_kitchen_sinks_iss_installationtype;1
+2__inset___countertop;Inset / Countertop;Vestavná  / k zabudování shora;Inset / Countertop;pf_kitchen_sinks_iss_installationtype;1
+3__levelled;Levelled;V úrovni;Levelled;pf_kitchen_sinks_iss_installationtype;1
+4__vanity;Vanity;Do nábytku;Vanity;pf_kitchen_sinks_iss_installationtype;1
+5__over_countertop;Over Countertop;Přes pult;Over Countertop;pf_kitchen_sinks_iss_installationtype;1
+1__1_taphole;1 Taphole;1 otvor pro baterii;1 taphole;pf_kitchen_sinks_iss_tapholeconfiguration;1
+3__2_prepunched;2 Prepunched;2 předvypíchnutý otvor;2 prepunched;pf_kitchen_sinks_iss_tapholeconfiguration;1
+1__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pf_kitchen_sinks_iss_material;1
+2__fireclay;Fireclay;Žárohlína;Fireclay;pf_kitchen_sinks_iss_material;1
+3__silacryl;Silacryl;Silakryl;Silacryl;pf_kitchen_sinks_iss_material;1
+4__quarzex;QUARZEX ®;QUARZEX ®;QUARZEX ®;pf_kitchen_sinks_iss_material;1
+1__to_the_right;To the right;Vpravo;To the right;pt_tower_rail_iss_installationplace;1
+2__to_the_left;To the left;Vlevo;To the left;pt_tower_rail_iss_installationplace;1
+3__frontal;Frontal;Čelní;Frontal;pt_tower_rail_iss_installationplace;1
+1__washbasin;Basin;Umyvadlo;Basin;pt_tower_rail_iss_suitablefor;1
+2__semipedestal;Semipedestal;Poloviční podstavec pod umyvadlo;Semi-pedestal;pt_tower_rail_iss_suitablefor;1
+3__pedestal;Pedestal;Sloup;Pedestal;pt_tower_rail_iss_suitablefor;1
+1__washbasin;Basin;Umyvadlo;Basin;pt_waste_iss_suitablefor;1
+2__bidet;Bidet;Bidet;Bidet;pt_waste_iss_suitablefor;1
+3__kitchen_sink;Kitchen sink;Kuchyňský dřez;Kitchen sink;pt_waste_iss_suitablefor;1
+4__bath;Bath;Vana;Bath;pt_waste_iss_suitablefor;1
+5__shower_tray;Shower tray;Sprchová vana;Shower tray;pt_waste_iss_suitablefor;1
+1__brasscopper;Brass-copper;Mosaz/měď;Brass-copper;pt_waste_iss_material;1
+2__polypropylene;Polypropylene;Polypropylen;Polypropylene;pt_waste_iss_material;1
+1__metal_trap;Metal trap;Kovový sifon;Metal trap;pt_waste_iss_typeoftrap;1
+2__removable_trap;Removable trap;Odnímatelný sifon;Removable trap;pt_waste_iss_typeoftrap;1
+3__builtin_trap;Built-in trap;Podomítkový sifon;Built-in trap;pt_waste_iss_typeoftrap;1
+1__popup;Pop-up;Pop-up;Pop-up;pt_waste_iss_typeofcover;1
+2__open_fixed;Open fixed;Pevná otevřená;Open fixed;pt_waste_iss_typeofcover;1
+3__porcelain_open_fixed;Porcelain open fixed;Pevná otevřená keramická;Porcelain open fixed;pt_waste_iss_typeofcover;1
+4__chromeplated_open_fixed;Chrome-plated open fixed;Pevný, chrom;Chrome-plated open fixed;pt_waste_iss_typeofcover;1
+1__ubend;U-bend;Ve tvaru U;U-bend;pt_trap_iss_syphontype;1
+2__horizontal_outlet;Horizontal outlet;Vodorovný odpad;Horizontal outlet;pt_trap_iss_syphontype;1
+3__bottle;Bottle;Lahvový;Bottle trap;pt_trap_iss_syphontype;1
+4__builtin;Built-in;Vestavné;Built-in;pt_trap_iss_syphontype;1
+1__bidet;Bidet;Bidet;Bidet;pt_trap_iss_suitablefor;1
+2__urinal;Urinal;Pisoár;Urinal;pt_trap_iss_suitablefor;1
+3__washbasin;Washbasin;Umyvadlo;Basin;pt_trap_iss_suitablefor;1
+1__rectangular_spas;Rectangular Spas;Spa - hranaté;Rectangular spas;pt_steps_iss_compatiblewith;1
+2__square_spas;Square Spas;Spa - čtvercové;Square spas;pt_steps_iss_compatiblewith;1
+3__round_spas;Round Spas;Spa - kruhové;Round spas;pt_steps_iss_compatiblewith;1
+4__baths;Baths;Vany;Baths;pt_steps_iss_compatiblewith;1
+1__frontal;Frontal;Čelní;Frontal;pt_panel_iss_typeofpanel;1
+2__in_l;In L;Ve tvaru L;L shaped;pt_panel_iss_typeofpanel;1
+3__in_c;In C;Ve tvaru C;C shaped;pt_panel_iss_typeofpanel;1
+4__perimetral;Perimetral;Obvodový;Edge;pt_panel_iss_typeofpanel;1
+5__rear;Rear;Zadní;Rear;pt_panel_iss_typeofpanel;1
+6__set_of_panels;Set of panels;Sada panelů;Set of panels;pt_panel_iss_typeofpanel;1
+7__lateral;Lateral;Boční;Lateral;pt_panel_iss_typeofpanel;1
+1__acrylic;Acrylic;Akrylové;Acrylic;pt_panel_iss_material;1
+2__steel;Steel;Ocelové;Steel;pt_panel_iss_material;1
+3__wood;Wood;Dřevo;Wood;pt_panel_iss_material;1
+1__chrome;Chrome;Chrom;Chrome;pt_furniture_legs_iss_material;1
+2__plastic;Plastic;Plast;Plastic;pt_furniture_legs_iss_material;1
+3__steel;Steel;Ocelové;Steel;pt_furniture_legs_iss_material;1
+4__stainless_steel;Stainless steel;Nerezavějící ocel;Stainless steel;pt_furniture_legs_iss_material;1
+5__wood;Wood;Dřevo;Wood;pt_furniture_legs_iss_material;1
+1__glycerin;Glycerin;;;pt_pressure_pumps_iss_pressuregaugeliquid;1
+1__horizontal_closed_coupled_motor;Horizontal closed coupled motor;;;pt_pressure_pumps_iss_motortype;1
+1__danfoss_kp35;Danfoss KP35;;;pt_pressure_pumps_iss_pressureswitch;1
+2__danfoss_kp35_make;Danfoss KP35 Make;;;pt_pressure_pumps_iss_pressureswitch;1
+1__enclosed;Enclosed;;;pt_pressure_pumps_iss_typeofimpeller;1
+1__clockwise;Clockwise;;;pt_pressure_pumps_iss_typeofrotarymovement;1
+1__carbon_resin_impignated;Carbon resin impignated;;;pt_pressure_pumps_iss_mechanicalseal;1
+1__stainless_steel_431;Stainless steel 431;;;pt_pressure_pumps_iss_materialofshaft;1
+1__brass;Brass;;;pt_pressure_pumps_iss_nrvmaterial;1
+1__brass;Brass;;;pt_pressure_pumps_iss_hexnipplematerial;1
+1__ip_55;IP 55;;;pt_pressure_pumps_iss_additionalprotectioninwinding;1
+1__brass;Brass;;;pt_pressure_pumps_iss_fivewayconnectormaterial;1
+1__stainless_steel_304;Stainless steel 304;;;pt_pressure_pumps_iss_materialofimpellerandintermediatecasingsordiffusers;1
+1__cast_iron;Cast iron;;;pt_pressure_pumps_iss_materialofcasing;1
+1__h;H;;;pt_pressure_pumps_iss_classofinsulation;1
+1__inline;Inline;;;pt_pressure_pumps_iss_typeprechargeddiaphgramvessel;1
+1__cast_iron;Cast iron;;;pt_mono_block_pumps_iss_bracket;1
+2__aluminium_diecast;Aluminium diecast;;;pt_mono_block_pumps_iss_bracket;1
+1__aluminium_extruded;Aluminium extruded;;;pt_mono_block_pumps_iss_bodymaterial;1
+1__forged_brass;Forged brass;;;pt_mono_block_pumps_iss_impeller;1
+1__cast_iron;Cast iron;;;pt_mono_block_pumps_iss_deliverycasing;1
+1__low;Low;;;pt_mono_block_pumps_iss_noise;1
+1__carbon;Carbon;;;pt_mono_block_pumps_iss_shaft;1
+2__stainless_steel;Stainless steel;;;pt_mono_block_pumps_iss_shaft;1
+3__en8;EN8;;;pt_mono_block_pumps_iss_shaft;1
+1__clear_water;Clear water;;;pt_mono_block_pumps_iss_liquid;1
+1__low;Low;;;pt_mono_block_pumps_iss_vibration;1
+1__chipboard;Chipboard;Dřevotříska;Chipboard;pt_shower_compound_iss_materialbaseunit;1
+2__mdf;MDF;MDF;MDF;pt_shower_compound_iss_materialbaseunit;1
+3__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_shower_compound_iss_materialbaseunit;1
+4__melamine;Melamine;Melamin;Melamine;pt_shower_compound_iss_materialbaseunit;1
+5__laminated;Laminated;Laminováno;Laminated;pt_shower_compound_iss_materialbaseunit;1
+8__pvc;PVC;PVC;PVC;pt_shower_compound_iss_materialbaseunit;1
+9__plywood;Plywood;Překližka;Plywood;pt_shower_compound_iss_materialbaseunit;1
+6__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pt_shower_compound_iss_materialbaseunit;1
+7__lacquered;Lacquered;Lak;Lacquered;pt_shower_compound_iss_materialbaseunit;1
+2__single_lever_faucet;Single lever faucet;Páková baterie;Single-lever;pt_shower_compound_iss_showermixertype;1
+3__twin_lever_faucet;Twin lever faucet;Kohoutková baterie;Twin-lever;pt_shower_compound_iss_showermixertype;1
+1__thermostatic_faucet;Thermostatic faucet;Termostatická baterie;Thermostatic;pt_shower_compound_iss_showermixertype;1
+5__electronic_faucet;Electronic faucet;Elektronická vodovodní baterie;Electronic;pt_shower_compound_iss_showermixertype;1
+4__self_closing_faucet;Self closing faucet;Baterie s časovým uzavíráním;Self-closing;pt_shower_compound_iss_showermixertype;1
+6__hybrid_faucet;Hybrid faucet;Hybridní baterie;Hybrid;pt_shower_compound_iss_showermixertype;1
+1__vitreous_china;Vitreous china;Sanitární keramika;Vitreous china;pt_shower_compound_iss_materialbasin;1
+2__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pt_shower_compound_iss_materialbasin;1
+3__steel;Steel;Ocel;Steel;pt_shower_compound_iss_materialbasin;1
+1__wenge;Wenge;Wenge;Wenge;pt_shower_compound_iss_finishshowerplatform;1
+1__sliding_doors;Sliding doors;S posuvnými dveřmi;Sliding doors;pt_shower_compound_iss_showerscreendoorstype;1
+2__hinged_doors_90;Hinged doors 90º;Výklopná dvířka 90°;Hinged doors 90º;pt_shower_compound_iss_showerscreendoorstype;1
+3__hinged_doors_180;Hinged doors 180º;Výklopná dvířka 180°;Hinged doors 180º;pt_shower_compound_iss_showerscreendoorstype;1
+4__folding_doors;Folding doors;Se skládácímí dveřmi;Folding doors;pt_shower_compound_iss_showerscreendoorstype;1
+5__fixed_panel;Fixed panel;Pevný panel;Fixed panel;pt_shower_compound_iss_showerscreendoorstype;1
+1__thermostatic_faucet;Thermostatic faucet;Termostatická baterie;Thermostatic;pt_shower_compound_iss_basinmixertype;1
+2__single_lever_faucet;Single lever faucet;Páková baterie;Single-lever;pt_shower_compound_iss_basinmixertype;1
+3__twin_lever_faucet;Twin lever faucet;Kohoutková baterie;Twin-lever;pt_shower_compound_iss_basinmixertype;1
+4__self_closing_faucet;Self closing faucet;Baterie s časovým uzavíráním;Self-closing;pt_shower_compound_iss_basinmixertype;1
+5__electronic_faucet;Electronic faucet;Elektronická vodovodní baterie;Electronic;pt_shower_compound_iss_basinmixertype;1
+6__hybrid_faucet;Hybrid faucet;Hybridní baterie;Hybrid;pt_shower_compound_iss_basinmixertype;1
+1__wenge;Wenge;Wenge;Wenge;pt_shower_compound_iss_finishbaseunit;1
+1__1_door;1 Door;1 dvířka;1 door;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+2__1_drawer;1 Drawer;1 zásuvka;1 drawer;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+3__2_doors;2 Doors;2 dvířka;2 doors;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+4__2_drawers;2 Drawers;2 zásuvky;2 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+5__1_door_and_1_drawer;1 Door and 1 Drawer;1 dvířka a 1 zásuvka;1 door and 1 drawer;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+6__1_door_and_2_drawers;1 Door and 2 Drawers;1 dvířka a 2 zásuvky;1 door and 2 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+7__1_door_and_3_drawers;1 Door and 3 Drawers;1 dvířka a 3 zásuvky;1 door and 3 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+8__2_doors_and_2_drawers;2 Doors and 2 Drawers;2 dvířka a 2 zásuvky;2 doors and 2 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+9__2_doors_and_1_drawer;2 Doors and 1 Drawer;2 dvířka a 1 zásuvka;2 doors and 1 drawer;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+11__3_drawers;3 Drawers;3 zásuvky;3 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+12__4_drawers;4 Drawers;4 zásuvky;4 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+13__6_drawers;6 Drawers;6 zásuvek;6 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+10__2_doors_and_3_drawers;2 Doors and 3 Drawers;2 dvířka a 3 zásuvky;2 doors and 3 drawers;pt_shower_compound_iss_baseunitdoorsanddrawerscombination;1
+1__freestanding;Freestanding;Volně stojící;Freestanding;pt_shower_compound_iss_installationtype;1
+2__corner;Corner;Rohové;Corner;pt_shower_compound_iss_installationtype;1
+3__builtin___niche;Built-in / Niche;Vestavěné / ve výklenku;Built-in;pt_shower_compound_iss_installationtype;1
+4__central___back_to_wall;Central / Back to wall;Centrální / se zadní stranou u zdi;Central / Back-to-wall;pt_shower_compound_iss_installationtype;1
+1__aluminium;Aluminium;Hliník;Aluminium;pt_shower_compound_iss_finishshowercolumn;1
+2__matt_aluminium;Matt aluminium;Hliník mat;Matt aluminium;pt_shower_compound_iss_finishshowercolumn;1
+3__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_shower_compound_iss_finishshowercolumn;1
+4__matt_stainless_steel;Matt stainless steel;Ocel inox mat;Matt stainless steel;pt_shower_compound_iss_finishshowercolumn;1
+5__chrome;Chrome;Chrom;Chrome;pt_shower_compound_iss_finishshowercolumn;1
+6__grey;Grey;Šedé;Grey;pt_shower_compound_iss_finishshowercolumn;1
+7__white;White;Bílá;White;pt_shower_compound_iss_finishshowercolumn;1
+8__black_ice;Black Ice;Černý led;Black Ice;pt_shower_compound_iss_finishshowercolumn;1
+1__vitreous_china;Vitreous china;Sanitární keramika;Vitreous china;pt_shower_compound_iss_materialshowertray;1
+2__steel;Steel;Ocel;Steel;pt_shower_compound_iss_materialshowertray;1
+3__acrylic;Acrylic;Akrylát;Acrylic;pt_shower_compound_iss_materialshowertray;1
+4__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pt_shower_compound_iss_materialshowertray;1
+1__chrome;Chrome;Chrom;Chrome;pt_shower_compound_iss_finishbasinmixer;1
+2__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_shower_compound_iss_finishbasinmixer;1
+3__matt_stainless_steel;Matt stainless steel;Ocel inox mat;Matt stainless steel;pt_shower_compound_iss_finishbasinmixer;1
+4__white;White;Bílá;White;pt_shower_compound_iss_finishbasinmixer;1
+5__black_ice;Black Ice;Černý led;Black Ice;pt_shower_compound_iss_finishbasinmixer;1
+1__chrome;Chrome;Chrom;Chrome;pt_basin_compound_iss_finishmixer;1
+2__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_basin_compound_iss_finishmixer;1
+3__matt_stainless_steel;Matt stainless steel;Ocel inox mat;Matt stainless steel;pt_basin_compound_iss_finishmixer;1
+4__white;White;Bílá;White;pt_basin_compound_iss_finishmixer;1
+5__black_ice;Black Ice;Černý led;Black Ice;pt_basin_compound_iss_finishmixer;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;Dvojité splachování 3/6 litrů;Dual flush 6/3 litres;pt_basin_compound_iss_toiletflushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;Dvojité splachování 3/4,5 litru;Dual flush 4.5/3 litres;pt_basin_compound_iss_toiletflushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;Dvojité splachování 2/4 litrů;Dual flush 4/2 litres;pt_basin_compound_iss_toiletflushingtype;1
+4__startstop;Start-Stop;Systém Start-Stop;Start-Stop;pt_basin_compound_iss_toiletflushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;Dvojité splachování 3/5 litrů;Dual flush 5/3 litres;pt_basin_compound_iss_toiletflushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;Jednoduché splachování 4,5 litru;Single flush 4.5 litres;pt_basin_compound_iss_toiletflushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;Jednoduché splachování 6 litrů;Single flush 6 litres;pt_basin_compound_iss_toiletflushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;Jednoduché splachování 4,8 litru;Single flush 4.8 litres;pt_basin_compound_iss_toiletflushingtype;1
+1__vitreous_china;Vitreous china;Skelný porcelán;Vitreous china;pt_basin_compound_iss_materialbasin;1
+2__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pt_basin_compound_iss_materialbasin;1
+3__steel;Steel;Ocelové;Steel;pt_basin_compound_iss_materialbasin;1
+1__washout;Washout;Ploché splachování;Washout;pt_basin_compound_iss_toiletflushingsystem;1
+2__washdown;Washdown;Hluboké splachování;Washdown;pt_basin_compound_iss_toiletflushingsystem;1
+3__siphonic;Siphonic;Sifonické;Siphonic;pt_basin_compound_iss_toiletflushingsystem;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pt_basin_compound_iss_installationtype;1
+2__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pt_basin_compound_iss_installationtype;1
+1__thermostatic_faucet;Thermostatic faucet;Termostatická baterie;Thermostatic;pt_basin_compound_iss_mixertype;1
+2__single_lever_faucet;Single lever faucet;Páková baterie;Single-lever;pt_basin_compound_iss_mixertype;1
+3__twin_lever_faucet;Twin lever faucet;Kohoutková baterie;Twin-lever;pt_basin_compound_iss_mixertype;1
+4__self_closing_faucet;Self closing faucet;Samouzavírací baterie;Self-closing;pt_basin_compound_iss_mixertype;1
+5__electronic_faucet;Electronic faucet;Elektronická vodovodní baterie;Electronic;pt_basin_compound_iss_mixertype;1
+6__hybrid_faucet;Hybrid faucet;Hybridní baterie;Hybrid;pt_basin_compound_iss_mixertype;1
+1__left;Left;;;pt_unik_compound_iss_towelposition;1
+2__right;Right;;;pt_unik_compound_iss_towelposition;1
+3__frontal;Frontal;;;pt_unik_compound_iss_towelposition;1
+1__tempered_glass;Tempered glass;Tvrzené sklo;Tempered glass;pt_unik_compound_iss_materialmirrorframe;1
+2__chipboard;Chipboard;Dřevotříska;Chipboard;pt_unik_compound_iss_materialmirrorframe;1
+3__mdf;MDF;MDF;MDF;pt_unik_compound_iss_materialmirrorframe;1
+4__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_unik_compound_iss_materialmirrorframe;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_unik_compound_iss_materialmirrorframe;1
+6__melamine;Melamine;Melamin;Melamine;pt_unik_compound_iss_materialmirrorframe;1
+7__laminated;Laminated;Laminováno;Laminated;pt_unik_compound_iss_materialmirrorframe;1
+8__pvc;PVC;PVC;PVC;pt_unik_compound_iss_materialmirrorframe;1
+9__aluminium;Aluminium;Hliník;Aluminium;pt_unik_compound_iss_materialmirrorframe;1
+10__plywood;Plywood;Prekližka;Plywood;pt_unik_compound_iss_materialmirrorframe;1
+1__sliding;Sliding;Posuvné;Sliding;pt_unik_compound_iss_mirrorcabinetdoortype;1
+2__hinged;Hinged;Výklopné;Hinged;pt_unik_compound_iss_mirrorcabinetdoortype;1
+1__thermostatic_faucet;Thermostatic faucet;Termostatická baterie;Thermostatic;pt_unik_compound_iss_mixertypeincluded;1
+2__single_lever_faucet;Single lever faucet;Páková baterie;Single-lever;pt_unik_compound_iss_mixertypeincluded;1
+3__twin_lever_faucet;Twin lever faucet;Kohoutková baterie;Twin-lever;pt_unik_compound_iss_mixertypeincluded;1
+4__self_closing_faucet;Self closing faucet;Baterie s časovým uzavíráním;Self-closing;pt_unik_compound_iss_mixertypeincluded;1
+5__electronic_faucet;Electronic faucet;Elektronická vodovodní baterie;Electronic;pt_unik_compound_iss_mixertypeincluded;1
+6__hybrid_faucet;Hybrid faucet;Hybridní baterie;Hybrid;pt_unik_compound_iss_mixertypeincluded;1
+1__sliding;Sliding;Posuvné;Sliding;pt_unik_compound_iss_baseunitdoortype;1
+2__hinged;Hinged;Výklopné;Hinged;pt_unik_compound_iss_baseunitdoortype;1
+1__light_bulb;Light bulb;Žárovka;Bulb;pt_unik_compound_iss_mirrorambientlighttype;1
+2__fluorescent;Fluorescent;Fluorescenční;Fluorescent;pt_unik_compound_iss_mirrorambientlighttype;1
+3__led;Led;LED;LED;pt_unik_compound_iss_mirrorambientlighttype;1
+1__wallhung;Wall-hung;Závěsné;Wall-hung;pt_unik_compound_iss_installationtype;1
+4__with_castors;With castors;Se samostavnými kolečky;With castors;pt_unik_compound_iss_installationtype;1
+5__floorstanding;Floorstanding;K postavení na podlahu;Floor-standing;pt_unik_compound_iss_installationtype;1
+2__wallhung_with_legs;Wall-hung with legs;Závěsné s nožkami;Wall-hung with optional legs;pt_unik_compound_iss_installationtype;1
+3__with_legs;With legs;S nožkami;With legs;pt_unik_compound_iss_installationtype;1
+1__glass;Glass;Sklo;Glass;pt_unik_compound_iss_materialmirrorcabinet;1
+2__chipboard;Chipboard;Dřevotříska;Chipboard;pt_unik_compound_iss_materialmirrorcabinet;1
+3__mdf;MDF;MDF;MDF;pt_unik_compound_iss_materialmirrorcabinet;1
+4__stainless_steel;Stainless steel;Ocel inox;Stainless steel;pt_unik_compound_iss_materialmirrorcabinet;1
+5__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_unik_compound_iss_materialmirrorcabinet;1
+6__melamine;Melamine;Melamin;Melamine;pt_unik_compound_iss_materialmirrorcabinet;1
+7__laminated;Laminated;Laminováno;Laminated;pt_unik_compound_iss_materialmirrorcabinet;1
+8__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pt_unik_compound_iss_materialmirrorcabinet;1
+9__marble;Marble;Mramor;Marble;pt_unik_compound_iss_materialmirrorcabinet;1
+10__compac;Compac;Kompaktní;Compac;pt_unik_compound_iss_materialmirrorcabinet;1
+11__aluminium;Aluminium;Hliník;Aluminium;pt_unik_compound_iss_materialmirrorcabinet;1
+12__lacquered;Lacquered;Lak;Lacquered;pt_unik_compound_iss_materialmirrorcabinet;1
+13__pvc;PVC;PVC;PVC;pt_unik_compound_iss_materialmirrorcabinet;1
+14__plywood;Plywood;Překližka;Plywood;pt_unik_compound_iss_materialmirrorcabinet;1
+1__soft_and_self_close_doors;Soft and self close doors;Dvířka s automatickým zpomaleným dovíráním;Soft and self close doors;pt_unik_compound_iss_baseunitclosingandopeningsystem;1
+2__soft_and_self_close_drawers;Soft and self close drawers;Zásuvky s plnovýsuvem a s tlumeným dojezdem;Soft and self close drawers;pt_unik_compound_iss_baseunitclosingandopeningsystem;1
+3__soft_close_doors;Soft close doors;Dvířka se zpomaleným zavíráním;Soft close doors;pt_unik_compound_iss_baseunitclosingandopeningsystem;1
+4__soft_close_drawers;Soft close drawers;Zásuvky se zpomaleným zavíráním;Soft close drawers;pt_unik_compound_iss_baseunitclosingandopeningsystem;1
+5__push_to_open;Push to open;Push to open;Push to open;pt_unik_compound_iss_baseunitclosingandopeningsystem;1
+1__1_taphole_in_the_middle;1 Taphole in the middle;1 otvor pro baterii uprostřed;1 taphole in the middle;pt_unik_compound_iss_basintapholeconfiguration;1
+2__no_taphole;No tapholes;Bez otvoru pro baterii;No tapholes;pt_unik_compound_iss_basintapholeconfiguration;1
+3__1_taphole_on_the_left_side;1 Taphole on the left side;1 otvor pro baterii na levé straně;1 taphole on the left side;pt_unik_compound_iss_basintapholeconfiguration;1
+4__1_taphole_on_the_right_side;1 Taphole on the right side;1 otvor pro baterii na pravé straně;1 taphole on the right side;pt_unik_compound_iss_basintapholeconfiguration;1
+5__3_tapholes;3 Tapholes;3 otvory pro baterii;3 tapholes;pt_unik_compound_iss_basintapholeconfiguration;1
+6__2_tapholes;2 Tapholes;2 otvory pro baterii;2 tapholes;pt_unik_compound_iss_basintapholeconfiguration;1
+13__1_taphole_on_the_left_side_centered;1 Taphole on the left side centered;;;pt_unik_compound_iss_basintapholeconfiguration;1
+14__1_taphole_on_the_right_side_centered;1 Taphole on the right side centered;;;pt_unik_compound_iss_basintapholeconfiguration;1
+1__upper_and_lower;Upper and lower;Horní a dolní;Upper and lower;pt_unik_compound_iss_mirrorambientlightposition;1
+2__lateral;Lateral;Boční;Lateral;pt_unik_compound_iss_mirrorambientlightposition;1
+3__perimetral;Perimetral;Obvodové;Edge;pt_unik_compound_iss_mirrorambientlightposition;1
+4__lower;Lower;Spodní;Lower;pt_unik_compound_iss_mirrorambientlightposition;1
+1__left;Left;Levá;Left;pt_unik_compound_iss_mirrormovableside;1
+2__right;Right;Pravá;Right;pt_unik_compound_iss_mirrormovableside;1
+3__left_and_right;Left and right;Levá a pravá;Left and right;pt_unik_compound_iss_mirrormovableside;1
+4__left_or_right;Left or right;Levá nebo pravá;Left or right;pt_unik_compound_iss_mirrormovableside;1
+1__integrated_in_the_mirror;Integrated in the mirror;Integrované v zrcadle;Integrated in the mirror;pt_unik_compound_iss_mirrorlighting;1
+2__spotlights_included;Spotlights included;Včetně osvětlení;Spotlights included;pt_unik_compound_iss_mirrorlighting;1
+1__doors_and_drawers_combination;Doors and drawers combination;Kombinace dvířek a zásuvek;Doors and drawers combination;pt_unik_compound_iss_baseunitstructure;1
+2__doors;Doors;Dveře;Doors;pt_unik_compound_iss_baseunitstructure;1
+3__drawers;Drawers;Zásuvky;Drawers;pt_unik_compound_iss_baseunitstructure;1
+1__1_door;1 Door;1 dvířka;1 door;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+2__1_drawer;1 Drawer;1 zásuvka;1 drawer;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+3__2_doors;2 Doors;2 dvířka;2 doors;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+4__2_drawers;2 Drawers;2 zásuvky;2 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+5__1_door_and_1_drawer;1 Door and 1 Drawer;1 dvířka a 1 zásuvka;1 door and 1 drawer;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+6__1_door_and_2_drawers;1 Door and 2 Drawers;1 dvířka a 2 zásuvky;1 door and 2 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+7__1_door_and_3_drawers;1 Door and 3 Drawers;1 dvířka a 3 zásuvky;1 door and 3 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+8__2_doors_and_2_drawers;2 Doors and 2 Drawers;2 dvířka a 2 zásuvky;2 doors and 2 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+9__2_doors_and_1_drawer;2 Doors and 1 Drawer;2 dvířka a 1 zásuvka;2 doors and 1 drawer;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+11__3_drawers;3 Drawers;3 zásuvky;3 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+10__2_doors_and_3_drawers;2 Doors and 3 Drawers;2 dvířka a 3 zásuvky;2 doors and 3 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+12__4_drawers;4 Drawers;4 zásuvky;4 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+13__6_drawers;6 Drawers;6 zásuvek;6 drawers;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+14__4_doors;4 Doors;;;pt_unik_compound_iss_baseunitdoorsanddrawerscombination;1
+1__on_the_basin;On the basin;Na umyvadle;On the basin;pt_unik_compound_iss_faucetinstallation;1
+2__on_the_wall;On the wall;Na zdi;On the wall;pt_unik_compound_iss_faucetinstallation;1
+1__light_bulb;Light bulb;Žárovka;Bulb;pt_unik_compound_iss_mirrorlighttype;1
+2__fluorescent;Fluorescent;Fluorescenční;Fluorescent;pt_unik_compound_iss_mirrorlighttype;1
+3__led;Led;LED;LED;pt_unik_compound_iss_mirrorlighttype;1
+1__ip_20;IP 20;IP 20;IP 20;pt_unik_compound_iss_mirroringressprotectionrating;1
+2__ip_21;IP 21;IP 21;IP 21;pt_unik_compound_iss_mirroringressprotectionrating;1
+3__ip_22;IP 22;IP 22;IP 22;pt_unik_compound_iss_mirroringressprotectionrating;1
+4__ip_23;IP 23;IP 23;IP 23;pt_unik_compound_iss_mirroringressprotectionrating;1
+5__ip_24;IP 24;IP 24;IP 24;pt_unik_compound_iss_mirroringressprotectionrating;1
+6__ip_40;IP 40;IP 40;IP 40;pt_unik_compound_iss_mirroringressprotectionrating;1
+7__ip_41;IP 41;IP 41;IP 41;pt_unik_compound_iss_mirroringressprotectionrating;1
+8__ip_42;IP 42;IP 42;IP 42;pt_unik_compound_iss_mirroringressprotectionrating;1
+9__ip_43;IP 43;IP 43;IP 43;pt_unik_compound_iss_mirroringressprotectionrating;1
+10__ip_44;IP 44;IP 44;IP 44;pt_unik_compound_iss_mirroringressprotectionrating;1
+1__2_legs;2 Legs;;;pt_unik_compound_iss_numberoflegs;1
+2__4_legs;4 Legs;;;pt_unik_compound_iss_numberoflegs;1
+1__chipboard;Chipboard;Třísková deska;Chipboard;pt_unik_compound_iss_materialbaseunit;1
+2__mdf;MDF;MDF;MDF;pt_unik_compound_iss_materialbaseunit;1
+3__natural_wood;Natural wood;Přírodní dřevo;Natural wood;pt_unik_compound_iss_materialbaseunit;1
+4__melamine;Melamine;Melamin;Melamine;pt_unik_compound_iss_materialbaseunit;1
+5__laminated;Laminated;Vrstvené;Laminated;pt_unik_compound_iss_materialbaseunit;1
+6__natural_wood_veneer;Natural wood veneer;Dýha z přírodního dřeva;Natural wood veneer;pt_unik_compound_iss_materialbaseunit;1
+7__lacquered;Lacquered;Lakované;Lacquered;pt_unik_compound_iss_materialbaseunit;1
+8__pvc;PVC;PVC;PVC;pt_unik_compound_iss_materialbaseunit;1
+9__plywood;Plywood;Překližka;Plywood;pt_unik_compound_iss_materialbaseunit;1
+1__left;Left;Vlevo;Left;pt_unik_compound_iss_basinshelfposition;1
+2__right;Right;Vpravo;Right;pt_unik_compound_iss_basinshelfposition;1
+3__on_both_sides;On both sides;Na obou stranách;On both sides;pt_unik_compound_iss_basinshelfposition;1
+1__vitreous_china;Vitreous china;Skelný porcelán;Vitreous china;pt_unik_compound_iss_materialbasin;1
+2__surfex;SURFEX ®;SURFEX ®;SURFEX ®;pt_unik_compound_iss_materialbasin;1
+3__steel;Steel;Ocelové;Steel;pt_unik_compound_iss_materialbasin;1
+1__whites;Whites;;;pf_tiles_iss_color;1
+2__beiges;Beiges;;;pf_tiles_iss_color;1
+3__browns;Browns;;;pf_tiles_iss_color;1
+4__greys;Greys;;;pf_tiles_iss_color;1
+5__blacks;Blacks;;;pf_tiles_iss_color;1
+6__other_colors;Other colors;;;pf_tiles_iss_color;1
+1__40_;40% Recycled material;;;pf_tiles_iss_recycled;1
+2__80_;80% Recycled material;;;pf_tiles_iss_recycled;1
+1__1;1 - For very little traffic;1 - Zóny velmi nízké zátěže;1 - For very little traffic;pf_tiles_iss_usagegroups;1
+2__2;2 - For little traffic;2 - Zóny nízké zátěže;2 - For little traffic;pf_tiles_iss_usagegroups;1
+3__3;3 - For moderate traffic;3 - Zóny střední zátěže;3 - For moderate traffic;pf_tiles_iss_usagegroups;1
+4__4;4 - For high traffic;4 - Zóny velké zátěže;4 - For high traffic;pf_tiles_iss_usagegroups;1
+5__5;5 - For intense traffic;5 - Zóny intenzívní zátěže;5 - For intense traffic;pf_tiles_iss_usagegroups;1
+6__5p;5P - For very intense traffic (Polished porcelain tiles);5P - Zóny velmi intenzívní zátěže (Leštěné slinuté dlažby);5P - For very intense traffic (Polished porcelain tiles);pf_tiles_iss_usagegroups;1
+1__straight;Straight;;;pf_tiles_iss_placementwall;1
+2__stair;Stair;;;pf_tiles_iss_placementwall;1
+3__zigzag_12;Zigzag 1-2;;;pf_tiles_iss_placementwall;1
+4__zigzag_14;Zigzag 1-4;;;pf_tiles_iss_placementwall;1
+5__spike;Spike;;;pf_tiles_iss_placementwall;1
+6__random;Random;;;pf_tiles_iss_placementwall;1
+1__u3_p3_e3_c2;U3 P3 E3 C2;U3 P3 E3 C2;;pf_tiles_iss_upec;1
+2__u3s_p3_e3_c2;U3S P3 E3 C2;U3S P3 E3 C2;;pf_tiles_iss_upec;1
+3__u4_p3_e3_c2;U4 P3 E3 C2;U4 P3 E3 C2;;pf_tiles_iss_upec;1
+4__u4_p4_e3_c2;U4 P4 E3 C2;U4 P4 E3 C2;;pf_tiles_iss_upec;1
+5__u4_p4s_e3_c2;U4 P4S E3 C2;U4 P4S E3 C2;;pf_tiles_iss_upec;1
+1__r9;R-9;R-9;;pf_tiles_iss_din;1
+2__r10;R-10;R-10;;pf_tiles_iss_din;1
+3__r11;R-11;R-11;;pf_tiles_iss_din;1
+4__r12;R-12;R-12;;pf_tiles_iss_din;1
+5__r13;R-13;R-13;;pf_tiles_iss_din;1
+1__a;A;A;;pf_tiles_iss_din_barefoot;1
+2__b;B;B;;pf_tiles_iss_din_barefoot;1
+3__c;C;C;;pf_tiles_iss_din_barefoot;1
+1__structured;Structured;Protiskluz;;pf_tiles_iss_finish;1
+2__natural;Natural;Natural;;pf_tiles_iss_finish;1
+3__lapato;Lapato (Polished);Lapato;;pf_tiles_iss_finish;1
+4__bright;Bright;Lesk;;pf_tiles_iss_finish;1
+5__satin;Satin;Mat;;pf_tiles_iss_finish;1
+6__polished;Polished;Leštěné;Polished;pf_tiles_iss_finish;1
+7__mate;Mate;;;pf_tiles_iss_finish;1
+2__top_green;Porcelain tiles produced with recycled material content (between 40% - 80%).;;;pf_tiles_iss_technology;1
+3__tuttomasa;Highly resistant tiles for all types of floor and wall applications, interior, exterior, facades as well as bathrooms and kitchens.;;;pf_tiles_iss_technology;1
+4__porcellanato;Suitable for all types of floor and wall applications, interior,exterior, facades as well as bathrooms and kitchens.;;;pf_tiles_iss_technology;1
+5__pasta_blanca;Suitable to tile indoor walls such as bathrooms and kitchens.;;;pf_tiles_iss_technology;1
+6__golden_gres;High quality ceramics for interior residential use.;;;pf_tiles_iss_technology;1
+7__polished_porcelain;Polished porcelain rectified tiles suitable for areas such as kitchens and rooms, offices and halls.;;;pf_tiles_iss_technology;1
+8__fullbody;;Vysoce odolná dlažba vhodná pro podlahy a stěny v interiéru, exteriéru, na fasády, i do koupelen a kuchyní.;;pf_tiles_iss_technology;1
+9__floor;;Vysoce kvalitní keramická dlažba pro interiérové, rezidenční využití.;;pf_tiles_iss_technology;1
+10__wall;;Vhodné pro obložení interiérových stěn, zejména koupelen a kuchyní.;;pf_tiles_iss_technology;1
+11__glazed_porcelain;;Dlažba vhodná pro podlahy a stěny v interiéru, exteriéru, na fasády, i do koupelen a kuchyní.;;pf_tiles_iss_technology;1
+12__stone_mozaics;;Dekorativní prvek z přírodního kamene, vhodný pro obložení i oblých ploch interiéru a exteriéru.;;pf_tiles_iss_technology;1
+1__rock_rock;Large format porcelain tiles with high design and quality features.;;;pf_tiles_iss_technology;1
+1__straight;Straight;;;pf_tiles_iss_placementwallplanner;1
+2__stair;Stair;;;pf_tiles_iss_placementwallplanner;1
+3__zigzag_12;Zigzag 1-2;;;pf_tiles_iss_placementwallplanner;1
+4__zigzag_14;Zigzag 1-4;;;pf_tiles_iss_placementwallplanner;1
+5__spike;Spike;;;pf_tiles_iss_placementwallplanner;1
+6__random;Random;;;pf_tiles_iss_placementwallplanner;1
+1__beige;Beige;;;pf_tiles_iss_junctioncolor;1
+2__dark_beige;Dark beige;;;pf_tiles_iss_junctioncolor;1
+3__white;White;;;pf_tiles_iss_junctioncolor;1
+4__offwhite_beige;Off-white beige;;;pf_tiles_iss_junctioncolor;1
+5__offwhite_grey;Off-white grey;;;pf_tiles_iss_junctioncolor;1
+6__grey;Grey;;;pf_tiles_iss_junctioncolor;1
+7__dark_grey;Dark grey;;;pf_tiles_iss_junctioncolor;1
+1__c0;Class 0;Třída 0;;pf_tiles_iss_env;1
+2__c1;Class 1;Třída 1;;pf_tiles_iss_env;1
+3__c2;Class 2;Třída 2;;pf_tiles_iss_env;1
+4__c3;Class 3;Třída 3;;pf_tiles_iss_env;1
+1__floor;Floor;Dlažba;;pf_tiles_iss_installation;1
+2__wall;Wall;Obklad;;pf_tiles_iss_installation;1
+3__facade;Façade;;;pf_tiles_iss_installation;1
+4__v1;V1;V1;;pf_tiles_iss_shadevariationvalue;1
+1__v2_low_;V2 (Low);V2 (Nízká);;pf_tiles_iss_shadevariationvalue;1
+2__v3_medium_;V3 (Medium);V3 (Střední);;pf_tiles_iss_shadevariationvalue;1
+3__v4_high_;V4 (High);V4 (Vysoká);;pf_tiles_iss_shadevariationvalue;1
+1__rectangular;Rectangular;;;pf_tiles_iss_format;1
+2__square;Square;;;pf_tiles_iss_format;1
+3__board;Board;;;pf_tiles_iss_format;1
+4__square_grid;Square grid;;;pf_tiles_iss_format;1
+5__hexagon_grid;Hexagon grid;;;pf_tiles_iss_format;1
+6__link_grid;Link grid;;;pf_tiles_iss_format;1
+7__wall_grid;Wall grid;;;pf_tiles_iss_format;1
+8__stairs_grid;Stairs grid;;;pf_tiles_iss_format;1
+1__0_2mm;0.2mm;;;pf_water_heaters_iss_enamelthickness;1
+2__0_75mm;0.75mm;;;pf_water_heaters_iss_enamelthickness;1
+1__enamel;Enamel;;;pf_water_heaters_iss_heatingelementmaterial;1
+2__glass_line_coating;Glass line coating;;;pf_water_heaters_iss_heatingelementmaterial;1
+1__abs;ABS;;;pf_water_heaters_iss_outertankmaterial;1
+1__indian_plug;Indian plug;;;pf_water_heaters_iss_plugtype;1
+1__spcc;SPCC;;;pf_water_heaters_iss_flangematerial;1
+1__polyurethane;Polyurethane;;;pf_water_heaters_iss_insulationmaterial;1
+1__wet_enamel;Wet enamel;;;pf_water_heaters_iss_enameltype;1
+2__glass_line_coating;Glass line coating;;;pf_water_heaters_iss_enameltype;1
+1__ipx4;IPX4;;;pf_water_heaters_iss_waterproof;1
+1__spcc;SPCC;;;pf_water_heaters_iss_innertankmaterial;1
+1__side;Side;;;pt_water_inlet_iss_waterinletposition;1
+2__bottom;Bottom;;;pt_water_inlet_iss_waterinletposition;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;;;pt_flush_iss_flushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;;;pt_flush_iss_flushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;;;pt_flush_iss_flushingtype;1
+4__startstop;Start-Stop;;;pt_flush_iss_flushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;;;pt_flush_iss_flushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;;;pt_flush_iss_flushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;;;pt_flush_iss_flushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;;;pt_flush_iss_flushingtype;1
+1__1;1;;;pt_flush_iss_numberofpushbuttons;1
+2__2;2;;;pt_flush_iss_numberofpushbuttons;1
+3__4;4;;;pt_flush_iss_numberofpushbuttons;1
+1__dual_flush_3_6_litres;Dual flush 3/6 litres;;;pt_complet_sets_iss_flushingtype;1
+2__dual_flush_3_4_5_litres;Dual flush 3/4.5 litres;;;pt_complet_sets_iss_flushingtype;1
+3__dual_flush_2_4_litres;Dual flush 2/4 litres;;;pt_complet_sets_iss_flushingtype;1
+4__startstop;Start-Stop;;;pt_complet_sets_iss_flushingtype;1
+5__dual_flush_3_5_litres;Dual flush 3/5 litres;;;pt_complet_sets_iss_flushingtype;1
+6__single_flush_4_5_litres;Single flush 4.5 litres;;;pt_complet_sets_iss_flushingtype;1
+7__single_flush_6_litres;Single flush 6 litres;;;pt_complet_sets_iss_flushingtype;1
+8__single_flush_4_8_litres;Single flush 4.8 litres;;;pt_complet_sets_iss_flushingtype;1
+1__side;Side;;;pt_complet_sets_iss_waterinletposition;1
+2__bottom;Bottom;;;pt_complet_sets_iss_waterinletposition;1
+1__1;1;;;pt_complet_sets_iss_numberofpushbuttons;1
+2__2;2;;;pt_complet_sets_iss_numberofpushbuttons;1
+3__4;4;;;pt_complet_sets_iss_numberofpushbuttons;1
+1;Valor 1;Valor 1;Valor 1;tipo_lista;1
+2;Valor 2;Valor 2;Valor 2;tipo_lista;1
+1;Side left;Side left;Lateral izquierdo;pt_bundle_toilet_iss_waterinletposition;1
+2;Side right;Side right;Lateral derecho;pt_bundle_toilet_iss_waterinletposition;2
+3;Back left;Back left;Posterior izquierdo;pt_bundle_toilet_iss_waterinletposition;3
+4;Back right;Back right;Posterior derecho;pt_bundle_toilet_iss_waterinletposition;4
+5;Bottom left;Bottom left;Inferior izquierdo;pt_bundle_toilet_iss_waterinletposition;5
+6;Bottom right;Bottom right;Inferior derecho;pt_bundle_toilet_iss_waterinletposition;6
+7;Back Inlet;Back Inlet;Entrada posterior;pt_bundle_toilet_iss_waterinletposition;7
+8;Bottom Inlet;Bottom Inlet;Entrada inferior;pt_bundle_toilet_iss_waterinletposition;8
+9;Back & Bottom Inlet;Back & Bottom Inlet;Entrada posterior e inferior;pt_bundle_toilet_iss_waterinletposition;9
+1;Vertical;Vertical;Vertical;pt_bundle_toilet_iss_outlettype;1
+2;Horizontal;Horizontal;Horizontal;pt_bundle_toilet_iss_outlettype;2
+3;Dual (vario);Dual (vario);Dual (vario);pt_bundle_toilet_iss_outlettype;3
+1;Round;Round;Redondo;pt_bundle_toilet_iss_shape;1
+2;Square;Square;Cuadrado;pt_bundle_toilet_iss_shape;2
+3;Soft;Soft;Soft;pt_bundle_toilet_iss_shape;3
+4;Elongated;Elongated;Alargado;pt_bundle_toilet_iss_shape;4
+1;Wall-hung;Wall-hung;Suspendido;pt_bundle_toilet_iss_installationtype;1
+2;Floorstanding;Floorstanding;De pie;pt_bundle_toilet_iss_installationtype;2
+1;Washout;Washout;Fondo plano;pt_bundle_toilet_iss_flushingsystem;1
+2;Washdown;Washdown;Arrastre;pt_bundle_toilet_iss_flushingsystem;2
+3;Siphonic;Siphonic;Sifónico;pt_bundle_toilet_iss_flushingsystem;3
+1;Wall-hung;Wall-hung;Suspendido;pt_bundle_bidet_iss_installationtype;1
+2;Floorstanding;Floorstanding;De pie;pt_bundle_bidet_iss_installationtype;2
+1;1 Prepunched;1 Prepunched;1 Agujero insinuado;pt_bundle_bidet_iss_tapholeconfiguration;1
+2;1 Taphole;1 Taphole;1 Agujero;pt_bundle_bidet_iss_tapholeconfiguration;2
+3;2 Tapholes;2 Tapholes;2 Agujeros;pt_bundle_bidet_iss_tapholeconfiguration;3
+1;Round;Round;Redondo;pt_bundle_bidet_iss_shape;1
+2;Square;Square;Cuadrado;pt_bundle_bidet_iss_shape;2
+3;Soft;Soft;Soft;pt_bundle_bidet_iss_shape;3
+4;Elongated;Elongated;Alargado;pt_bundle_bidet_iss_shape;4
+8__public_facilities;Public facilities;Veřejné prostory;Edificios públicos;emblematicworks_cps_category;1
+9__stores;Flagship stores;Obchody;Flagship stores;emblematicworks_cps_category;1
+10__restaurants;Restaurants;Restaurace;Restaurants;emblematicworks_cps_category;1
+1__landmarks;Landmarks;Pamětihodnosti;Edificios emblemáticos;emblematicworks_cps_category;1
+2__entertainment_venues;Entertainment venues;Zábavní centra a areály;Edificios para espectáculos;emblematicworks_cps_category;1
+3__residential_buildings;Residential buildings;Obytné budovy;Edificios residenciales;emblematicworks_cps_category;1
+4__business_centres;Business centres;Obchodní centra;Complejos de oficinas;emblematicworks_cps_category;1
+5__transport_infrastructures;Transport infrastructures;Dopravní infrastruktura;Infraestructuras de transportes;emblematicworks_cps_category;1
+6__hotels_and_resorts;Hotels & Resorts;Hotely a resorty;Hoteles y Resorts;emblematicworks_cps_category;1

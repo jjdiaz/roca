@@ -1,0 +1,42 @@
+Roca\Bundle\RefdataBundle\Entity\Selling:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_selling
+    indexes:
+        idx_selling_name:
+          columns: [ name ]
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        websort:
+            type: integer
+            nullable: true
+        name:
+            type: string
+            length: 50
+#            unique: true
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\SellingTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    manyToMany:
+        searchs:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Search
+            mappedBy: sellings
+
+
+    lifecycleCallbacks: {  }

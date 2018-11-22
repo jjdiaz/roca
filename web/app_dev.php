@@ -22,8 +22,6 @@ if (isset($_SERVER['HTTP_CLIENT_IP'])
 require __DIR__.'/../vendor/autoload.php';
 Debug::enable();
 
-echo exec('whoami'); 
-
 $kernel = new AppKernel('dev', true);
 $request = Request::createFromGlobals();
 $response = $kernel->handle($request);

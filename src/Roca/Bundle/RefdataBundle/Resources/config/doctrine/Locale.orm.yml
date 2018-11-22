@@ -1,0 +1,22 @@
+Roca\Bundle\RefdataBundle\Entity\Locale:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_locale
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+    manyToOne:
+        akeneoLocale:
+            targetEntity: Pim\Bundle\CatalogBundle\Entity\Locale
+            joinColumn:
+                name: akeneo_locale_id
+                referencedColumnName: id
+
+    lifecycleCallbacks: {  }

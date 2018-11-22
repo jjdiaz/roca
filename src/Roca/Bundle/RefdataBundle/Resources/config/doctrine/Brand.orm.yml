@@ -1,0 +1,34 @@
+Roca\Bundle\RefdataBundle\Entity\Brand:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_brand
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        name:
+            type: string
+            length: 100
+#        continent:
+#            type: string
+#            length: 20
+#        mainCountry:
+#            type: boolean
+#    oneToMany:
+#        translations:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\CountryTranslation
+#            mappedBy: foreignKey
+#            cascade:
+#                - persist
+#                - detach
+#                - remove
+#            orphanRemoval: true
+
+
+    lifecycleCallbacks: {  }

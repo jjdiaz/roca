@@ -28,7 +28,12 @@ class AppKernel extends Kernel
     protected function registerProjectBundles()
     {
         return [
-            // your app bundles should be registered here
+            new Roca\Bundle\InstallerBundle\RocaInstallerBundle(),
+            new Roca\Bundle\MeasureBundle\RocaMeasureBundle(),
+            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
+            //new \Acme\Bundle\CustomBundle\AcmeCustomBundle(),
+
+            //new \Roca\Bundle\EnrichBundle\RocaEnrichBundle()
         ];
     }
 

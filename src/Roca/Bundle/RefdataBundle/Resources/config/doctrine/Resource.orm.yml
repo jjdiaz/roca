@@ -1,0 +1,92 @@
+Roca\Bundle\RefdataBundle\Entity\Resource:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_resource
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 80
+            unique: true
+        container:
+            type: string
+            length: 100
+            nullable: false
+        entity:
+            type: string
+            length: 100
+            nullable: false
+        sku:
+            type: string
+            length: 100
+            nullable: true
+        contentType:
+            type: string
+            length: 100
+            nullable: true
+        idObject:
+            type: string
+            length: 100
+            nullable: true
+        idRoca:
+            type: string
+            length: 100
+            nullable: true
+        file:
+            column: resource_file
+            type: string
+            length: 100
+            nullable: true
+        title:
+            type: string
+            length: 100
+            nullable: true
+        idRoca:
+            type: string
+            length: 100
+            nullable: true
+        delete:
+            column: resource_delete
+            type: boolean
+            nullable: false
+        publication:
+            type: boolean
+            nullable: false
+
+
+#    manyToMany:
+#        locales:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\Locale
+#            cascade:
+#                - persist
+#                - detach
+#                - remove
+#                - refresh
+#            joinTable:
+#                name: asm_market_locale
+#                joinColumns:
+#                    market_id:
+#                        referencedColumnName: id
+#                        onDelete: CASCADE
+#                inverseJoinColumns:
+#                    locale_id:
+#                        referencedColumnName: id
+#                        onDelete: CASCADE
+
+    oneToMany:
+        marketLocales:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\ResourceMarketLocale
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+
+
+    lifecycleCallbacks: {  }

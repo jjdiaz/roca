@@ -1,0 +1,15 @@
+custom_entities:
+    brand:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Brand
+        options:
+            edit_form_extension: pim-brand-edit-form
+
+    designline:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\DesignLine
+        options:
+            edit_form_extension: pim-designline-edit-form
+
+    designer:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Designer
+        options:
+            edit_form_extension: pim-designer-edit-form

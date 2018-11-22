@@ -97,3 +97,9 @@ fos_js_routing:
 
 _liip_imagine:
     resource: "@LiipImagineBundle/Resources/config/routing.xml"
+
+#Custom Entities
+
+pim_customentity:
+    prefix: /reference-data
+    resource: "@PimCustomEntityBundle/Resources/config/routing.yml"

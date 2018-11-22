@@ -1,0 +1,135 @@
+Roca\Bundle\RefdataBundle\Entity\DesignLine:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_designline
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        name:
+            type: string
+            length: 100
+        websort:
+            type: integer
+            nullable: true
+        status:
+            type: integer
+            nullable: true
+        fullset:
+            type: boolean
+            nullable: true
+        dateAvailability:
+            type: datetime
+            nullable: true
+        dateCancelation:
+            type: datetime
+            nullable: true
+        modificationDate:
+            type: datetime
+            nullable: true
+        technology:
+            type: string
+            length: 100
+            nullable: true
+        version:
+            type: integer
+            nullable: true
+
+    manyToOne:
+        designer:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Designer
+
+    manyToMany:
+        availableFor:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_designline_market_available
+                joinColumns:
+                    designline_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    market_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+        publishableTo:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Market
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_designline_market_publishable
+                joinColumns:
+                    designline_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    market_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+        emblematicWorks:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\EmblematicWork
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_designline_emblematicwork
+                joinColumns:
+                    designline_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    emblematic_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+        solutions:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Solution
+            mappedBy: designlines
+
+        distinctions:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\Distinction
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_designline_distinction
+                joinColumns:
+                    designline_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    distinction_id:
+                        referencedColumnName: id
+                        onDelete: CASCADE
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignLineTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    lifecycleCallbacks: {  }

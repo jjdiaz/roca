@@ -1,0 +1,67 @@
+Roca\Bundle\RefdataBundle\Entity\Solution:
+    repositoryClass: Pim\Bundle\CustomEntityBundle\Entity\Repository\CustomEntityRepository
+    type: entity
+    table: asm_solution
+    fields:
+        id: # required
+            type: integer
+            id: true
+            generator:
+                strategy: AUTO
+        code: # required
+            type: string
+            length: 10
+            unique: true
+        websort:
+            type: integer
+            nullable: true
+
+#    manyToOne:
+#        designer:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\Designer
+#        availableFor:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\Country
+#        publishableTo:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\Country
+
+#    manyToMany:
+#        designlines:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignLine
+#            mappedBy: solutions
+#            cascade:
+#                - persist
+#                - detach
+
+    manyToMany:
+        designlines:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\DesignLine
+            inversedBy: solutions
+            cascade:
+                - persist
+                - detach
+                - remove
+                - refresh
+            joinTable:
+                name: asm_solution_designline
+                joinColumns:
+                    solution_id:
+                        referencedColumnName: id
+                        nullable: true
+                        onDelete: CASCADE
+                inverseJoinColumns:
+                    designline_id:
+                        referencedColumnName: id
+                        nullable: true
+                        onDelete: CASCADE
+
+    oneToMany:
+        translations:
+            targetEntity: Roca\Bundle\RefdataBundle\Entity\SolutionTranslation
+            mappedBy: foreignKey
+            cascade:
+                - persist
+                - detach
+                - remove
+            orphanRemoval: true
+
+    lifecycleCallbacks: {  }
