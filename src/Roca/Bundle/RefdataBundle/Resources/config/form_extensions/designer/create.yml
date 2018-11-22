@@ -1,0 +1,32 @@
+extensions:
+    pim-designer-create-modal:
+        module: custom_entity/form/creation/modal
+        config:
+            labels:
+               title: pim_custom_entity.create_popin.title
+               subTitle: roca_custom.menu.item.reference_data.designer
+            picture: illustrations/User.svg
+            successMessage: pim_custom_entity.message.created
+            editRoute: pim_customentity_rest_get
+            postUrl:
+                route: pim_customentity_rest_create
+                parameters:
+                    customEntityName: designer
+
+    pim-designer-create-code:
+        module: pim/form/common/creation/field
+        parent: pim-designer-create-modal
+        targetZone: fields
+        position: 10
+        config:
+            identifier: code
+            label: roca_custom_entity.form.field.label.code
+
+    pim-designer-create-pcmname:
+        module: pim/form/common/creation/field
+        parent: pim-designer-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: pcmname
+            label: roca_custom_entity.form.field.label.pcmname

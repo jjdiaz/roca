@@ -36,6 +36,7 @@ Roca\Bundle\RefdataBundle\Entity\DesignLine:
         technology:
             type: string
             length: 100
+            nullable: true
         version:
             type: integer
             nullable: true

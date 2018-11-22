@@ -15,40 +15,35 @@ use spec\Pim\Bundle\CustomEntityBundle\Entity\CustomEntity;
  */
 class Designer extends AbstractTranslatableCustomEntity
 {
-
-
     /**
      * @var string
      *
      */
-    protected $pcmName;
+    protected $pcmname;
 
     /** @var string */
     protected $websort;
 
-
-
-
     /**
      * @return string
      */
-    public function getPcmName()
+    public function getPcmname(): string
     {
-        return $this->pcmName;
+        return $this->pcmname;
     }
 
     /**
-     * @param string $pcmName
+     * @param string $pcmname
      */
-    public function setPcmName($pcmName)
+    public function setPcmname(string $pcmname): void
     {
-        $this->pcmName = $pcmName;
+        $this->pcmname = $pcmname;
     }
 
     /**
      * @return string
      */
-    public function getWebsort()
+    public function getWebsort(): string
     {
         return $this->websort;
     }
@@ -56,7 +51,7 @@ class Designer extends AbstractTranslatableCustomEntity
     /**
      * @param string $websort
      */
-    public function setWebsort($websort)
+    public function setWebsort(string $websort): void
     {
         $this->websort = $websort;
     }

@@ -1,6 +1,10 @@
 confirmation.remove:
     brand: Do you really want to delete this brand?
-
+roca_custom:
+    message:
+        confrmation:
+            remove:
+                brand: Do you really want to delete this brand?
 flash:
     brand:
         created: The brand has been created
@@ -32,6 +36,11 @@ pim_custom_entity.reference_data.brand:
     delete: Delete a brand
     menu_entry: Brands
 
+pim_custom_entity.form.tab.resources:
+    title: Resources
+
+pim_custom_entity.form.tab.resources.title: Resources2
+
 acme_custom:
     acl:
         brand:
@@ -39,3 +48,5 @@ acme_custom:
             create: Create Brand
             edit: Edit Brand
             delete: Delete Brand
+
+roca_test: Reso_Mesa

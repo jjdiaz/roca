@@ -44,7 +44,7 @@ extensions:
             routeParams:
                 customEntityName: brand
             trans:
-                title: acme_custom.message.confirmation.remove.brand
+                title: roca_custom.message.confirmation.remove.brand
                 container: pim_enrich.confirmation.delete_item
                 success: pim_custom_entity.message.confirmation.removed
                 fail: pim_custom_entity.error.removing
@@ -55,14 +55,6 @@ extensions:
         parent: pim-brand-edit-form
         targetZone: buttons
         position: 120
-
-    pim-brand-edit-form-state:
-        module: pim/form/common/state
-        parent: pim-brand-edit-form
-        targetZone: state
-        position: 900
-        config:
-            entity: pim_enrich.entity.group.title
 
     pim-brand-edit-form-save:
         module: custom_entity/form/common/save-form
@@ -87,9 +79,26 @@ extensions:
         config:
             label: pim_custom_entity.form.tab.properties.title
 
+    pim-brand-edit-form-resources-tab:
+        module: pim/common/tab
+        parent: pim-brand-edit-form-form-tabs
+        targetZone: container
+        position: 110
+        config:
+#            label: roca_custom_entity.form.tab.resources.title
+            label: roca_test
+            title: roca_test
+
     pim-brand-edit-form-properties:
         module: pim/common/simple-view
         parent: pim-brand-edit-form-properties-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-brand-edit-form-resources:
+        module: pim/common/simple-view
+        parent: pim-brand-edit-form-resources-tab
         targetZone: self
         config:
             template: pim/template/form/tab/sections
@@ -98,7 +107,7 @@ extensions:
         module: pim/common/tab/history
         parent: pim-brand-edit-form-form-tabs
         targetZone: container
-        position: 110
+        position: 120
         config:
             class: brand
             title: pim_custom_entity.form.tab.history.title
@@ -106,6 +115,17 @@ extensions:
     pim-brand-edit-form-properties-common:
         module: pim/common/simple-view
         parent: pim-brand-edit-form-properties
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-brand-edit-form-resources-common:
+        module: pim/common/simple-view
+        parent: pim-brand-edit-form-resources
         targetZone: accordion
         position: 100
         config:
@@ -126,7 +146,7 @@ extensions:
             readOnly: true
 
     pim-brand-edit-form-properties-name:
-        module: custom_entity/field/custom-entity-select
+        module: pim/form/common/fields/text
         parent: pim-brand-edit-form-properties-common
         targetZone: content
         position: 100
@@ -134,6 +154,5 @@ extensions:
             fieldName: name
             choiceNameField: code
             choiceValueField: name
-            isCustomEntity: true
-            entityName: name
+            isCustomEntity: false
             required: true

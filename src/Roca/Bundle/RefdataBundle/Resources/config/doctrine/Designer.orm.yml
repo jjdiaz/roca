@@ -12,7 +12,7 @@ Roca\Bundle\RefdataBundle\Entity\Designer:
             type: string
             length: 10
             unique: true
-        pcmName:
+        pcmname:
             type: string
             length: 50
         websort:
