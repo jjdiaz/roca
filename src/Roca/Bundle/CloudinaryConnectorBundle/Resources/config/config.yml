@@ -1,0 +1,14 @@
+asm_cloudinary_connector:
+  settings:
+    cloud_name:
+      value: ~
+      scope: app
+    api_key:
+      value: ~
+      scope: app
+    api_secret:
+      value: ~
+      scope: app
+    environment_variable:
+      value: ~
+      scope: app

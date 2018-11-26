@@ -1,0 +1,4 @@
+config:
+    paths:
+        asmcloudinaryconnector/system/configuration: cloudinaryconnector/js/form/system
+        asmcloudinaryconnector/template/system/group/configuration: cloudinaryconnector/js/templates/system/group/configuration.html
