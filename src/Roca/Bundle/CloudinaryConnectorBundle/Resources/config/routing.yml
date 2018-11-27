@@ -1,4 +1,4 @@
-#asm_cloudinary_connector_check:
-#  path: /cloudinary/check
-#  defaults: { _controller: CloudinaryConnectorBundle:Connection:checkCredentials }
-#  methods: [POST]
+cloudinary_connector_check:
+    path: /cloudinary/check
+    defaults: { _controller: CloudinaryConnectorBundle:Main:checkCredentials }
+    methods: [POST]

@@ -33,7 +33,8 @@
         "akeneo/pim-enterprise-dev": "~2.3.8",
         "akeneo/pim-community-dev": "~2.3.8",
         "akeneo-labs/custom-entity-bundle": "2.4.*",
-        "misteio/cloudinary-bundle": "^0.2.0"
+        "misteio/cloudinary-bundle": "^0.2.0",
+        "textmaster/akeneo-extension": "2.3"
     },
     "require-dev": {
         "doctrine/migrations": "1.5.0",

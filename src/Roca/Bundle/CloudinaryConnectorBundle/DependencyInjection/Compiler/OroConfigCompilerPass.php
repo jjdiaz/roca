@@ -7,7 +7,7 @@
  *
  */
 
-namespace Roca\Bundle\CloudinaryConnectorBundle\DependencyInjection;
+namespace Roca\Bundle\CloudinaryConnectorBundle\DependencyInjection\Compiler;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
@@ -21,7 +21,7 @@ class OroConfigCompilerPass implements CompilerPassInterface
         $configManagerDefinition = $container->findDefinition('oro_config.global');
         $settings = $configManagerDefinition->getArguments()[1];
 
-        $diExtensionName = 'asm_cloudinary_connector';
+        $diExtensionName = 'cloudinary_connector';
         $bundleSettings = $settings[$diExtensionName];
 
         $configControllerDefinition = $container->findDefinition('oro_config.controller.configuration');

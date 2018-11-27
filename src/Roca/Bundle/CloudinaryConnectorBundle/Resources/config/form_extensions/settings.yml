@@ -1,6 +1,6 @@
 extensions:
-  pim-system-config-tab-cloudinary:
-    module: asmcloudinaryconnector/system/configuration
-    parent: oro-system-config-tabs
-    targetZone: container
-    position: 130
+    cloudinary_connector-system-configuration:
+        module: cloudinary_connector/system/configuration
+        parent: oro-system-config-tabs
+        targetZone: container
+        position: 140

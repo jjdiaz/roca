@@ -12,6 +12,7 @@ namespace Roca\Bundle\CloudinaryConnectorBundle\DependencyInjection;
 use Oro\Bundle\ConfigBundle\DependencyInjection\SettingsBuilder;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;
+use Symfony\Component\VarDumper\VarDumper;
 
 class Configuration implements ConfigurationInterface
 {
@@ -20,7 +21,7 @@ class Configuration implements ConfigurationInterface
     {
         $treeBuilder  = new TreeBuilder();
 
-        $rootNode = $treeBuilder->root('asm_cloudinary_connector');
+        $rootNode = $treeBuilder->root('asmcloudinary_connector');
 
         $children = $rootNode->children()
             ->scalarNode('cloud_name')->end()
@@ -37,7 +38,6 @@ class Configuration implements ConfigurationInterface
             'api_secret'            => ['value' => null],
             'environment_variable'  => ['value' => null],
     ]);
-
     return $treeBuilder;
     }
 }

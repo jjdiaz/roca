@@ -6,45 +6,45 @@
 
 <div class="AknSubsection">
     <header class="AknSubsection-title">
-        <span class="group-label"><%- _.__('asm_cloudinary_connector.configuration.section.cloudinary') %></span>
+        <span class="group-label"><%- _.__('asm_cloudinary_connector.configuration.section.credentials') %></span>
     </header>
     <div class="AknFormContainer AknFormContainer--withPadding">
 
         <div class="AknFieldContainer">
             <div class="AknFieldContainer-header">
                 <label class="AknFieldContainer-label"
-                       for="cloud_name"><%-
+                       for="cloudinaryconnector___cloudname"><%-
                     _.__('asm_cloudinary_connector.configuration.cloud_name') %></label>
             </div>
             <div class="AknFieldContainer-inputContainer">
                 <input class="AknTextField asm-cloudinary-config asm-cloudinary-cloudinary"
-                       id="cloud_name" name="cloud_name"
-                       type="text" value="<%- cloud_name %>"/>
+                       id="cloudinaryconnector___cloudname" name="cloudinaryconnector___cloud_name"
+                       type="text" value="<%- cloudname %>"/>
             </div>
         </div>
         <div class="AknFieldContainer">
             <div class="AknFieldContainer-header">
                 <label class="AknFieldContainer-label"
-                       for="api_key"><%-
+                       for="cloudinary_connector___apikey"><%-
                     _.__('asm_cloudinary_connector.configuration.api_key') %></label>
             </div>
             <div class="AknFieldContainer-inputContainer">
                 <input class="AknTextField asm-cloudinary-config asm-cloudinary-cloudinary"
-                       id="api_key" name="api_key"
-                       type="text" value="<%- api_key %>"/>
+                       id="cloudinary_connector___apikey" name="cloudinary_connector___api_key"
+                       type="text" value="<%- apikey %>"/>
             </div>
 
         </div>
         <div class="AknFieldContainer">
             <div class="AknFieldContainer-header">
                 <label class="AknFieldContainer-label"
-                       for="api_secret"><%-
+                       for="cloudinary_connector___apisecret"><%-
                     _.__('asm_cloudinary_connector.configuration.api_secret') %></label>
             </div>
             <div class="AknFieldContainer-inputContainer">
                 <input class="AknTextField asm-cloudinary-config asm-cloudinary-cloudinary"
-                       id="api_secret" name="api_secret"
-                       type="text" value="<%- api_secret %>"/>
+                       id="cloudinary_connector___apisecret" name="cloudinary_connector___api_secret"
+                       type="text" value="<%- apisecret %>"/>
             </div>
 
         </div>

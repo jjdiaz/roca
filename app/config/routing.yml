@@ -104,6 +104,9 @@ pim_customentity:
     prefix: /reference-data
     resource: "@PimCustomEntityBundle/Resources/config/routing.yml"
 
-asm_cloudinary_connector:
+cloudinary_connector:
     resource: '@CloudinaryConnectorBundle/Resources/config/routing.yml'
-    prefix: /cloudinary
+#    prefix: /cloudinary
+textmaster:
+    resource: "@PimTextmasterBundle/Resources/config/routing.yml"
+

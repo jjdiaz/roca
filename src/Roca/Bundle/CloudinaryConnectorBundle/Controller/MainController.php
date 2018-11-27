@@ -18,7 +18,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 
 
-class CloudinaryConnectorController extends Controller
+class MainController extends Controller
 {
     const INVALID_CREDENTIALS = 'Cloudinary connection data are invalid';
 
@@ -36,7 +36,7 @@ class CloudinaryConnectorController extends Controller
      * @param HttpClient $client
      * @param ConfigManager $config
      */
-    public function __construct(HttpClient $client, ConfigManager $config)
+    public function __construct(HttpClient $client=null, ConfigManager $config=null)
     {
         $this->$client = $client;
         $this->config = $config;
