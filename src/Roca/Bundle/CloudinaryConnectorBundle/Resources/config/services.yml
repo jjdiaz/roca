@@ -1,0 +1,12 @@
+services:
+  asm_cloudinary_connector.controller.main:
+    class: Roca\Bundle\CloudinaryConnectorBundle\Controller\MainController
+    arguments:
+        - '@http_kernel'
+        - '@oro_config.global'
+
+  asm_cloudinary_connector.http.client:
+    class: Roca\Bundle\CloudinaryConnectorBundle\Http\HttpClient
+    arguments:
+        - '@oro_config.global'
+        - '%asm_cloudinary_connector.endpoint.server%'

@@ -60,6 +60,23 @@ pim_reference_data:
         class: PimEnterprise\Component\ProductAsset\Model\Asset
         type: multi
 
+    finish:
+        class: Roca\Bundle\RefdataBundle\Entity\Finish
+        type: simple
+
 parameters:
     pim_ce_dev_src_folder_location: '%kernel.project_dir%/vendor/akeneo/pim-community-dev'
     pim_ee_dev_src_folder_location: '%kernel.project_dir%/vendor/akeneo/pim-enterprise-dev'
+
+#akeneo_storage_utils:
+#    mapping_overrides:
+#    -
+#        original: Pim\Bundle\CatalogBundle\Entity\Attribute
+#        override: Roca\Bundle\EnrichBundle\Entity\Attribute
+
+misteio_cloudinary:
+    cloud_name: roca
+    api_key: 679236222545574
+    secret_key: vhCKjIPoA8d_rjX4vRGAahpFr7o
+
+

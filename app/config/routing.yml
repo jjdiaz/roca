@@ -103,3 +103,11 @@ _liip_imagine:
 pim_customentity:
     prefix: /reference-data
     resource: "@PimCustomEntityBundle/Resources/config/routing.yml"
+
+#cloudinary_connector:
+#    resource: '@CloudinaryConnectorBundle/Resources/config/routing.yml'
+#    prefix: /cloudinary
+#textmaster:
+#    resource: "@PimTextmasterBundle/Resources/config/routing.yml"
+
+

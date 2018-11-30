@@ -19,7 +19,8 @@
         "psr-4": {
             "Akeneo\\TestEnterprise\\Integration\\": "tests/",
             "Pim\\Upgrade\\": "upgrades/",
-            "Akeneo\\Test\\Integration\\": "vendor/akeneo/pim-community-dev/tests/"
+            "Asm\\Bundle\\CloudinaryBundle\\": "lib/CloudinaryBundle/src/"
+
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ],
         "exclude-from-classmap": [
@@ -33,7 +34,8 @@
         "akeneo/pim-enterprise-dev": "~2.3.8",
         "akeneo/pim-community-dev": "~2.3.8",
         "akeneo-labs/custom-entity-bundle": "2.4.*",
-        "cloudinary/cloudinary_php": "^1.12"
+        "misteio/cloudinary-bundle": "^0.2.0",
+        "textmaster/akeneo-extension": "2.3"
     },
     "require-dev": {
         "doctrine/migrations": "1.5.0",
@@ -47,7 +49,7 @@
         },
         {
             "type": "vcs",
-            "url": "ssh://git@distribution.akeneo.com:443/pim-enterprise-dev-celsa.git",
+            "url": "ssh://git@distribution.akeneo.com:443/pim-enterprise-dev-roca-es.git",
             "branch": "master"
         }
     ],

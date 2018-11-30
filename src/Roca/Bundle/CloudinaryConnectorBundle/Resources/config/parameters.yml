@@ -1,0 +1,2 @@
+parameters:
+  asm_cloudinary_connector.endpoint.server: 'https://cloudinary.com/console'

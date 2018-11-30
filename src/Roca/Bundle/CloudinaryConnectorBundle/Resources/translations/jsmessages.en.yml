@@ -1,0 +1,11 @@
+asm_cloudinary_connector:
+  configuration:
+    cloud_name: Cloud Name
+    api_key: API Key
+    api_secret: API Secret
+    section:
+      cloudinary: Cloudinary Configuration
+      credentials: Credenciales
+
+    tab:
+      label: Cloudinary Connector V
