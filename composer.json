@@ -19,7 +19,8 @@
         "psr-4": {
             "Akeneo\\TestEnterprise\\Integration\\": "tests/",
             "Pim\\Upgrade\\": "upgrades/",
-            "Akeneo\\Test\\Integration\\": "vendor/akeneo/pim-community-dev/tests/"
+            "Asm\\Bundle\\CloudinaryBundle\\": "lib/CloudinaryBundle/src/"
+
         },
         "classmap": [ "app/AppKernel.php", "app/AppCache.php" ],
         "exclude-from-classmap": [

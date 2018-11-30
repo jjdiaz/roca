@@ -7,7 +7,7 @@
  *
  */
 
-namespace Roca\Bundle\CloudinaryConnectorBundle\DependencyInjection;
+namespace Asm\Bundle\CloudinaryBundle\DependencyInjection;
 
 use Oro\Bundle\ConfigBundle\DependencyInjection\SettingsBuilder;
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
@@ -17,28 +17,35 @@ use Symfony\Component\VarDumper\VarDumper;
 class Configuration implements ConfigurationInterface
 {
 
+    /**
+     * {@inheritDoc}
+     * @return TreeBuilder
+     */
     public function getConfigTreeBuilder()
     {
         $treeBuilder  = new TreeBuilder();
 
-        $rootNode = $treeBuilder->root('asmcloudinary_connector');
+        $rootNode = $treeBuilder->root('asm_cloudinary');
 
-        $children = $rootNode->children()
+        $rootNode->children()
             ->scalarNode('cloud_name')->end()
             ->scalarNode('api_key')->end()
             ->scalarNode('api_secret')->end()
-            ->scalarNode('environment_variable')->end();
-    $children->end();
-    $rootNode->end();
+            ->scalarNode('environment_variable')->end()
+            ->end();
+        $rootNode->end();
 
-    SettingsBuilder::append(
-        $rootNode,[
-            'cloud_name'            => ['value' => null],
-            'api_key'               => ['value' => null],
-            'api_secret'            => ['value' => null],
-            'environment_variable'  => ['value' => null],
-    ]);
-    VarDumper::dump($treeBuilder);die;
+        SettingsBuilder::append(
+            $rootNode,
+            [
+                'api_key' => ['value' => null],
+                'api_secret' => ['value' => null],
+                'attributes' => ['value' => null],
+            ]
+        );
+        VarDumper::dump($treeBuilder);;
     return $treeBuilder;
     }
+
+
 }

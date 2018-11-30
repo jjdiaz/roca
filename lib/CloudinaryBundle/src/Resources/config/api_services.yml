@@ -1,0 +1,6 @@
+services:
+    asm_cloudinary.api.httpclient_factory:
+        class: Asm\Bundle\CloudinaryBundle\Api\ClientFactory
+        arguments:
+            - '@oro_config.global'
+

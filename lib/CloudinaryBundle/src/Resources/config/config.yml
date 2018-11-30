@@ -1,0 +1,23 @@
+# Cloudinary Connector extension configuration
+asm_cloudinary2:
+    settings:
+        cloud_name:
+            value: 1234
+            scope: app
+        api_key:
+            value: your_api_key
+            scope: app
+        api_secret:
+            value: your_secret_key
+            scope: app
+        environment_variable:
+            value: ~
+            scope: app
+monolog:
+    channels: ['cloudinary_connector']
+    handlers:
+        cloudinary_connector:
+            type: stream
+            path:  %kernel.logs_dir%/cloudinary_%kernel.environment%.log
+            level: info
+            channels: cloudinary_connector
