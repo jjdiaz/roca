@@ -2,5 +2,5 @@ extensions:
     cloudinary-system-configuration:
         module:  asmcloudinaryconnector/template/system/group/configuration
         parent: oro-system-config-system
-        targetZone: content
+        targetZone: container
         position: 120
