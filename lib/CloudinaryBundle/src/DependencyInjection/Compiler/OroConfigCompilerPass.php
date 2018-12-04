@@ -8,10 +8,19 @@
  */
 
 namespace Asm\Bundle\CloudinaryBundle\DependencyInjection\Compiler;
+
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\VarDumper\VarDumper;
 
+/**
+ * Inject the extension settings in the configuration controller.
+ * TODO: should be reworked in the PIM core project
+ *
+ * @author    Jean-Marie Leroux <jean-marie.leroux@akeneo.com>
+ * @copyright 2016 TextMaster.com (https://textmaster.com)
+ * @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
 class OroConfigCompilerPass implements CompilerPassInterface
 {
     /**
@@ -22,13 +31,13 @@ class OroConfigCompilerPass implements CompilerPassInterface
         $configManagerDefinition = $container->findDefinition('oro_config.global');
         $settings = $configManagerDefinition->getArguments()[1];
 
-        $diExtensionName = 'pim_ui';
-//        VarDumper::dump( $configManagerDefinition->getArguments());die;
+        $diExtensionName = 'asm_cloudinary';
         $bundleSettings = $settings[$diExtensionName];
 
         $configControllerDefinition = $container->findDefinition('oro_config.controller.configuration');
         $arguments = $configControllerDefinition->getArguments();
         $options = $arguments[3];
+
         foreach ($bundleSettings as $name => $value) {
             $options[] = [
                 'section' => $diExtensionName,

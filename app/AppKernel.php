@@ -32,9 +32,9 @@ class AppKernel extends Kernel
             new Roca\Bundle\MeasureBundle\RocaMeasureBundle(),
             new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
 //            new Roca\Bundle\CloudinaryConnectorBundle\CloudinaryConnectorBundle(),
-            new Misteio\CloudinaryBundle\MisteioCloudinaryBundle(),
+//            new Misteio\CloudinaryBundle\MisteioCloudinaryBundle(),
             new \Pim\Bundle\TextmasterBundle\PimTextmasterBundle(),
-            new \Roca\Bundle\BlogBundle\BlogBundle(),
+            //new \Roca\Bundle\BlogBundle\BlogBundle(),
             new \Asm\Bundle\CloudinaryBundle\AsmCloudinaryBundle(),
             //new \Acme\Bundle\CustomBundle\AcmeCustomBundle(),
 

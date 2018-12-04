@@ -74,9 +74,9 @@ parameters:
 #        original: Pim\Bundle\CatalogBundle\Entity\Attribute
 #        override: Roca\Bundle\EnrichBundle\Entity\Attribute
 
-misteio_cloudinary:
-    cloud_name: roca
-    api_key: 679236222545574
-    secret_key: vhCKjIPoA8d_rjX4vRGAahpFr7o
+#misteio_cloudinary:
+#    cloud_name: roca
+#    api_key: 679236222545574
+#    secret_key: vhCKjIPoA8d_rjX4vRGAahpFr7o
 
 

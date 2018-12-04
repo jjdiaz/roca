@@ -12,3 +12,8 @@ services:
         - '@oro_config.global'
         - '%asm_cloudinary.endpoint.server%'
     public: true
+
+  asm.cloudinay_extension:
+    class: Asm\Bundle\CloudinaryBundle\DependencyInjection\AsmCloudinaryExtension
+    public: false
+

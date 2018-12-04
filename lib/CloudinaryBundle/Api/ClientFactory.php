@@ -32,7 +32,8 @@ class ClientFactory
      */
     public function createHttpClient(array $options)
     {
-        $apiKey = $this->configManager->get('asm_cloudinary.api_key');
+        $apiKey = $this->configManager->get('asm_cloudinary.cloud_name');
+        $apiSecret = $this->configManager->get('asm_cloudinary.api_key');
         $apiSecret = $this->configManager->get('asm_cloudinary.api_secret');
         $client = new HttpClient($apiKey, $apiSecret, $options);
 

@@ -1,6 +1,6 @@
 extensions:
-    cloudinary-system-configuration:
-        module: cloudinary/system/configuration
+    cloudynary-system-configuration:
+        module: textmaster/system/configuration
         parent: oro-system-config-tabs
         targetZone: container
-        position: 140
+        position: 130

@@ -10,13 +10,17 @@ use Symfony\Component\VarDumper\VarDumper;
 
 class AsmCloudinaryBundle extends Bundle
 {
-    public function getContainerExtension()
-    {
-        if(null===$this->extension){
-            $this->extension = new AsmCloudinaryExtension();
-        }
-        return $this->extension;
-    }
+//    public function getContainerExtension()
+//    {
+//        if(null===$this->extension){
+//            $this->extension = new AsmCloudinaryExtension();
+//        }
+//        return $this->extension;
+//
+//        return new Uncon();
+//
+//    }
+
     /**
      * {@inheritdoc}
      */
