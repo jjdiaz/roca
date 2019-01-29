@@ -1,5 +1,0 @@
-# /src/Acme/Bundle/BlogBundle/Resources/config/requirejs.yml
-
-config:
-  paths:
-    pim/configuration/tab: blog/js/configuration/tab.js

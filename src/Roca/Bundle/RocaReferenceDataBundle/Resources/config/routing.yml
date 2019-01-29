@@ -1,3 +1,0 @@
-roca_homepage:
-    path:     /newcontroller
-    defaults: { _controller: RocaBundle:Default:index }

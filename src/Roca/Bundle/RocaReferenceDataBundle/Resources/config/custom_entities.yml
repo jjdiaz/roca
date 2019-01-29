@@ -1,6 +1,0 @@
-custom_entities:
-    supplier:
-        entity_class: Roca\Bundle\RocaReferenceDataBundle\Entity\Supplier
-    options:
-        edit_form_extension: roca-supplier-edit-form
-
