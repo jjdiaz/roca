@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-code;categories;localized;description;tags;end_of_use
-=======
 code;categories;description;end_of_use;localized;tags
 evershine;GENERAL;;;1;
 softturn;GENERAL;;;1;
@@ -26,4 +23,3 @@ Beyond_A851395402_Roca_TF_Web_Big;;;;0;
 Beyond_A851395806_Roca_TF_Web_Big;;;;0;
 A3270B8000_TF_Web_Big;;;;0;
 Beyond_3270B1xx0_2_Roca_TF_Web_Big;;;;0;
->>>>>>> jjd/cloudinary

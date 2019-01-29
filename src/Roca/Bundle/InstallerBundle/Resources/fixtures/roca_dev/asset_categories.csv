@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-code;parent;label-en_GB_INT;label-es_ES;label-cs_CZ
-asset_main_catalog;;MAIN CATALOG;MAIN CATALOG;MAIN CATALOG
-=======
 code;label-es_ES;label-en_INT_GB;parent
 asset_main_catalog;MAIN CATALOG;MAIN CATALOG;
 BASSINS;BASSINS;BASSINS;asset_main_catalog
@@ -24,4 +20,3 @@ DAMARETRO;DAMA RETRO;DAMA RETRO;DESIGNLINES
 DEBBA;DEBBA;DEBBA;DESIGNLINES
 VICTORIA;VICTORIA;VICTORIA;DESIGNLINES
 BABY;BABY;BABY;DESIGNLINES
->>>>>>> jjd/cloudinary
