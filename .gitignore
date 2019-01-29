@@ -23,14 +23,11 @@ build/
 !/docker/akeneo.conf
 !/docker/httpd.conf
 vendor
-/bin/*
 !/bin/docker
 /bin/docker/*
 !/bin/docker/pim-dependencies.sh
 !/bin/docker/pim-front.sh
 !/bin/docker/pim-initialize.sh
-!/bin/console
-bin/console
 lib/
 behat.yml
 .phpspec/*.tpl
