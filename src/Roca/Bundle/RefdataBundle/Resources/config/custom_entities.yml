@@ -4,6 +4,11 @@ custom_entities:
         options:
             edit_form_extension: pim-brand-edit-form
 
+    country:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Country
+        options:
+            edit_form_extension: pim-country-edit-form
+
     designline:
         entity_class: Roca\Bundle\RefdataBundle\Entity\DesignLine
         options:

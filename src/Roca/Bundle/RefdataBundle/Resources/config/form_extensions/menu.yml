@@ -42,7 +42,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.country
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: country
 
   roca_custom-menu-reference_data-item-markets:
     module: pim/menu/item
@@ -52,7 +52,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.markets
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: market
 
   roca_custom-menu-reference_data-item-resources:
     module: pim/menu/item
@@ -62,7 +62,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.resources
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: resource
 
   roca_custom-menu-reference_data-item-designers:
     module: pim/menu/item
@@ -92,7 +92,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.distinctions
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: distintion
 
   roca_custom-menu-reference_data-item-emblematic_works:
     module: pim/menu/item
@@ -102,7 +102,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.emblematic_works
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: emblematicwork
 
   roca_custom-menu-reference_data-item-finish:
     module: pim/menu/item
@@ -112,7 +112,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.finish
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: finish
 
   roca_custom-menu-reference_data-item-solutions:
     module: pim/menu/item
@@ -122,7 +122,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.solutions
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: solution
 
   roca_custom-menu-reference_data-item-pictos:
     module: pim/menu/item
@@ -132,7 +132,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.pictos
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: picto
 
   roca_custom-menu-reference_data-item-sellings:
     module: pim/menu/item
@@ -142,7 +142,8 @@ extensions:
       title: roca_custom.menu.item.reference_data.sellings
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: selling
+
   roca_custom-menu-reference_data-item-searchs:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-hierarchies
@@ -151,4 +152,4 @@ extensions:
       title: roca_custom.menu.item.reference_data.searchs
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: search

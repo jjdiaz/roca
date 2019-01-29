@@ -2,9 +2,9 @@
 
 namespace Roca\Bundle\RefdataBundle\Entity;
 
+use Roca\Bundle\RefdataBundle\Entity\TranslatableCustomEntityInterface;
 use Akeneo\Component\Localization\Model\AbstractTranslation;
 use Akeneo\Component\Localization\Model\TranslationInterface;
-use Pim\Component\Catalog\Model\FamilyTranslationInterface;
 
 /**
  * CountryTranslation entity
@@ -12,25 +12,30 @@ use Pim\Component\Catalog\Model\FamilyTranslationInterface;
  * @author    J
  * @copyright 2017 ASMWS
  */
-class CountryTranslation extends AbstractTranslation implements TranslationInterface
+class CountryTranslation extends AbstractTranslation implements TranslationInterface, TranslatableCustomEntityInterface
 {
-    /** @var string */
-    protected $name;
 
+    /**
+     * @var string $label
+     */
+    protected $label;
+
+    /**
+     * @param string $label
+     *
+     * @return TranslatableCustomEntityInterface
+     */
+    public function setLabel(string $label): TranslatableCustomEntityInterface
+    {
+        $this->label = $label;
+        return $this;
+    }
     /**
      * @return string
      */
-    public function getName()
+    public function getLabel(): string
     {
-        return $this->name;
-    }
-
-    /**
-     * @param string $name
-     */
-    public function setName($name)
-    {
-        $this->name = $name;
+        return $this->label;
     }
 
     /**
@@ -38,6 +43,6 @@ class CountryTranslation extends AbstractTranslation implements TranslationInter
      */
     public function __toString()
     {
-        return (string) $this->getName();
+        return (string) $this->label;
     }
 }

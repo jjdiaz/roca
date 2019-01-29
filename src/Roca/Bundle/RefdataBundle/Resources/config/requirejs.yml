@@ -1,0 +1,6 @@
+#src/Roca/Bundle/RefdataBundle/Resources/config/requirejs.yml
+config:
+  paths:
+    roca/form/common/fields/assets: rocarefdata/js/form/common/fields/assets.js
+    roca/form/common/field/text: rocarefdata/js/form/common/fields/text.js
+    roca/template/form/common/fields/text: rocarefdata/template/form/common/fields/text.html

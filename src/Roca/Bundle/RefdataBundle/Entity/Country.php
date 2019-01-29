@@ -14,7 +14,6 @@ use spec\Pim\Bundle\CustomEntityBundle\Entity\CustomEntity;
  */
 class Country extends AbstractTranslatableCustomEntity
 {
-
     /**
      * @var string
      *
@@ -38,8 +37,6 @@ class Country extends AbstractTranslatableCustomEntity
      *
      */
     protected $market;
-
-
 
 
     /**
@@ -95,9 +92,14 @@ class Country extends AbstractTranslatableCustomEntity
         return 'country';
     }
 
-    public function getTranslationFQCN()
+    /**
+     * Get the custom entity name used in the configuration
+     *
+     * @return string
+     */
+    public function getTranslationFQCN() : string
     {
-        return 'Roca\Bundle\RefdataBundle\Entity\CountryTranslation';
+        return CountryTranslation::class;
     }
 
     /**
@@ -115,6 +117,4 @@ class Country extends AbstractTranslatableCustomEntity
     {
         $this->market = $market;
     }
-
-
 }

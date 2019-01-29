@@ -118,13 +118,13 @@ jobs:
                         operator: '>='
                         value: 100
                         context:
-                            locales: ['en_GB_INT', 'es_ES', 'cs_CZ']
+                            locales: ['en_INT_GB', 'es_ES', 'cs_CZ']
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
     csv_product_model_export:
         connector: Akeneo CSV Connector
         alias:     csv_product_model_export
@@ -140,9 +140,9 @@ jobs:
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
     csv_published_product_export:
         connector: Akeneo CSV Connector
         alias:     csv_published_product_export
@@ -167,20 +167,20 @@ jobs:
                         operator: '>='
                         value: 100
                         context:
-                            locales: ['en_GB_INT', 'es_ES', 'cs_CZ']
+                            locales: ['en_INT_GB', 'es_ES', 'cs_CZ']
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
     csv_category_import:
         connector: Akeneo CSV Connector
         alias:     csv_category_import
         label:     Roca CSV category import
         type:      import
         configuration:
-            filePath:            /tmp/category.csv
+            filePath:            /tmp/categories.csv
             uploadAllowed:       true
             delimiter:           ;
             enclosure:           '"'
@@ -193,14 +193,14 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/category.csv
+            filePath:   /tmp/categories.csv
     csv_association_type_import:
         connector: Akeneo CSV Connector
         alias:     csv_association_type_import
         label:     Roca CSV association type import
         type:      import
         configuration:
-            filePath:      /tmp/association_type.csv
+            filePath:      /tmp/association_types.csv
             uploadAllowed: true
             delimiter:     ;
             enclosure:     '"'
@@ -213,7 +213,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/association_type.csv
+            filePath:   /tmp/association_types.csv
     csv_group_import:
         connector: Akeneo CSV Connector
         alias:     csv_group_import
@@ -240,7 +240,7 @@ jobs:
         label:     Roca CSV attribute import
         type:      import
         configuration:
-            filePath:      /tmp/attribute.csv
+            filePath:      /tmp/attributes.csv
             uploadAllowed: true
             delimiter:     ;
             enclosure:     '"'
@@ -253,7 +253,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/attribute.csv
+            filePath:   /tmp/attributes.csv
     csv_option_import:
         connector: Akeneo CSV Connector
         alias:     csv_attribute_option_import
@@ -466,7 +466,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/asset_category.csv
+            filePath:   /tmp/asset_categories.csv
     csv_asset_category_import:
         connector: Akeneo Product Asset Connector
         alias:     csv_asset_category_import
@@ -486,7 +486,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/asset.csv
+            filePath:   /tmp/assets.csv
     csv_asset_variation_export:
         connector: Akeneo Product Asset Connector
         alias:     csv_asset_variation_export
@@ -527,7 +527,7 @@ jobs:
         label:     Roca CSV family import
         type:      import
         configuration:
-            filePath:      /tmp/family.csv
+            filePath:      /tmp/families.csv
             uploadAllowed: true
             delimiter:     ;
             enclosure:     '"'
@@ -537,7 +537,7 @@ jobs:
         label:     Roca CSV family variant import
         type:      import
         configuration:
-            filePath:      /tmp/family_variant.csv
+            filePath:      /tmp/family_variants.csv
             uploadAllowed: true
             delimiter:     ;
             enclosure:     '"'
@@ -550,7 +550,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/family.csv
+            filePath:   /tmp/families.csv
     csv_family_variant_export:
         connector: Akeneo CSV Connector
         alias:     csv_family_variant_export
@@ -560,7 +560,7 @@ jobs:
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
-            filePath:   /tmp/family_variant.csv
+            filePath:   /tmp/family_variants.csv
     xlsx_product_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_product_export
@@ -584,13 +584,13 @@ jobs:
                         operator: '>='
                         value: 100
                         context:
-                            locales: ['en_GB_INT', 'es_ES', 'cs_CZ']
+                            locales: ['en_INT_GB', 'es_ES', 'cs_CZ']
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
     xlsx_product_model_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_product_model_export
@@ -604,9 +604,9 @@ jobs:
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
     xlsx_published_product_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_published_product_export
@@ -630,13 +630,13 @@ jobs:
                         operator: '>='
                         value: 100
                         context:
-                            locales: ['en_GB_INT', 'es_ES', 'cs_CZ']
+                            locales: ['en_INT_GB', 'es_ES', 'cs_CZ']
                 structure:
                     scope: ecommerce
                     locales:
-                        - en_GB_INT
+                        - en_INT_GB
                         - es_ES
-                        - cs_CZ
+                        
 
     xlsx_product_quick_export:
         connector: Akeneo XLSX Connector
@@ -739,7 +739,7 @@ jobs:
         label:     Roca XLSX category import
         type:      import
         configuration:
-            filePath:            /tmp/category.xlsx
+            filePath:            /tmp/categories.xlsx
             uploadAllowed:       true
     xlsx_association_type_import:
         connector: Akeneo XLSX Connector
@@ -747,7 +747,7 @@ jobs:
         label:     Roca XLSX association type import
         type:      import
         configuration:
-            filePath:      /tmp/association_type.xlsx
+            filePath:      /tmp/association_types.xlsx
             uploadAllowed: true
     xlsx_attribute_import:
         connector: Akeneo XLSX Connector
@@ -755,7 +755,7 @@ jobs:
         label:     Roca XLSX attribute import
         type:      import
         configuration:
-            filePath:      /tmp/attribute.xlsx
+            filePath:      /tmp/attributes.xlsx
             uploadAllowed: true
     xlsx_option_import:
         connector: Akeneo XLSX Connector
@@ -771,14 +771,14 @@ jobs:
         label:     Roca XLSX family import
         type:      import
         configuration:
-            filePath:      /tmp/family.xlsx
+            filePath:      /tmp/families.xlsx
     xlsx_family_variant_import:
         connector: Akeneo XLSX Connector
         alias:     xlsx_family_variant_import
         label:     Roca XLSX family variant import
         type:      import
         configuration:
-            filePath:      /tmp/family_variant.xlsx
+            filePath:      /tmp/family_variants.xlsx
     xlsx_asset_import:
         connector: Akeneo Product Asset Connector
         alias:     xlsx_asset_import
@@ -820,7 +820,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath: /tmp/family.xlsx
+            filePath: /tmp/families.xlsx
     xlsx_family_variant_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_family_variant_export
@@ -829,7 +829,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath: /tmp/family_variant.xlsx
+            filePath: /tmp/family_variants.xlsx
     xlsx_category_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_category_export
@@ -838,7 +838,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath:   /tmp/category.xlsx
+            filePath:   /tmp/categories.xlsx
     xlsx_attribute_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_attribute_export
@@ -847,7 +847,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath:   /tmp/attribute.xlsx
+            filePath:   /tmp/attributes.xlsx
     xlsx_option_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_attribute_option_export
@@ -899,6 +899,7 @@ jobs:
         label:     Roca CSV attribute group export
         type:      export
         configuration:
+            filePath:      /tmp/attribute_groups.csv
             delimiter:  ;
             enclosure:  '"'
             withHeader: true
@@ -951,7 +952,7 @@ jobs:
             uploadAllowed: true
             delimiter:     ;
             enclosure:     '"'
-            filePath:      /tmp/attribute_group.csv
+            filePath:      /tmp/attribute_groups.csv
     xlsx_association_type_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_association_type_export
@@ -960,7 +961,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath:   /tmp/association_type.xlsx
+            filePath:   /tmp/association_types.xlsx
     xlsx_asset_export:
         connector: Akeneo Product Asset Connector
         alias:     xlsx_asset_export
@@ -969,7 +970,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath:   /tmp/asset.xlsx
+            filePath:   /tmp/assets.xlsx
     xlsx_asset_category_export:
         connector: Akeneo Product Asset Connector
         alias:     xlsx_asset_category_export
@@ -978,7 +979,7 @@ jobs:
         configuration:
             withHeader: true
             linesPerFile: 10000
-            filePath:   /tmp/asset_category.xlsx
+            filePath:   /tmp/asset_categories.xlsx
     xlsx_asset_variation_export:
         connector: Akeneo Product Asset Connector
         alias:     xlsx_asset_variation_export
@@ -1037,7 +1038,6 @@ jobs:
         type:      import
         configuration:
             uploadAllowed: true
-            filePath: /tmp/attribute_group.xlsx
     xlsx_channel_export:
         connector: Akeneo XLSX Connector
         alias:     xlsx_channel_export

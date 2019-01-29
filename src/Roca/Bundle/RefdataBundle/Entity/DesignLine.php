@@ -8,7 +8,7 @@ use Pim\Bundle\CustomEntityBundle\Entity\AbstractCustomEntity;
 use Pim\Bundle\CustomEntityBundle\Entity\AbstractTranslatableCustomEntity;
 use Pim\Component\ReferenceData\Model\AbstractReferenceData;
 use spec\Pim\Bundle\CustomEntityBundle\Entity\CustomEntity;
-
+use PimEnterprise\Component\ProductAsset\Model\AssetInterface;
 
 /**
  * DesignLine
@@ -62,6 +62,25 @@ class DesignLine extends AbstractTranslatableCustomEntity
     /** @var ArrayCollection */
     protected $distinctions;
 
+    /** @var string */
+    protected $resources;
+
+    /** @var ArrayCollection of AssetInterface     */
+    protected $assets;
+
+    /** @var boolean */
+    protected $accessible;
+
+    /** @var boolean */
+    protected $children;
+
+    /** @var boolean */
+    protected $publicSpaces;
+
+    /** @var boolean */
+    protected $eco;
+
+
 
     /**
      * @return integer
@@ -80,14 +99,14 @@ class DesignLine extends AbstractTranslatableCustomEntity
     }
 
 
-    public function getCustomEntityName() : string
+    public function getCustomEntityName(): string
     {
         return 'designline';
     }
 
     public function getTranslationFQCN()
     {
-        return 'Roca\Bundle\RefdataBundle\Entity\DesignLineTranslation';
+        return 'ASM\Bundle\ASMBundle\Entity\DesignLineTranslation';
     }
 
     /**
@@ -162,6 +181,10 @@ class DesignLine extends AbstractTranslatableCustomEntity
         $this->publishableTo = new ArrayCollection();
         $this->emblematicWorks = new ArrayCollection();
         $this->distinctions = new ArrayCollection();
+
+        $this->resources = new ArrayCollection();
+
+        $this->assets = new ArrayCollection();
     }
 
     /**
@@ -329,7 +352,130 @@ class DesignLine extends AbstractTranslatableCustomEntity
      */
     public function __toString()
     {
-        return (string) 'DesignLine:'.$this->getName();
+        return (string) $this->getName();
     }
+
+    public static function getLabelProperty()
+    {
+        return 'name';
+    }
+
+    /**
+     * @return string
+     */
+    public function getResources()
+    {
+        return $this->resources;
+    }
+
+    /**
+     * @param string $resources
+     */
+    public function setResources($resources)
+    {
+        $this->resources = $resources;
+    }
+
+    /**
+     * @return ArrayCollection
+     */
+    public function getAssets()
+    {
+        return $this->assets;
+    }
+
+    /**
+     * @param AssetInterface $asset
+     * @return $this
+     */
+    public function addAsset(AssetInterface $asset)
+    {
+        if (!$this->assets->contains($asset))
+        {
+            $this->assets->add($asset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @param AssetInterface $asset
+     * @return $this
+     */
+    public function removeAsset(AssetInterface $asset)
+    {
+        if($this->assets->contains($asset))
+        {
+            $this->assets->removeElement($asset);
+        }
+
+        return $this;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isAccessible()
+    {
+        return $this->accessible;
+    }
+
+    /**
+     * @param bool $accessible
+     */
+    public function setAccessible($accessible)
+    {
+        $this->accessible = $accessible;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isChildren()
+    {
+        return $this->children;
+    }
+
+    /**
+     * @param bool $children
+     */
+    public function setChildren($children)
+    {
+        $this->children = $children;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isPublicSpaces()
+    {
+        return $this->publicSpaces;
+    }
+
+    /**
+     * @param bool $publicSpaces
+     */
+    public function setPublicSpaces($publicSpaces)
+    {
+        $this->publicSpaces = $publicSpaces;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isEco()
+    {
+        return $this->eco;
+    }
+
+    /**
+     * @param bool $eco
+     */
+    public function setEco($eco)
+    {
+        $this->eco = $eco;
+    }
+
+
 
 }

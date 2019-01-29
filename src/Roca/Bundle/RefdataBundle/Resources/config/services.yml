@@ -4,6 +4,11 @@ services:
         tags:
             - {name: pim_serializer.normalizer, priority: 200}
 
+    roca.normalizer.country:
+        class: Roca\Bundle\RefdataBundle\Normalizer\CountryNormalizer
+        tags:
+        - {name: pim_serializer.normalizer, priority: 200}
+
     roca.normalizer.designline:
         class: Roca\Bundle\RefdataBundle\Normalizer\DesignLineNormalizer
         tags:

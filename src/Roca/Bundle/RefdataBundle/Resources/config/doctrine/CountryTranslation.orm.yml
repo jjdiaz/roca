@@ -19,7 +19,7 @@ Roca\Bundle\RefdataBundle\Entity\CountryTranslation:
             type: string
             length: 20
 
-        name:
+        label:
             type: string
             length: 100
             nullable: true

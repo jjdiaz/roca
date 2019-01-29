@@ -1,492 +1,493 @@
-code;label-es_ES;label-sk_SK;label-en_GB_INT;label-en_GB;label-en_US;label-cs_CZ;parent
-NEUTRAL;NEUTRAL;;NEUTRAL;;;NEUTRAL;
-00_01;LAVABOS;;BASINS;;;BASINS;neutral
-00_01_00;Lavabo;;Basin;;;Basin;00_01
-00_02;BIDÉS;;BIDETS;;;BIDETS;neutral
-00_02_00;Bidé;;Bidet;;;Bidet;00_02
-00_03;INODOROS;;TOILETS;;;TOILETS;neutral
-00_03_00;Inodoro;;Toilet;;;Toilet;00_03
-00_03_01;Inodoro one-piece / In-Tank;;One-piece / In-Tank toilet;;;One-piece / In-Tank toilet;00_03
-00_04;WELLNESS TOILETS;;WELLNESS TOILETS;;;WELLNESS TOILETS;neutral
-00_04_01;Integrated wellness toilet;;Integrated wellness toilet;;;Integrated wellness toilet;00_04
-00_04_02;Multiclean®;;Multiclin;;;Multiclin;00_04
-00_05;CISTERNAS PARA INODORO;;CISTERNS;;;CISTERNS;neutral
-00_05_00;Cisterna para inodoro;;Cistern;;;Cistern;00_05
-00_06;URINARIOS;;URINALS;;;URINALS;neutral
-00_06_00;Urinario;;Urinal;;;Urinal;00_06
-00_07;PRODUCTOS CERÁMICOS ESPECIALES;;SPECIAL CERAMIC PRODUCTS;;;SPECIAL CERAMIC PRODUCTS;neutral
-00_07_01;Vertedero;;Slophopper;;;Slophopper;00_07
-00_07_02;Lavadero;;Laundry sink;;;Laundry sink;00_07
-00_07_03;Pedicure bath;;Pedicure bath;;;Pedicure bath;00_07
-00_07_04;Placa turca;;Squatting pan;;;Squatting pan;00_07
-00_08;TAPAS Y ASIENTOS;;SEATS & COVERS;;;SEATS & COVERS;neutral
-00_08_00;Tapa / Asiento;;Cover / Seat;;;Cover / Seat;00_08
-00_09;SISTEMAS DE INSTALACIÓN;;INSTALLATION SYSTEMS;;;INSTALLATION SYSTEMS;neutral
-00_09_01;Estructura;;Structure;;;Structure;00_09
-00_09_02;Placa de accionamiento;;Operating plate;;;Operating plate;00_09
-00_09_03;Juego de desagüe in-drain;;In-drain waste;;;In-drain waste;00_09
-00_09_04;Placa de desagüe in-drain;;In-drain plate;;;In-drain plate;00_09
-00_09_05;Tela geotextil;;Geotextile fabric;;;Geotextile fabric;00_09
-00_10;PEDESTALES Y SEPARADORES;;COVERS AND DIVISIONS;;;COVERS AND DIVISIONS;neutral
-00_10_01;Pedestal;;Pedestal;;;Pedestal;00_10
-00_10_02;Semipedestal;;Semipedestal;;;Semipedestal;00_10
-00_10_03;Separador de urinarios;;Urinal division;;;Urinal division;00_10
-00_11;BAÑERAS;;BATHS;;;BATHS;neutral
-00_11_01;Bañera;;Bath;;;Bath;00_11
-00_11_02;Bañera con hidromasaje;;Bath with whirlpool;;;Bath with whirlpool;00_11
-00_11_03;Spa;;Spa;;;Spa;00_11
-00_12;PLATOS DE DUCHA;;SHOWER TRAYS;;;SHOWER TRAYS;neutral
-00_12_00;Plato de ducha;;Shower tray;;;Shower tray;00_12
-00_13;MUEBLES BASE Y ENCIMERAS;;BASE UNITS AND COUNTERTOPS;;;BASE UNITS AND COUNTERTOPS;neutral
-00_13_01;Encimera;;Countertop;;;Countertop;00_13
-00_13_02;Mueble base para lavabo;;Base unit;;;Base unit;00_13
-00_14;MUEBLES AUXILIARES;;AUXILIARY UNITS;;;AUXILIARY UNITS;neutral
-00_14_01;Mueble auxiliar;;Auxiliary unit;;;Auxiliary unit;00_14
-00_14_02;Trolley;;Trolley;;;Trolley;00_14
-00_15;ESPEJOS;;MIRRORS;;;MIRRORS;neutral
-00_15_00;Espejo;;Mirror;;;Mirror;00_15
-00_15_01;Espejo con iluminación;;Illuminated mirror;;;Illuminated mirror;00_15
-00_15_02;Armario-espejo;;Mirror cabinet;;;Mirror cabinet;00_15
-00_15_03;Espejo de aumento;;Magnifying mirror;;;Magnifying mirror;00_15
-00_16;GRIFERÍA;;FAUCETS;;;FAUCETS;neutral
-00_16_01;Grifería termostática;;Thermostatic faucet;;;Thermostatic faucet;00_16
-00_16_02;Grifería monomando;;Single-lever faucet;;;Single-lever faucet;00_16
-00_16_03;Grifería bimando;;Twin-lever faucet;;;Twin-lever faucet;00_16
-00_16_04;Grifería electrónica;;Electronic faucet;;;Electronic faucet;00_16
-00_16_05;Grifería temporizada;;Self-closing faucet;;;Self-closing faucet;00_16
-00_16_06;Caño;;Spout;;;Spout;00_16
-00_16_07;Inversor;;Diverter;;;Diverter;00_16
-00_16_08;Fluxor;;Flush valve;;;Flush valve;00_16
-00_16_09;Llave de paso;;Valve;;;Valve;00_16
-00_16_10;Grifería híbrida;;Hybrid faucet;;;Hybrid faucet;00_16
-00_16_11;Caja oculta;;Concealed box;;;Concealed box;00_16
-00_17;DUCHAS;;SHOWERS;;;SHOWERS;neutral
-00_17_01;Rociador;;Shower-head;;;Shower-head;00_17
-00_17_02;Flexible;;Flexible hose;;;Flexible hose;00_17
-00_17_03;Toma de agua;;Water connection;;;Water connection;00_17
-00_17_04;Barra deslizante;;Slide bar;;;Slide bar;00_17
-00_17_05;Soporte de ducha;;Shower wall bracket;;;Shower wall bracket;00_17
-00_17_06;Brazo de ducha;;Shower arm;;;Shower arm;00_17
-00_17_07;Teléfono de ducha;;Hand-shower;;;Hand-shower;00_17
-00_17_08;Jet de ducha;;Shower jet;;;Shower jet;00_17
-00_18;COLUMNAS DE DUCHA;;SHOWER COLUMNS;;;SHOWER COLUMNS;neutral
-00_18_01;Columna de hidromasaje;;Hydromassage shower column;;;Hydromassage shower column;00_18
-00_18_02;Columna de ducha;;Shower column;;;Shower column;00_18
-00_19;CABINAS DE DUCHA;;SHOWER CABINS;;;SHOWER CABINS;neutral
-00_19_00;Cabina de ducha;;Shower cabin;;;Shower cabin;00_19
-00_20;MAMPARAS;;SHOWER SCREENS;;;SHOWER SCREENS;neutral
-00_20_00;Mampara;;Shower screen;;;Shower screen;00_20
-00_21;ACCESORIOS;;ACCESSORIES;;;ACCESSORIES;neutral
-00_21_01;Repisa;;Shelf;;;Shelf;00_21
-00_21_02;Dosificador de jabón;;Soap dispenser;;;Soap dispenser;00_21
-00_21_03;Jabonera;;Soap dish;;;Soap dish;00_21
-00_21_04;Percha;;Hook;;;Hook;00_21
-00_21_05;Toallero;;Towel rail;;;Towel rail;00_21
-00_21_06;Portarrollos;;Toilet roll holder;;;Toilet roll holder;00_21
-00_21_07;Escobillero;;Toilet brush holder;;;Toilet brush holder;00_21
-00_21_08;Trash ring;;Trash ring;;;Trash ring;00_21
-00_21_09;Contenedor;;Container;;;Container;00_21
-00_21_10;Bandeja;;Tray;;;Tray;00_21
-00_21_11;Portavasos;;Tumbler holder;;;Tumbler holder;00_21
-00_21_12;Cesta para ropa;;Clothes basket;;;Clothes basket;00_21
-00_21_13;Revistero;;Magazine rack;;;Magazine rack;00_21
-00_21_14;Taburete;;Stool;;;Stool;00_21
-00_21_15;Dispensador de pañuelos de papel;;Tissues dispenser;;;Tissues dispenser;00_21
-00_21_16;Secador de pelo;;Hairdryer;;;Hairdryer;00_21
-00_21_17;Colgador extensible;;Extendable washing line;;;Extendable washing line;00_21
-00_21_18;Papelera;;Waste bin;;;Waste bin;00_21
-00_21_19;Toallero eléctrico;;Heated towel rail;;;Heated towel rail;00_21
-00_21_20;Asa;;Grab rail;;;Grab rail;00_21
-00_21_21;Cenicero;;Ashtray;;;Ashtray;00_21
-00_21_22;Asiento para ducha;;Shower seat;;;Shower seat;00_21
-00_21_23;Portarrollos escobillero;;Toilet roll and brush holder;;;Toilet roll and brush holder;00_21
-00_21_24;Aplique;;Spotlight;;;Spotlight;00_21
-00_21_25;Vaso;;Glass;;;Glass;00_21
-00_21_26;Portacepillos de dientes;;Toothbrush holder;;;Toothbrush holder;00_21
-00_22;FREGADEROS;;KITCHEN SINKS;;;KITCHEN SINKS;neutral
-00_22_00;Fregadero;;Kitchen sink;;;Kitchen sink;00_22
-00_23;COMPLEMENTOS;;COMPLEMENTS;;;COMPLEMENTS;neutral
-00_23_01;Papelera para lavabo;;Waste bin for basin;;;Waste bin for basin;00_23
-00_23_02;Dispensador de jabón para lavabo/fregadero;;Soap dispenser for basin/kitchen sink;;;Soap dispenser for basin/kitchen sink;00_23
-00_23_06;Toallero para lavabo;;Towel rail for basin;;;Towel rail for basin;00_23
-00_23_07;Tapa para lavadero;;Cover for laundry sink;;;Cover for laundry sink;00_23
-00_23_08;Tapa para vertedero;;Slophopper cover;;;Slophopper cover;00_23
-00_23_09;Cubeta escurridora;;Strainer bowl;;;Strainer bowl;00_23
-00_23_10;Tabla de corte para fregadero;;Chopping board;;;Chopping board;00_23
-00_23_11;Cesta escurridora;;Crockery basket;;;Crockery basket;00_23
-00_23_12;Desagüe;;Waste;;;Waste;00_23
-00_23_13;Sifón;;Trap;;;Trap;00_23
-00_23_19;Jabonera para barra deslizante;;Soap dish for sliding bar;;;Soap dish for sliding bar;00_23
-00_23_21;Tapa lateral para lavabo;;Basin side cover;;;Basin side cover;00_23
-00_23_22;Limitador de caudal;;Water flow restrictor;;;Water flow restrictor;00_23
-00_23_23;Escalera;;Steps;;;Steps;00_23
-00_23_24;Cubierta térmica;;Thermal cover;;;Thermal cover;00_23
-00_23_25;Faldón;;Panel;;;Panel;00_23
-00_23_26;Tarima;;Platform;;;Platform;00_23
-00_23_27;Apoyacabezas;;Headrest;;;Headrest;00_23
-00_23_28;Asa;;Handle;;;Handle;00_23
-00_23_29;Pies;;Feet;;;Feet;00_23
-00_23_30;??;;Shower curtain and rail;;;Shower curtain and rail;00_23
-00_23_31;Líquido desinfectante;;Disinfectant liquid;;;Disinfectant liquid;00_23
-00_23_32;Kit de iluminación;;Light kit;;;Light kit;00_23
-00_23_33;Set para montaje en esquina;;Set for corner assembly;;;Set for corner assembly;00_23
-00_23_34;Drain News;;Drain News;;;Drain News;00_23
-00_23_35;Placa antivaho;;Demister foil;;;Demister foil;00_23
-00_23_36;Caja organizadora;;Organizing box;;;Organizing box;00_23
-00_23_37;Zócalo para mueble;;Plinth;;;Plinth;00_23
-00_23_38;Patas para mueble;;Furniture legs;;;Furniture legs;00_23
-00_23_39;Set de aromas;;Essences set;;;Essences set;00_23
-00_23_40;Kit de preinstalación;;Pre-installation kit;;;Pre-installation kit;00_23
-00_23_41;Kit de preinstalación de CD+Radio;;CD+Radio pre-installation kit;;;CD+Radio pre-installation kit;00_23
-00_23_42;Perfil de compensación;;Compensating profile;;;Compensating profile;00_23
-00_23_44;Pressure Pumps;;Pressure Pumps;;;Pressure Pumps;00_23
-00_23_45;Mono Block Pumps;;Mono Block Pumps;;;Mono Block Pumps;00_23
-00_24;COMPOUNDS;;COMPOUNDS;;;COMPOUNDS;neutral
-00_24_01;Shower compound;;Shower compound;;;Shower compound;00_24
-00_24_02;Basin compound;;Basin compound;;;Basin compound;00_24
-00_24_03;Unik;;Unik;;;Unik;00_24
-00_25;BUNDLES;;BUNDLES;;;BUNDLES;neutral
-00_25_00;Pack;;Pack;;;Pack;00_25
-00_25_01;Bundle Inodoro;;Bundle Toilet;;;;00_25
-00_25_02;Bundle Bidé;;Bundle Bidet;;;;00_25
-00_26;AZULEJOS;;TILES;;;;neutral
-00_26_01;Azulejos;;Tiles;;;;00_26
-00_27;CALENTADORES DE AGUA;;WATER HEATERS;;;;neutral
-00_27_01;Calentadores de agua;;Water Heaters;;;;00_27
-00_28;MECANISMOS;;MECHANISMS;;;;neutral
-00_28_01;Entrada de agua;;Water inlet;;;;00_28
-00_28_02;Descarga;;Flush;;;;00_28
-00_28_03;Sistemas completos;;Complete sets;;;;00_28
-00_pub;Send but not display;;Send but not display;;;Send but not display;neutral
-00_pub_00;Send but not display;;Send but not display;;;Send but not display;00_pub
-00___00;00...00 Waiting Area;;Waiting Area;;;00...00 Waiting Area;neutral
-SELLING;SELLING;SELLING;SELLING;;;SELLING;
-09_01;;;Washbasins;;;Umyvadla;SELLING
-09_01_01;;;Washbasin;;;Umyvadlo;09_01
-09_01_02;;;Wallhung Washbasin;;;Závěsné umyvadlo;09_01
-09_01_03;;;Double Washbasin;;;Dvojumyvadlo;09_01
-09_01_04;;;Countertop washbasin;;;Umyvadlo do nábytku;09_01
-09_01_05;;;Double countertop washbasin;;;Dvojumyvadlo do nábytku;09_01
-09_01_06;;;Corner washbasin;;;Rohové umyvadlo;09_01
-09_01_07;;;Small washbasin;;;Umývátko;09_01
-09_01_08;;;Corner small washbasin;;;Rohové umývátko;09_01
-09_01_09;;;Built-in washbasin;;;Vestavné umyvadlo zdola;09_01
-09_01_10;;;Drop-in washbasin;;;Zápustné umyvadlo;09_01
-09_01_11;;;Washbasin bowl;;;Umyvadlová mísa;09_01
-09_01_12;;;Semi-recessed washbasin;;;Polozápustné umyvadlo;09_01
-09_01_13;;;Freestanding washbasin;;;Volně stojící umyvadlo;09_01
-09_01_14;;;Hospital basin;;;Zdravotní umyvadlo;09_01
-09_01_15;;;Pedestal;;;Sloup;09_01
-09_01_16;;;Siphon cover;;;Kryt na sifon;09_01
-09_03;;;Bidets;;;Bidety;SELLING
-09_03_01;;;Floorstanding bidet;;;Stojící bidet;09_03
-09_03_02;;;Wall-hung bidet;;;Závěsný bidet;09_03
-09_03_03;;;Seat for bidet;;;Bidetové sedátko;09_03
-09_04;;;Urinals;;;Urinály;SELLING
-09_04_01;;;Urinal;;;Urinál;09_04
-09_04_02;;;Urinal division;;;Urinálová dělící stěna;09_04
-09_04_03;;;Cover for urinal;;;Poklop na urinál;09_04
-09_04_04;;;Siphon cover;;;Kryt na sifon;09_04
-09_05;;;Bathtubs;;;Vany;SELLING
-09_05_01;;;Bathtub;;;Vana;09_05
-09_05_02;;;Bathtub and L panel left;;;Vana s konstrukcí a L-panelem levým;09_05
-09_05_03;;;Bathtub and L panel right;;;Vana s konstrukcí a L-panelem pravým;09_05
-09_05_04;;;Bathtub and C panel;;;Vana s konstrukcí a C-panelem;09_05
-09_05_05;;;Bathtub and front panel;;;Vana s konstrukcí a čelním panelem;09_05
-09_05_06;;;Front panel;;;Čelní panel;09_05
-09_05_07;;;Side panel;;;Boční panel;09_05
-09_05_08;;;L panel;;;L-panel;09_05
-09_05_09;;;C panel;;;C-panel;09_05
-09_05_10;;;Headrest;;;Podhlavník;09_05
-09_05_11;;;Accessories;;;Příslušenství;09_05
-09_06;;;Shower enclosures;;;Sprchové zástěny;SELLING
-09_06_01;;;Shower enclosure;;;Sprchová zástěna;09_06
-09_06_02;;;Shower Door;;;Sprchové dveře;09_06
-09_06_03;;;Bathscreen;;;Vanová zástěna;09_06
-09_06_04;;;Shower curtain;;;Sprchový závěs;09_06
-09_06_05;;;Shower curtain rail;;;Tyč na sprchový závěs;09_06
-09_07;;;Shower trays;;;Sprchové vaničky;SELLING
-09_07_01;;;Shower tray;;;Sprchová vanička;09_07
-09_07_02;;;Accessories;;;Příslušenství;09_07
-09_08;;;Shower cabines;;;Sprchové kouty;SELLING
-09_08_01;;;Shower cabine;;;Sprchový kout;09_08
-09_09;;;Bathroom furniture;;;Koupelnový nábytek;SELLING
-09_09_01;;;Cabinet element;;;Skříňový element;09_09
-09_09_02;;;Console;;;Konzole;09_09
-09_09_03;;;Container for tall cabinet;;;Kontejner k vysoké skříňce;09_09
-09_09_04;;;Container for vanity unit;;;Kontejner ke skříňce pod umyvadlo;09_09
-09_09_05;;;Corner vanity unit;;;Rohová skříňka pod umyvadlo;09_09
-09_09_06;;;Drawer element;;;Zásuvkový element;09_09
-09_09_07;;;Medium cabinet;;;Střední skříňka;09_09
-09_09_08;;;Mirror;;;Zrcadlo;09_09
-09_09_09;;;Mirror cabinet;;;Zrcadlová skříňka;09_09
-09_09_10;;;Shelf;;;Polička;09_09
-09_09_11;;;Small cabinet;;;Nízká skříňka;09_09
-09_09_12;;;Tall cabinet;;;Vysoká skříňka;09_09
-09_09_13;;;Trolley;;;Kontejner;09_09
-09_09_14;;;Vanity unit;;;Skříňka pod umyvadlo;09_09
-09_09_15;;;Wall cabinet;;;Závěsná skříňka;09_09
-09_09_16;;;Wall light;;;Nástěnné světlo;09_09
-09_09_17;;;Washbasin plate;;;Umyvadlová deska;09_09
-09_09_18;;;Bathtub bench unit;;;Nábytkový modul pro vanu;09_09
-09_09_19;;;Washbasin frame;;;Rám k umyvadlu;09_09
-09_09_20;;;Cover plate;;;Krycí deska;09_09
-09_09_21;;;Accessories;;;Koupelnové doplňky;09_09
-09_10;;;Faucets;;;Vodovodní baterie;SELLING
-09_10_01;;;Bidet faucet;;;Bidetová baterie;09_10
-09_10_02;;;Basin faucet;;;Umyvadlová baterie;09_10
-09_10_03;;;Shower faucet;;;Sprchová baterie;09_10
-09_10_04;;;Bath faucet;;;Vanová baterie;09_10
-09_10_05;;;Kitchen faucet;;;Dřezová baterie;09_10
-09_10_06;;;Concealed body;;;Podomítkové těleso;09_10
-09_10_07;;;Shower accessories;;;Sprchové příslušenství;09_10
-09_10_08;;;Faucets accessories;;;Příslušenství k bateriím;09_10
-09_10_09;;;Bathroom accessories;;;Koupelnové doplňky;09_10
-09_10_10;;;Urinal system;;;Urinálový systém;09_10
-09_11;;;Concealed modules;;;Podomítkové systémy;SELLING
-09_11_01;;;Concealed modules;;;Podomítkové systémy;09_11
-09_11_02;;;Push button;;;Tlačítka;09_11
-09_11_03;;;Plastic cistern;;;Plastová nádržka;09_11
-09_11_04;;;Accessories;;;Příslušenství;09_11
-09_12;;;Accessories;;;Příslušenství;SELLING
-09_12_01;;;Shelf;;;Polička;09_12
-09_12_02;;;Mirror;;;Zrcadlo;09_12
-09_12_03;;;Glass holder;;;Držák na pohár;09_12
-09_12_04;;;Light;;;Osvětlení;09_12
-09_12_05;;;WC paper holder;;;Držák toaletního papíru;09_12
-09_12_06;;;Shampoo tray;;;Držák šamponu;09_12
-09_12_07;;;Soap dish;;;Mýdelník;09_12
-09_12_08;;;Soap dispenser;;;Zásobník na mýdlo;09_12
-09_12_09;;;Toilet brush holder;;;Držák WC kartáče;09_12
-09_12_10;;;Towel holder;;;Držák na ručník;09_12
-09_12_11;;;Towel hook;;;Háček na ručník;09_12
-09_12_12;;;Trash ring;;;Držák sáčku na odpadky;09_12
-09_12_13;;;Bath towel holder;;;Držák na osušku;09_12
-09_12_14;;;Grab Rail;;;Toaletní madlo;09_12
-09_12_15;;;Siphon cover;;;Kryt na sifon;09_12
-09_12_16;;;Soap dispenser and glass;;;Zásobník na mýdlo se sklenicí;09_12
-09_12_17;;;Soap dish and glass holder;;;Mýdelník a držák na sklenici;09_12
-09_12_18;;;Siphon;;;Sifon;09_12
-09_12_19;;;Tray;;;Polička;09_12
-09_12_20;;;Clothesline;;;Šnůra na prádlo;09_12
-09_12_21;;;Rack;;;Regál;09_12
-09_12_22;;;Magazine basket;;;Držák časopisů;09_12
-09_12_23;;;Kleenex box;;;Zásobník na papírové ubrousky;09_12
-09_13;;;Special articles;;;Speciální výrobky;SELLING
-09_13_01;;;School washbasin;;;Školní umyvadlo;09_13
-09_13_02;;;Wall sink;;;Závěsná výlevka;09_13
-09_13_03;;;Floor sink;;;Stojící výlevka;09_13
-09_14;;;Tiles;;;Obklady a dlažby;SELLING
-09_14_01;;;Base tiles;;;Obklady a dlažby v základu;09_14
-09_14_02;;;Decor tiles;;;Dekory a mozaiky;09_14
-09_14_03;;;Special items;;;Speciální položky;09_14
-DESIGNLINE;DESIGN LINE;DESIGN LINE;DESIGN LINE;;;DESIGN LINE;
-09_0532;Italia;;Italia;;;Italia;DESIGNLINE
-09_0a44;Alma;;Alma;;;Alma;DESIGNLINE
-09_0b22;Baby;;Baby;;;Baby;DESIGNLINE
-09_0b25;Berenika;;Berenika;;;Berenika;DESIGNLINE
-09_0b28;Basic;;Basic;;;Basic;DESIGNLINE
-09_0c56;Cubito;;Cubito;;;Cubito;DESIGNLINE
-09_0c82;Clear;;Clear;;;Clear;DESIGNLINE
-09_0c90;Cubito pure;;Cubito pure;;;Cubito pure;DESIGNLINE
-09_0c99;Cube;;Cube;;;Cube;DESIGNLINE
-09_0cb1;Cubito N;;Cubito N;;;Cubito N;DESIGNLINE
-09_0d11;Design;;Design;;;Design;DESIGNLINE
-09_0d17;Dino;;Dino;;;Dino;DESIGNLINE
-09_0d34;Domino;;Domino;;;Domino;DESIGNLINE
-09_0d36;JIKA Art;;JIKA Art;;;JIKA Art;DESIGNLINE
-09_0d58;Doris;;Doris;;;Doris;DESIGNLINE
-09_0d99;Diverse;;Diverse;;;Diverse;DESIGNLINE
-09_0g13;Golem;;Golem;;;Golem;DESIGNLINE
-09_0g37;Generic;;Generic;;;Generic;DESIGNLINE
-09_0h23;Heritage;;Heritage;;;Heritage;DESIGNLINE
-09_0i10;Ibon;;Ibon;;;Ibon;DESIGNLINE
-09_0k16;Korint;;Korint;;;Korint;DESIGNLINE
-09_0l27;Lyra plus, Lyra and Lyra Pack;;Lyra plus, Lyra and Lyra Pack;;;Lyra plus, Lyra and Lyra Pack;DESIGNLINE
-09_0l49;Livo;;Livo;;;Livo;DESIGNLINE
-09_0l58;Lyra plus;;Lyra plus;;;Lyra plus;DESIGNLINE
-09_0l95;Lyra Pack;;Lyra Pack;;;Lyra Pack;DESIGNLINE
-09_0lo1;Lyra-Olymp;;Lyra-Olymp;;;Lyra-Olymp;DESIGNLINE
-09_0m38;Mira;;Mira;;;Mira;DESIGNLINE
-09_0m58;Mio;;Mio;;;Mio;DESIGNLINE
-09_0m97;Modul;;Modul;;;Modul;DESIGNLINE
-09_0mb9;Mio N;;Mio N;;;Mio N;DESIGNLINE
-09_0n35;Nariva;;Nariva;;;Nariva;DESIGNLINE
-09_0o53;Olymp + Olymp Deep;;Olymp + Olymp Deep;;;Olymp + Olymp Deep;DESIGNLINE
-09_0p38;Praga;;Praga;;;Praga;DESIGNLINE
-09_0p78;Pure;;Pure;;;Pure;DESIGNLINE
-09_0p81;Petit;;Petit;;;Petit;DESIGNLINE
-09_0p93;Padana;;Padana;;;Padana;DESIGNLINE
-09_0r01;Rio;;Rio;;;Rio;DESIGNLINE
-09_0r11;Roman;;Roman;;;Roman;DESIGNLINE
-09_0r14;Riga;;Riga;;;Riga;DESIGNLINE
-09_0r21;Ravenna;;Ravenna;;;Ravenna;DESIGNLINE
-09_0s26;Sam;;Sam;;;Sam;DESIGNLINE
-09_0s51;Sofia;;Sofia;;;Sofia;DESIGNLINE
-09_0s94;Split;;Split;;;Split;DESIGNLINE
-09_0sc2;Sensor;;Sensor;;;Sensor;DESIGNLINE
-09_0t39;Thalia;;Thalia;;;Thalia;DESIGNLINE
-09_0t48;Tanza;;Tanza;;;Tanza;DESIGNLINE
-09_0t77;Tigo;;Tigo;;;Tigo;DESIGNLINE
-09_0t85;Talas;;Talas;;;Talas;DESIGNLINE
-09_0u01;Universal;;Universal;;;Universal;DESIGNLINE
-09_0u09;Universum;;Universum;;;Universum;DESIGNLINE
-09_0z02;Zeta;;Zeta;;;Zeta;DESIGNLINE
-09_t001;City;;City;;;City;DESIGNLINE
-09_t002;Focus;;Focus;;;Focus;DESIGNLINE
-09_t003;Aspen;;Aspen;;;Aspen;DESIGNLINE
-09_t004;Reno;;Reno;;;Reno;DESIGNLINE
-09_t005;Rustica;;Rustica;;;Rustica;DESIGNLINE
-09_t006;Imagination_wood;;Imagination_wood;;;Imagination_wood;DESIGNLINE
-09_t007;Imagination_floor;;Imagination_floor;;;Imagination_floor;DESIGNLINE
-09_t008;Imagination_wall;;Imagination_wall;;;Imagination_wall;DESIGNLINE
-09_t009;Di Pietra;;Di Pietra;;;Di Pietra;DESIGNLINE
-09_t010;Style;;Style;;;Style;DESIGNLINE
-09_t011;Industria;;Industria;;;Industria;DESIGNLINE
-09_t012;Mood;;Mood;;;Mood;DESIGNLINE
-09_t013;Urban;;Urban;;;Urban;DESIGNLINE
-09_t014;Melbourne;;Melbourne;;;Melbourne;DESIGNLINE
-09_t015;Home;;Home;;;Home;DESIGNLINE
-09_t016;Papyrus;;Papyrus;;;Papyrus;DESIGNLINE
-09_t017;Fly;;Fly;;;Fly;DESIGNLINE
-09_t018;Memphis;;Memphis;;;Memphis;DESIGNLINE
-09_t019;Whites;;Whites;;;Whites;DESIGNLINE
-09_t020;Cool;;Cool;;;Cool;DESIGNLINE
-09_t021;Sicily;;Sicily;;;Sicily;DESIGNLINE
-09_t022;Perla;;Perla;;;Perla;DESIGNLINE
-09_t023;Pastel;;Pastel;;;Pastel;DESIGNLINE
-09_t024;Zoom;;Zoom;;;Zoom;DESIGNLINE
-09_t025;Arty;;Arty;;;Arty;DESIGNLINE
-09_t026;Planet;;Planet;;;Planet;DESIGNLINE
-SEARCH;SEARCH;SEARCH;SEARCH;;;SEARCH;
-1;;;Basins;;;Umyvadla;SEARCH
-2;;;Faucets;;;Vodovodní baterie;SEARCH
-02_01;;;Single lever;;;Pákové;2
-02_02;;;Twin lever;;;Kohoutkové;2
-02_03;;;Hybrid;;;Hybridní;2
-02_04;;;Thermostatic;;;Termostatické;2
-02_05;;;Electronic;;;Elektronické;2
-02_06;;;Self closing;;;Samouzavírací;2
-3;;;Furniture;;;Koupelnový nábytek;SEARCH
-03_01;;;Base unit;;;Skříňky pod umyvadlo;3
-03_02;;;Auxiliary unit;;;Skříňky;3
-4;;;Baths and Spas;;;Vany a wellness;SEARCH
-04_01;;;Baths without whirlpool;;;Vany bez hydromasáže;4
-04_02;;;Baths with whirlpool;;;Vany s hydromasáží;4
-04_03;;;Spas;;;Lázně;4
-5;;;Shower trays;;;Sprchové vaničky;SEARCH
-6;;;Shower columns;;;Stojánkové sprchy;SEARCH
-7;;;Shower programme;;;Sprchovací program;SEARCH
-07_01;;;Hand showers;;;Ruční sprchy;7
-07_02;;;Shower heads;;;Sprchové hlavice;7
-07_03;;;Shower jets;;;Sprchové trysky;7
-07_04;;;Shower sets;;;Sprchové sady;7
-07_05;;;Shower complements;;;Doplňky ke sprchám;7
-8;;;Shower spaces and cabins;;;Sprchové kouty a kabiny;SEARCH
-08_01;;;Shower cabins;;;Sprchové kabiny;8
-08_02;;;Shower spaces;;;Sprchové kouty;8
-9;;;Wellness toilets;;;Toalety pro wellness program;SEARCH
-09_02;;;Multiclins;;;Sedátka s funkcí bidetu;9
-09_02_01;;;Floorstanding WC;;;Stojící klozet;09_02
-09_02_02;;;Floorstanding WC combi;;;Stojící kombinační mísa;09_02
-09_02_03;;;Floorstanding WC combi complete;;;Kombinační klozet;09_02
-09_02_04;;;Wall-hung WC;;;Závěsný klozet;09_02
-09_02_05;;;Wall-hung WC combi;;;Závěsná kombinační mísa;09_02
-09_02_06;;;Special WC;;;Speciální klozet;09_02
-09_02_07;;;Cistern;;;Nádrž;09_02
-09_02_08;;;WC seat;;;WC sedátko;09_02
-10;;;Toilets;;;Klozety;SEARCH
-10_02;;;Close coupled toilets;;;Kombinované toalety;10
-10_04;;;Wall-hung toilets;;;Závěsné toalety;10
-10_05;;;Single floorstanding toilets;;;Samostatné toalety k instalaci na podlahu;10
-11;;;Toilet cisterns;;;Splachovací nádržky pro toalety;SEARCH
-12;;;Bidets;;;Bidety;SEARCH
-12_01;;;Bidets;;;Bidety;12
-12_02;;;Wall-hung bidets;;;Závěsné bidety;12
-12_03;;;Floorstanding bidets with cover;;;Stojící bidety s krytem;12
-12_04;;;Wall-hung bidets with cover;;;Závěsné bidety s krytem;12
-13;;;Seats and covers;;;Sedátko s poklopem;SEARCH
-13_01;;;Toilet seats and covers;;;Toaletní sedátka a poklopy;13
-13_02;;;Bidet covers;;;Poklopy pro bidety;13
-13_03;;;Urinal covers;;;Poklopy pro urinály;13
-14;;;Installation systems;;;Podomítkové systémy;SEARCH
-14_01;;;In-wall systems;;;Systémy pro instalaci se zazděním;14
-14_02;;;In-drain systems;;;Systémy pro instalaci do výpusti;14
-15;;;Accessories;;;Příslušenství;SEARCH
-15_01;;;Robe hooks;;;Háčky na koupací pláště;15
-15_02;;;Soap dishes;;;Misky na mýdlo;15
-15_03;;;Soap dispensers;;;Dávkovače tekutého mýdla;15
-15_04;;;Glasses;;;Sklenky;15
-15_06;;;Toothbrush holders;;;Držáky zubních kartáčků;15
-15_07;;;Shelves;;;Police;15
-15_08;;;Trays;;;Otevřené přihrádky;15
-15_09;;;Containers;;;Nádoby;15
-15_10;;;Towel rails;;;Věšáky na ručníky tyčové;15
-15_11;;;Towel rings;;;Věšáky na ručníky kruhové;15
-15_12;;;Heated towel rails;;;Vyhřívané věšáky na ručníky;15
-15_13;;;Towel racks;;;Věšáky na ručníky žebříkové;15
-15_14;;;Grab rails;;;Úchopná madla;15
-15_15;;;Toilet roll holders;;;Držáky toaletního papíru;15
-15_16;;;Toilet brush holders;;;Držáky WC štětek;15
-15_17;;;Magnifying mirrors;;;Zvětšovací zrcadla;15
-15_18;;;Waste bins;;;Odpadní koše;15
-15_19;;;Hairdryers;;;Vysoušeče vlasů;15
-15_20;;;Shower seats;;;Sprchová sedátka;15
-15_21;;;Other accessories;;;Další příslušenství;15
-16;;;Shower screens;;;Sprchové zástěny;SEARCH
-17;;;Mirrors;;;Zrcadla;SEARCH
-17_01;;;Mirrors;;;Zrcadla bez osvětlení;17
-17_02;;;Illuminated mirrors;;;Zrcadla s osvětlením;17
-17_03;;;Mirror cabinets;;;Zrcadlové skříňky;17
-17_04;;;Magnifying mirrors;;;Zvětšovací zrcadla;17
-18;;;Pedestals and semipedestals;;;Keramické sloupy a kryty pod umyvadla;SEARCH
-18_01;;;Pedestals;;;Sloupy pod umyvadla;18
-18_02;;;Semipedestals;;;Kryty na sifon;18
-19;;;Other ceramic products;;;Další keramické výrobky;SEARCH
-19_01;;;Urinals;;;Urinály;19
-19_02;;;Electronic urinals;;;Elektronické urinály;19
-19_03;;;Urinal divisions;;;Dělicí příčky mezi urinály;19
-19_04;;;Slop hoppers;;;Úklidové výlevky;19
-19_05;;;Laundry sinks;;;Dřezy na prádlo;19
-19_06;;;Squatting pans;;;Turecké toalety;19
-19_07;;;Pedicure baths;;;Pedikérní vaničky;19
-20;;;Kitchen sinks;;;Kuchyňské dřezy;SEARCH
-21;;;Valves and faucet complements;;;Ventily a další doplňky k vodovodním bateriím;SEARCH
-21_01;;;Flush valves for toilet;;;Splachovací ventily pro toalety;21
-21_02;;;Flush valves for urinal;;;Splachovací ventily pro urinály;21
-21_03;;;Valves;;;Rohové ventily;21
-21_04;;;Stop cocks;;;Uzavírací kohouty;21
-21_05;;;Traps for basin;;;Sifony pro umyvadla;21
-21_06;;;Traps for bidet;;;Sifony pro bidety;21
-21_07;;;Traps for urinal;;;Sifony pro urinály;21
-21_08;;;Wastes for basin;;;Odpady pro umyvadla;21
-21_09;;;Wastes for bidet;;;Odpady pro bidety;21
-21_10;;;Wastes for shower tray;;;Odpady pro sprchové vany;21
-21_11;;;Wastes for bath;;;Odpady pro vany;21
-21_12;;;Bath spouts;;;Vanové výpusti;21
-21_13;;;Other faucet complements;;;Další doplňky k vodovodním bateriím;21
-21_14;;;Flush valves for squatting pan;;;;21
-22;;;Complements;;;Doplňky;SEARCH
-22_01;;;Basins complements;;;Doplňky k umyvadlům;22
-22_02;;;Complements for furniture;;;Doplňky ke koupelnovému nábytku;22
-22_03;;;Panels for baths;;;Panely pro koupací a sprchové vany;22
-22_04;;;Complements for baths;;;Doplňky k vanám;22
-22_05;;;Complements for shower trays;;;Doplňky ke sprchovým vanám;22
-22_06;;;Complements for shower spaces and cabins;;;Doplňky ke sprchovým koutům a kabinám;22
-22_07;;;Complements for spas;;;Doplňky k lázním;22
-22_08;;;Complements for kitchen sinks;;;Doplňky ke kuchyňským dřezům;22
-22_09;;;Demister devices for mirrors;;;Zařízení k odmlžování zrcadel;22
-22_10;;;Lighting for mirrors;;;Osvětlení zrcadel;22
-22_11;;;Compensating profiles for shower screens;;;Vyrovnávací profily pro sprchové zástěny;22
-23;;;Tiles;;;Obklady a dlažby;SEARCH
-23_01;;;Base tiles;;;Obklady a dlažby v základu;23
-23_02;;;Decor tiles;;;Dekory a mozaiky;23
-23_03;;;Special items;;;Speciální položky;23
-24;;;Complete toilets;;;;SEARCH
-24_01;;;In-Wash smart toilets;;;Integrované toalety pro wellness program;24
-24_02;;;Complete close-coupled toilets;;;;24
-24_03;;;In-tank toilets;;;Toalety s nádržkou zabudovanou ve zdi;24
-24_04;;;Complete wall-hung toilets;;;;24
-24_05;;;Complete single floorstanding toilets;;;;24
-24_06;;;One-piece toilets;;;Jednodílné toalety;24
-25;;;Toilet mechanisms;;;;SEARCH
+code;label-es_ES;label-en_INT_GB;parent
+NEUTRAL;NEUTRAL;NEUTRAL;
+00_01;LAVABOS;BASINS;NEUTRAL
+00_01_00;Lavabo;Basin;00_01
+00_02;BIDÉS;BIDETS;NEUTRAL
+00_02_00;Bidé;Bidet;00_02
+00_03;INODOROS;TOILETS;NEUTRAL
+00_03_00;Inodoro;Toilet;00_03
+00_03_01;Inodoro one-piece / In-Tank;One-piece / In-Tank toilet;00_03
+00_04;WELLNESS TOILETS;WELLNESS TOILETS;NEUTRAL
+00_04_01;Integrated wellness toilet;Integrated wellness toilet;00_04
+00_04_02;Multiclean®;Multiclin;00_04
+00_05;CISTERNAS PARA INODORO;CISTERNS;NEUTRAL
+00_05_00;Cisterna para inodoro;Cistern;00_05
+00_06;URINARIOS;URINALS;NEUTRAL
+00_06_00;Urinario;Urinal;00_06
+00_07;PRODUCTOS CERÁMICOS ESPECIALES;SPECIAL CERAMIC PRODUCTS;NEUTRAL
+00_07_01;Vertedero;Slophopper;00_07
+00_07_02;Lavadero;Laundry sink;00_07
+00_07_03;Pedicure bath;Pedicure bath;00_07
+00_07_04;Placa turca;Squatting pan;00_07
+00_08;TAPAS Y ASIENTOS;SEATS & COVERS;NEUTRAL
+00_08_00;Tapa / Asiento;Cover / Seat;00_08
+00_09;SISTEMAS DE INSTALACIÓN;INSTALLATION SYSTEMS;NEUTRAL
+00_09_01;Estructura;Structure;00_09
+00_09_02;Placa de accionamiento;Operating plate;00_09
+00_09_03;Juego de desagüe in-drain;In-drain waste;00_09
+00_09_04;Placa de desagüe in-drain;In-drain plate;00_09
+00_09_05;Tela geotextil;Geotextile fabric;00_09
+00_10;PEDESTALES Y SEPARADORES;COVERS AND DIVISIONS;NEUTRAL
+00_10_01;Pedestal;Pedestal;00_10
+00_10_02;Semipedestal;Semipedestal;00_10
+00_10_03;Separador de urinarios;Urinal division;00_10
+00_11;BAÑERAS;BATHS;NEUTRAL
+00_11_01;Bañera;Bath;00_11
+00_11_02;Bañera con hidromasaje;Bath with whirlpool;00_11
+00_11_03;Spa;Spa;00_11
+00_12;PLATOS DE DUCHA;SHOWER TRAYS;NEUTRAL
+00_12_00;Plato de ducha;Shower tray;00_12
+00_13;MUEBLES BASE Y ENCIMERAS;BASE UNITS AND COUNTERTOPS;NEUTRAL
+00_13_01;Encimera;Countertop;00_13
+00_13_02;Mueble base para lavabo;Base unit;00_13
+00_14;MUEBLES AUXILIARES;AUXILIARY UNITS;NEUTRAL
+00_14_01;Mueble auxiliar;Auxiliary unit;00_14
+00_14_02;Trolley;Trolley;00_14
+00_15;ESPEJOS;MIRRORS;NEUTRAL
+00_15_00;Espejo;Mirror;00_15
+00_15_01;Espejo con iluminación;Illuminated mirror;00_15
+00_15_02;Armario-espejo;Mirror cabinet;00_15
+00_15_03;Espejo de aumento;Magnifying mirror;00_15
+00_16;GRIFERÍA;FAUCETS;NEUTRAL
+00_16_01;Grifería termostática;Thermostatic faucet;00_16
+00_16_02;Grifería monomando;Single-lever faucet;00_16
+00_16_03;Grifería bimando;Twin-lever faucet;00_16
+00_16_04;Grifería electrónica;Electronic faucet;00_16
+00_16_05;Grifería temporizada;Self-closing faucet;00_16
+00_16_06;Caño;Spout;00_16
+00_16_07;Inversor;Diverter;00_16
+00_16_08;Fluxor;Flush valve;00_16
+00_16_09;Llave de paso;Valve;00_16
+00_16_10;Grifería híbrida;Hybrid faucet;00_16
+00_16_11;Caja oculta;Concealed box;00_16
+00_17;DUCHAS;SHOWERS;NEUTRAL
+00_17_01;Rociador;Shower-head;00_17
+00_17_02;Flexible;Flexible hose;00_17
+00_17_03;Toma de agua;Water connection;00_17
+00_17_04;Barra deslizante;Slide bar;00_17
+00_17_05;Soporte de ducha;Shower wall bracket;00_17
+00_17_06;Brazo de ducha;Shower arm;00_17
+00_17_07;Teléfono de ducha;Hand-shower;00_17
+00_17_08;Jet de ducha;Shower jet;00_17
+00_18;COLUMNAS DE DUCHA;SHOWER COLUMNS;NEUTRAL
+00_18_01;Columna de hidromasaje;Hydromassage shower column;00_18
+00_18_02;Columna de ducha;Shower column;00_18
+00_19;CABINAS DE DUCHA;SHOWER CABINS;NEUTRAL
+00_19_00;Cabina de ducha;Shower cabin;00_19
+00_20;MAMPARAS;SHOWER SCREENS;NEUTRAL
+00_20_00;Mampara;Shower screen;00_20
+00_21;ACCESORIOS;ACCESSORIES;NEUTRAL
+00_21_01;Repisa;Shelf;00_21
+00_21_02;Dosificador de jabón;Soap dispenser;00_21
+00_21_03;Jabonera;Soap dish;00_21
+00_21_04;Percha;Hook;00_21
+00_21_05;Toallero;Towel rail;00_21
+00_21_06;Portarrollos;Toilet roll holder;00_21
+00_21_07;Escobillero;Toilet brush holder;00_21
+00_21_08;Trash ring;Trash ring;00_21
+00_21_09;Contenedor;Container;00_21
+00_21_10;Bandeja;Tray;00_21
+00_21_11;Portavasos;Tumbler holder;00_21
+00_21_12;Cesta para ropa;Clothes basket;00_21
+00_21_13;Revistero;Magazine rack;00_21
+00_21_14;Taburete;Stool;00_21
+00_21_15;Dispensador de pañuelos de papel;Tissues dispenser;00_21
+00_21_16;Secador de pelo;Hairdryer;00_21
+00_21_17;Colgador extensible;Extendable washing line;00_21
+00_21_18;Papelera;Waste bin;00_21
+00_21_19;Toallero eléctrico;Heated towel rail;00_21
+00_21_20;Asa;Grab rail;00_21
+00_21_21;Cenicero;Ashtray;00_21
+00_21_22;Asiento para ducha;Shower seat;00_21
+00_21_23;Portarrollos escobillero;Toilet roll and brush holder;00_21
+00_21_24;Aplique;Spotlight;00_21
+00_21_25;Vaso;Glass;00_21
+00_21_26;Portacepillos de dientes;Toothbrush holder;00_21
+00_22;FREGADEROS;KITCHEN SINKS;NEUTRAL
+00_22_00;Fregadero;Kitchen sink;00_22
+00_23;COMPLEMENTOS;COMPLEMENTS;NEUTRAL
+00_23_01;Papelera para lavabo;Waste bin for basin;00_23
+00_23_02;Dispensador de jabón para lavabo/fregadero;Soap dispenser for basin/kitchen sink;00_23
+00_23_06;Toallero para lavabo;Towel rail for basin;00_23
+00_23_07;Tapa para lavadero;Cover for laundry sink;00_23
+00_23_08;Tapa para vertedero;Slophopper cover;00_23
+00_23_09;Cubeta escurridora;Strainer bowl;00_23
+00_23_10;Tabla de corte para fregadero;Chopping board;00_23
+00_23_11;Cesta escurridora;Crockery basket;00_23
+00_23_12;Desagüe;Waste;00_23
+00_23_13;Sifón;Trap;00_23
+00_23_19;Jabonera para barra deslizante;Soap dish for sliding bar;00_23
+00_23_21;Tapa lateral para lavabo;Basin side cover;00_23
+00_23_22;Limitador de caudal;Water flow restrictor;00_23
+00_23_23;Escalera;Steps;00_23
+00_23_24;Cubierta térmica;Thermal cover;00_23
+00_23_25;Faldón;Panel;00_23
+00_23_26;Tarima;Platform;00_23
+00_23_27;Apoyacabezas;Headrest;00_23
+00_23_28;Asa;Handle;00_23
+00_23_29;Pies;Feet;00_23
+00_23_30;??;Shower curtain and rail;00_23
+00_23_31;Líquido desinfectante;Disinfectant liquid;00_23
+00_23_32;Kit de iluminación;Light kit;00_23
+00_23_33;Set para montaje en esquina;Set for corner assembly;00_23
+00_23_34;Drain News;Drain News;00_23
+00_23_35;Placa antivaho;Demister foil;00_23
+00_23_36;Caja organizadora;Organizing box;00_23
+00_23_37;Zócalo para mueble;Plinth;00_23
+00_23_38;Patas para mueble;Furniture legs;00_23
+00_23_39;Set de aromas;Essences set;00_23
+00_23_40;Kit de preinstalación;Pre-installation kit;00_23
+00_23_41;Kit de preinstalación de CD+Radio;CD+Radio pre-installation kit;00_23
+00_23_42;Perfil de compensación;Compensating profile;00_23
+00_23_44;Pressure Pumps;Pressure Pumps;00_23
+00_23_45;Mono Block Pumps;Mono Block Pumps;00_23
+00_24;COMPOUNDS;COMPOUNDS;NEUTRAL
+00_24_01;Shower compound;Shower compound;00_24
+00_24_02;Basin compound;Basin compound;00_24
+00_24_03;Unik;Unik;00_24
+00_25;BUNDLES;BUNDLES;NEUTRAL
+00_25_00;Pack;Pack;00_25
+00_25_01;Bundle Inodoro;;00_25
+00_25_02;Bundle Bidé;;00_25
+00_26;AZULEJOS;;NEUTRAL
+00_26_01;Azulejos;;00_26
+00_27;CALENTADORES DE AGUA;;NEUTRAL
+00_27_01;Calentadores de agua;;00_27
+00_28;MECANISMOS;;NEUTRAL
+00_28_01;Entrada de agua;;00_28
+00_28_02;Descarga;;00_28
+00_28_03;Sistemas completos;;00_28
+00_pub;Send but not display;Send but not display;NEUTRAL
+00_pub_00;Send but not display;Send but not display;00_pub
+00___00;00...00 Waiting Area;00...00 Waiting Area;NEUTRAL
+SELLING;SELLING;SELLING;
+09_01;;Umyvadla;SELLING
+09_01_01;;Umyvadlo;09_01
+09_01_02;;Závěsné umyvadlo;09_01
+09_01_03;;Dvojumyvadlo;09_01
+09_01_04;;Umyvadlo do nábytku;09_01
+09_01_05;;Dvojumyvadlo do nábytku;09_01
+09_01_06;;Rohové umyvadlo;09_01
+09_01_07;;Umývátko;09_01
+09_01_08;;Rohové umývátko;09_01
+09_01_09;;Vestavné umyvadlo zdola;09_01
+09_01_10;;Zápustné umyvadlo;09_01
+09_01_11;;Umyvadlová mísa;09_01
+09_01_12;;Polozápustné umyvadlo;09_01
+09_01_13;;Volně stojící umyvadlo;09_01
+09_01_14;;Zdravotní umyvadlo;09_01
+09_01_15;;Sloup;09_01
+09_01_16;;Kryt na sifon;09_01
+09_03;;Bidety;SELLING
+09_03_01;;Stojící bidet;09_03
+09_03_02;;Závěsný bidet;09_03
+09_03_03;;Bidetové sedátko;09_03
+09_04;;Urinály;SELLING
+09_04_01;;Urinál;09_04
+09_04_02;;Urinálová dělící stěna;09_04
+09_04_03;;Poklop na urinál;09_04
+09_04_04;;Kryt na sifon;09_04
+09_05;;Vany;SELLING
+09_05_01;;Vana;09_05
+09_05_02;;Vana s konstrukcí a L-panelem levým;09_05
+09_05_03;;Vana s konstrukcí a L-panelem pravým;09_05
+09_05_04;;Vana s konstrukcí a C-panelem;09_05
+09_05_05;;Vana s konstrukcí a čelním panelem;09_05
+09_05_06;;Čelní panel;09_05
+09_05_07;;Boční panel;09_05
+09_05_08;;L-panel;09_05
+09_05_09;;C-panel;09_05
+09_05_10;;Podhlavník;09_05
+09_05_11;;Příslušenství;09_05
+09_06;;Sprchové zástěny;SELLING
+09_06_01;;Sprchová zástěna;09_06
+09_06_02;;Sprchové dveře;09_06
+09_06_03;;Vanová zástěna;09_06
+09_06_04;;Sprchový závěs;09_06
+09_06_05;;Tyč na sprchový závěs;09_06
+09_07;;Sprchové vaničky;SELLING
+09_07_01;;Sprchová vanička;09_07
+09_07_02;;Příslušenství;09_07
+09_08;;Sprchové kouty;SELLING
+09_08_01;;Sprchový kout;09_08
+09_09;;Koupelnový nábytek;SELLING
+09_09_01;;Skříňový element;09_09
+09_09_02;;Konzole;09_09
+09_09_03;;Kontejner k vysoké skříňce;09_09
+09_09_04;;Kontejner ke skříňce pod umyvadlo;09_09
+09_09_05;;Rohová skříňka pod umyvadlo;09_09
+09_09_06;;Zásuvkový element;09_09
+09_09_07;;Střední skříňka;09_09
+09_09_08;;Zrcadlo;09_09
+09_09_09;;Zrcadlová skříňka;09_09
+09_09_10;;Polička;09_09
+09_09_11;;Nízká skříňka;09_09
+09_09_12;;Vysoká skříňka;09_09
+09_09_13;;Kontejner;09_09
+09_09_14;;Skříňka pod umyvadlo;09_09
+09_09_15;;Závěsná skříňka;09_09
+09_09_16;;Nástěnné světlo;09_09
+09_09_17;;Umyvadlová deska;09_09
+09_09_18;;Nábytkový modul pro vanu;09_09
+09_09_19;;Rám k umyvadlu;09_09
+09_09_20;;Krycí deska;09_09
+09_09_21;;Koupelnové doplňky;09_09
+09_10;;Vodovodní baterie;SELLING
+09_10_01;;Bidetová baterie;09_10
+09_10_02;;Umyvadlová baterie;09_10
+09_10_03;;Sprchová baterie;09_10
+09_10_04;;Vanová baterie;09_10
+09_10_05;;Dřezová baterie;09_10
+09_10_06;;Podomítkové těleso;09_10
+09_10_07;;Sprchové příslušenství;09_10
+09_10_08;;Příslušenství k bateriím;09_10
+09_10_09;;Koupelnové doplňky;09_10
+09_10_10;;Urinálový systém;09_10
+09_11;;Podomítkové systémy;SELLING
+09_11_01;;Podomítkové systémy;09_11
+09_11_02;;Tlačítka;09_11
+09_11_03;;Plastová nádržka;09_11
+09_11_04;;Příslušenství;09_11
+09_12;;Příslušenství;SELLING
+09_12_01;;Polička;09_12
+09_12_02;;Zrcadlo;09_12
+09_12_03;;Držák na pohár;09_12
+09_12_04;;Osvětlení;09_12
+09_12_05;;Držák toaletního papíru;09_12
+09_12_06;;Držák šamponu;09_12
+09_12_07;;Mýdelník;09_12
+09_12_08;;Zásobník na mýdlo;09_12
+09_12_09;;Držák WC kartáče;09_12
+09_12_10;;Držák na ručník;09_12
+09_12_11;;Háček na ručník;09_12
+09_12_12;;Držák sáčku na odpadky;09_12
+09_12_13;;Držák na osušku;09_12
+09_12_14;;Toaletní madlo;09_12
+09_12_15;;Kryt na sifon;09_12
+09_12_16;;Zásobník na mýdlo se sklenicí;09_12
+09_12_17;;Mýdelník a držák na sklenici;09_12
+09_12_18;;Sifon;09_12
+09_12_19;;Polička;09_12
+09_12_20;;Šnůra na prádlo;09_12
+09_12_21;;Regál;09_12
+09_12_22;;Držák časopisů;09_12
+09_12_23;;Zásobník na papírové ubrousky;09_12
+09_13;;Speciální výrobky;SELLING
+09_13_01;;Školní umyvadlo;09_13
+09_13_02;;Závěsná výlevka;09_13
+09_13_03;;Stojící výlevka;09_13
+09_14;;Obklady a dlažby;SELLING
+09_14_01;;Obklady a dlažby v základu;09_14
+09_14_02;;Dekory a mozaiky;09_14
+09_14_03;;Speciální položky;09_14
+DESIGNLINE;DESIGN LINE;DESIGN LINE;
+09_0532;Italia;Italia;DESIGNLINE
+09_0a44;Alma;Alma;DESIGNLINE
+09_0b22;Baby;Baby;DESIGNLINE
+09_0b25;Berenika;Berenika;DESIGNLINE
+09_0b28;Basic;Basic;DESIGNLINE
+beyond;Beyond;Beyond;DESIGNLINE
+09_0c56;Cubito;Cubito;DESIGNLINE
+09_0c82;Clear;Clear;DESIGNLINE
+09_0c90;Cubito pure;Cubito pure;DESIGNLINE
+09_0c99;Cube;Cube;DESIGNLINE
+09_0cb1;Cubito N;Cubito N;DESIGNLINE
+09_0d11;Design;Design;DESIGNLINE
+09_0d17;Dino;Dino;DESIGNLINE
+09_0d34;Domino;Domino;DESIGNLINE
+09_0d36;JIKA Art;JIKA Art;DESIGNLINE
+09_0d58;Doris;Doris;DESIGNLINE
+09_0d99;Diverse;Diverse;DESIGNLINE
+09_0g13;Golem;Golem;DESIGNLINE
+09_0g37;Generic;Generic;DESIGNLINE
+09_0h23;Heritage;Heritage;DESIGNLINE
+09_0i10;Ibon;Ibon;DESIGNLINE
+09_0k16;Korint;Korint;DESIGNLINE
+09_0l27;Lyra plus, Lyra and Lyra Pack;Lyra plus, Lyra and Lyra Pack;DESIGNLINE
+09_0l49;Livo;Livo;DESIGNLINE
+09_0l58;Lyra plus;Lyra plus;DESIGNLINE
+09_0l95;Lyra Pack;Lyra Pack;DESIGNLINE
+09_0lo1;Lyra-Olymp;Lyra-Olymp;DESIGNLINE
+09_0m38;Mira;Mira;DESIGNLINE
+09_0m58;Mio;Mio;DESIGNLINE
+09_0m97;Modul;Modul;DESIGNLINE
+09_0mb9;Mio N;Mio N;DESIGNLINE
+09_0n35;Nariva;Nariva;DESIGNLINE
+09_0o53;Olymp + Olymp Deep;Olymp + Olymp Deep;DESIGNLINE
+09_0p38;Praga;Praga;DESIGNLINE
+09_0p78;Pure;Pure;DESIGNLINE
+09_0p81;Petit;Petit;DESIGNLINE
+09_0p93;Padana;Padana;DESIGNLINE
+09_0r01;Rio;Rio;DESIGNLINE
+09_0r11;Roman;Roman;DESIGNLINE
+09_0r14;Riga;Riga;DESIGNLINE
+09_0r21;Ravenna;Ravenna;DESIGNLINE
+09_0s26;Sam;Sam;DESIGNLINE
+09_0s51;Sofia;Sofia;DESIGNLINE
+09_0s94;Split;Split;DESIGNLINE
+09_0sc2;Sensor;Sensor;DESIGNLINE
+09_0t39;Thalia;Thalia;DESIGNLINE
+09_0t48;Tanza;Tanza;DESIGNLINE
+09_0t77;Tigo;Tigo;DESIGNLINE
+09_0t85;Talas;Talas;DESIGNLINE
+09_0u01;Universal;Universal;DESIGNLINE
+09_0u09;Universum;Universum;DESIGNLINE
+09_0z02;Zeta;Zeta;DESIGNLINE
+09_t001;City;City;DESIGNLINE
+09_t002;Focus;Focus;DESIGNLINE
+09_t003;Aspen;Aspen;DESIGNLINE
+09_t004;Reno;Reno;DESIGNLINE
+09_t005;Rustica;Rustica;DESIGNLINE
+09_t006;Imagination_wood;Imagination_wood;DESIGNLINE
+09_t007;Imagination_floor;Imagination_floor;DESIGNLINE
+09_t008;Imagination_wall;Imagination_wall;DESIGNLINE
+09_t009;Di Pietra;Di Pietra;DESIGNLINE
+09_t010;Style;Style;DESIGNLINE
+09_t011;Industria;Industria;DESIGNLINE
+09_t012;Mood;Mood;DESIGNLINE
+09_t013;Urban;Urban;DESIGNLINE
+09_t014;Melbourne;Melbourne;DESIGNLINE
+09_t015;Home;Home;DESIGNLINE
+09_t016;Papyrus;Papyrus;DESIGNLINE
+09_t017;Fly;Fly;DESIGNLINE
+09_t018;Memphis;Memphis;DESIGNLINE
+09_t019;Whites;Whites;DESIGNLINE
+09_t020;Cool;Cool;DESIGNLINE
+09_t021;Sicily;Sicily;DESIGNLINE
+09_t022;Perla;Perla;DESIGNLINE
+09_t023;Pastel;Pastel;DESIGNLINE
+09_t024;Zoom;Zoom;DESIGNLINE
+09_t025;Arty;Arty;DESIGNLINE
+09_t026;Planet;Planet;DESIGNLINE
+SEARCH;SEARCH;SEARCH;
+1;;Umyvadla;SEARCH
+2;;Vodovodní baterie;SEARCH
+02_01;;Pákové;2
+02_02;;Kohoutkové;2
+02_03;;Hybridní;2
+02_04;;Termostatické;2
+02_05;;Elektronické;2
+02_06;;Samouzavírací;2
+3;;Koupelnový nábytek;SEARCH
+03_01;;Skříňky pod umyvadlo;3
+03_02;;Skříňky;3
+4;;Vany a wellness;SEARCH
+04_01;;Vany bez hydromasáže;4
+04_02;;Vany s hydromasáží;4
+04_03;;Lázně;4
+5;;Sprchové vaničky;SEARCH
+6;;Stojánkové sprchy;SEARCH
+7;;Sprchovací program;SEARCH
+07_01;;Ruční sprchy;7
+07_02;;Sprchové hlavice;7
+07_03;;Sprchové trysky;7
+07_04;;Sprchové sady;7
+07_05;;Doplňky ke sprchám;7
+8;;Sprchové kouty a kabiny;SEARCH
+08_01;;Sprchové kabiny;8
+08_02;;Sprchové kouty;8
+9;;Toalety pro wellness program;SEARCH
+09_02;;Sedátka s funkcí bidetu;9
+09_02_01;;Stojící klozet;09_02
+09_02_02;;Stojící kombinační mísa;09_02
+09_02_03;;Kombinační klozet;09_02
+09_02_04;;Závěsný klozet;09_02
+09_02_05;;Závěsná kombinační mísa;09_02
+09_02_06;;Speciální klozet;09_02
+09_02_07;;Nádrž;09_02
+09_02_08;;WC sedátko;09_02
+10;;Klozety;SEARCH
+10_02;;Kombinované toalety;10
+10_04;;Závěsné toalety;10
+10_05;;Samostatné toalety k instalaci na podlahu;10
+11;;Splachovací nádržky pro toalety;SEARCH
+12;;Bidety;SEARCH
+12_01;;Bidety;12
+12_02;;Závěsné bidety;12
+12_03;;Stojící bidety s krytem;12
+12_04;;Závěsné bidety s krytem;12
+13;;Sedátko s poklopem;SEARCH
+13_01;;Toaletní sedátka a poklopy;13
+13_02;;Poklopy pro bidety;13
+13_03;;Poklopy pro urinály;13
+14;;Podomítkové systémy;SEARCH
+14_01;;Systémy pro instalaci se zazděním;14
+14_02;;Systémy pro instalaci do výpusti;14
+15;;Příslušenství;SEARCH
+15_01;;Háčky na koupací pláště;15
+15_02;;Misky na mýdlo;15
+15_03;;Dávkovače tekutého mýdla;15
+15_04;;Sklenky;15
+15_06;;Držáky zubních kartáčků;15
+15_07;;Police;15
+15_08;;Otevřené přihrádky;15
+15_09;;Nádoby;15
+15_10;;Věšáky na ručníky tyčové;15
+15_11;;Věšáky na ručníky kruhové;15
+15_12;;Vyhřívané věšáky na ručníky;15
+15_13;;Věšáky na ručníky žebříkové;15
+15_14;;Úchopná madla;15
+15_15;;Držáky toaletního papíru;15
+15_16;;Držáky WC štětek;15
+15_17;;Zvětšovací zrcadla;15
+15_18;;Odpadní koše;15
+15_19;;Vysoušeče vlasů;15
+15_20;;Sprchová sedátka;15
+15_21;;Další příslušenství;15
+16;;Sprchové zástěny;SEARCH
+17;;Zrcadla;SEARCH
+17_01;;Zrcadla bez osvětlení;17
+17_02;;Zrcadla s osvětlením;17
+17_03;;Zrcadlové skříňky;17
+17_04;;Zvětšovací zrcadla;17
+18;;Keramické sloupy a kryty pod umyvadla;SEARCH
+18_01;;Sloupy pod umyvadla;18
+18_02;;Kryty na sifon;18
+19;;Další keramické výrobky;SEARCH
+19_01;;Urinály;19
+19_02;;Elektronické urinály;19
+19_03;;Dělicí příčky mezi urinály;19
+19_04;;Úklidové výlevky;19
+19_05;;Dřezy na prádlo;19
+19_06;;Turecké toalety;19
+19_07;;Pedikérní vaničky;19
+20;;Kuchyňské dřezy;SEARCH
+21;;Ventily a další doplňky k vodovodním bateriím;SEARCH
+21_01;;Splachovací ventily pro toalety;21
+21_02;;Splachovací ventily pro urinály;21
+21_03;;Rohové ventily;21
+21_04;;Uzavírací kohouty;21
+21_05;;Sifony pro umyvadla;21
+21_06;;Sifony pro bidety;21
+21_07;;Sifony pro urinály;21
+21_08;;Odpady pro umyvadla;21
+21_09;;Odpady pro bidety;21
+21_10;;Odpady pro sprchové vany;21
+21_11;;Odpady pro vany;21
+21_12;;Vanové výpusti;21
+21_13;;Další doplňky k vodovodním bateriím;21
+21_14;;;21
+22;;Doplňky;SEARCH
+22_01;;Doplňky k umyvadlům;22
+22_02;;Doplňky ke koupelnovému nábytku;22
+22_03;;Panely pro koupací a sprchové vany;22
+22_04;;Doplňky k vanám;22
+22_05;;Doplňky ke sprchovým vanám;22
+22_06;;Doplňky ke sprchovým koutům a kabinám;22
+22_07;;Doplňky k lázním;22
+22_08;;Doplňky ke kuchyňským dřezům;22
+22_09;;Zařízení k odmlžování zrcadel;22
+22_10;;Osvětlení zrcadel;22
+22_11;;Vyrovnávací profily pro sprchové zástěny;22
+23;;Obklady a dlažby;SEARCH
+23_01;;Obklady a dlažby v základu;23
+23_02;;Dekory a mozaiky;23
+23_03;;Speciální položky;23
+24;;;SEARCH
+24_01;;Integrované toalety pro wellness program;24
+24_02;;;24
+24_03;;Toalety s nádržkou zabudovanou ve zdi;24
+24_04;;;24
+24_05;;;24
+24_06;;Jednodílné toalety;24
+25;;;SEARCH

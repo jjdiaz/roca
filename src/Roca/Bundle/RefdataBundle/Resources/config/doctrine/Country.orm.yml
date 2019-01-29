@@ -18,8 +18,10 @@ Roca\Bundle\RefdataBundle\Entity\Country:
         continent:
             type: string
             length: 20
+            nullable: true
         mainCountry:
             type: boolean
+            nullable: true
 #        name:
 #            type: string
 #            length: 100

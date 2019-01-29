@@ -40,6 +40,27 @@ Roca\Bundle\RefdataBundle\Entity\DesignLine:
         version:
             type: integer
             nullable: true
+        resources:
+            type: json_array
+            length: 500
+        accessible:
+            type: boolean
+            nullable: true
+            column: accesible
+        publicSpaces:
+            type: boolean
+            nullable: true
+            column: public_spaces
+        eco:
+            type: boolean
+            nullable: true
+        children:
+            type: boolean
+            nullable: true
+        assets:
+            type: native_json
+            nullable: true
+            colum: assets
 
     manyToOne:
         designer:
@@ -121,6 +142,19 @@ Roca\Bundle\RefdataBundle\Entity\DesignLine:
                     distinction_id:
                         referencedColumnName: id
                         onDelete: CASCADE
+#        assets:
+#            targetEntity: PimEnterprise\Component\ProductAsset\Model\Asset
+#            joinTable:
+#                name: asm_designline_assets
+#                joinColumns:
+#                    designline_id:
+#                        referencedColumnName: id
+#                inverseJoinColumns:
+#                    asset_id:
+#                        referencedColumnName: id
+#            cascade:
+#            - persist
+#            - detach
 
     oneToMany:
         translations:
