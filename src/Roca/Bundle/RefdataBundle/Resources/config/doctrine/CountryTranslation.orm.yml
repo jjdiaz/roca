@@ -1,39 +1,3 @@
-<<<<<<< HEAD
-Roca\Bundle\RefdataBundle\Entity\CountryTranslation:
-    type: entity
-    table: asm_country_translation
-    changeTrackingPolicy: DEFERRED_EXPLICIT
-    uniqueConstraints:
-        locale_foreign_key_idx:
-            columns:
-                - locale
-                - foreign_key
-    fields:
-# obligado !!
-        id:
-            type: integer
-            id: true
-            generator:
-                strategy: AUTO
-# obligado !!
-        locale:
-            type: string
-            length: 20
-
-        name:
-            type: string
-            length: 100
-            nullable: true
-
-    manyToOne:
-        foreignKey:
-            targetEntity: Roca\Bundle\RefdataBundle\Entity\Country
-            inversedBy: translations
-            joinColumns:
-                foreign_key:
-                    referencedColumnName: id
-                    onDelete: CASCADE
-=======
 Roca\Bundle\RefdataBundle\Entity\CountryTranslation:
     type: entity
     table: asm_country_translation
@@ -68,4 +32,3 @@ Roca\Bundle\RefdataBundle\Entity\CountryTranslation:
                 foreign_key:
                     referencedColumnName: id
                     onDelete: CASCADE
->>>>>>> jjd/cloudinary

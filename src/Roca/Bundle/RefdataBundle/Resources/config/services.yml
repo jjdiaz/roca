@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-services:
-    roca.normalizer.brand:
-        class: Roca\Bundle\RefdataBundle\Normalizer\BrandNormalizer
-        tags:
-            - {name: pim_serializer.normalizer, priority: 200}
-
-    roca.normalizer.designline:
-        class: Roca\Bundle\RefdataBundle\Normalizer\DesignLineNormalizer
-        tags:
-        - {name: pim_serializer.normalizer, priority: 200}
-=======
 services:
     roca.normalizer.brand:
         class: Roca\Bundle\RefdataBundle\Normalizer\BrandNormalizer
@@ -25,4 +13,3 @@ services:
         class: Roca\Bundle\RefdataBundle\Normalizer\DesignLineNormalizer
         tags:
         - {name: pim_serializer.normalizer, priority: 200}
->>>>>>> jjd/cloudinary
