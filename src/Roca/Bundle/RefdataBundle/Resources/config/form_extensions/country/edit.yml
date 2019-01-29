@@ -1,0 +1,190 @@
+extensions:
+    pim-country-edit-form:
+        module: custom_entity/form/common/edit-form
+
+    pim-country-edit-form-breadcrumbs:
+        module: pim/common/breadcrumbs
+        parent: pim-country-edit-form
+        targetZone: breadcrumbs
+        config:
+            tab: pim-menu-reference_data
+            item: acme_custom-menu-reference_data-item-country
+
+    pim-country-edit-form-cache-invalidator:
+        module: pim/cache-invalidator
+        parent: pim-country-edit-form
+        position: 1000
+
+    pim-color-edit-form-label:
+        module: custom_entity/form/common/label
+        parent: pim-color-edit-form
+        targetZone: title
+        position: 90
+
+    pim-country-edit-form-form-tabs:
+        module: pim/form/common/form-tabs
+        parent: pim-country-edit-form
+        targetZone: content
+        position: 100
+
+    pim-country-edit-form-secondary-actions:
+        module: pim/form/common/secondary-actions
+        parent: pim-country-edit-form
+        targetZone: buttons
+        position: 50
+
+    pim-country-edit-form-delete:
+        module: custom_entity/form/common/delete
+        parent: pim-country-edit-form-secondary-actions
+        targetZone: secondary-actions
+        aclResourceId: pim_enrich_group_remove
+        position: 100
+        config:
+            route: pim_customentity_rest_delete
+            routeParams:
+                customEntityName: country
+            trans:
+                title: roca_custom.message.confirmation.remove.country
+                container: pim_enrich.confirmation.delete_item
+                success: pim_custom_entity.message.confirmation.removed
+                fail: pim_custom_entity.error.removing
+            redirect: pim_customentity_index
+
+    pim-country-edit-form-save-buttons:
+        module: pim/form/common/save-buttons
+        parent: pim-country-edit-form
+        targetZone: buttons
+        position: 120
+
+    pim-country-edit-form-save:
+        module: custom_entity/form/common/save-form
+        parent: pim-country-edit-form
+        targetZone: buttons
+        position: 0
+        config:
+            updateSuccessMessage: acme_custom.country.info.update_successful
+            updateFailureMessage: acme_custom.country.info.update_failed
+            notReadyMessage: acme_custom.country.info.field_not_ready
+            url: pim_customentity_rest_edit
+            route_params:
+                customEntityName: country
+            redirectAfter: pim_customentity_rest_get
+            excludedProperties: []
+
+    pim-country-edit-form-properties-tab:
+        module: pim/common/tab
+        parent: pim-country-edit-form-form-tabs
+        targetZone: container
+        position: 100
+        config:
+            label: pim_custom_entity.form.tab.properties.title
+
+    pim-country-edit-form-resources-tab:
+        module: pim/common/tab
+        parent: pim-country-edit-form-form-tabs
+        targetZone: container
+        position: 110
+        config:
+#            label: roca_custom_entity.form.tab.resources.title
+            label: roca_test
+            title: roca_test
+
+    pim-country-edit-form-properties:
+        module: pim/common/simple-view
+        parent: pim-country-edit-form-properties-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-country-edit-form-resources:
+        module: pim/common/simple-view
+        parent: pim-country-edit-form-resources-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-country-edit-form-history:
+        module: pim/common/tab/history
+        parent: pim-country-edit-form-form-tabs
+        targetZone: container
+        position: 120
+        config:
+            class: country
+            title: pim_custom_entity.form.tab.history.title
+
+    pim-country-edit-form-properties-common:
+        module: pim/common/simple-view
+        parent: pim-country-edit-form-properties
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-country-edit-form-resources-common:
+        module: pim/common/simple-view
+        parent: pim-country-edit-form-resources
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+#    Campo code
+    pim-country-edit-form-properties-code:
+        module: pim/form/common/fields/text
+        parent: pim-country-edit-form-properties-common
+        targetZone: content
+        position: 90
+        config:
+            fieldName: code
+            label: acme_custom.country.field.label.code
+            required: true
+            readOnly: true
+#Campo ISO Code
+    pim-country-edit-form-properties-isocode:
+        module: pim/form/common/fields/text
+        parent: pim-country-edit-form-properties-common
+        targetZone: content
+        position: 100
+        config:
+            fieldName: isocode
+            label: acme_custom.country.field.label.isocode
+            required: true
+            readOnly: false
+
+#Campo MainCountry
+    pim-country-edit-form-properties-maincountry:
+        module: pim/form/common/fields/boolean
+        parent: pim-country-edit-form-properties-common
+        targetZone: content
+        position: 110
+        config:
+            fieldName: maincountry
+            label: acme_custom.country.field.label.maincountry
+            required: true
+            readOnly: false
+
+##Sección de Traducción
+#    pim-country-edit-form-properties-translation-section:
+#        module: pim/common/simple-view
+#        parent: pim-country-edit-form-properties
+#        targetZone: accordion
+#        position: 110
+#        config:
+#            template: pim/template/form/tab/section
+#            templateParams:
+#                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+#                dropZone: content
+#    #Campos de traducción
+#    pim-country-edit-form-properties-translation:
+#        module: pim/common/properties/translation
+#        parent: pim-country-edit-form-properties-translation-section
+#        targetZone: content
+#        position: 100
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_label_'

@@ -1,1 +1,29 @@
+<<<<<<< HEAD
 code;categories;localized;description;tags;end_of_use
+=======
+code;categories;description;end_of_use;localized;tags
+evershine;GENERAL;;;1;
+softturn;GENERAL;;;1;
+5A2250C00;SINGLE_LEVER_FAUCETS;;;1;
+A327630000_stratum_2_TF_Web_Big;IMAGES;;;0;
+5A3449C00_4675_003_00256_00_TF_Web_Big;SINGLE_LEVER_FAUCETS;;;0;
+A5A3A01C00_TF_Web_Big;SINGLE_LEVER_FAUCETS;;;0;
+Joystick_color_TF_Web_56ppi;GENERAL;;;0;
+A327630170_TF_Web_Big;IMAGES;;;0;
+FLUSHING_3_4_5L;GENERAL;;;0;
+FLUSHING_4_2L;GENERAL;;;0;
+FLUSHING_6_3L;GENERAL;;;0;
+Beyond_3410B1__0_Roca_TF_Web_Big;BIDETS;;;0;
+inspira_SO437_2_TF_Web_Big;INSPIRA;;;0;
+inspira_SO907_ROCA_INWASH_ROUND_GEN01_FIN01_A4_sRGB_TF_Web_Big;INSPIRA;;;0;
+007_00932_00_TF_Web_Big;BEYOND;;;0;
+Beyond_Roca_S8055_Beyond_ADOBERGB1998_TF_Web_Big;BEYOND;;;0;
+Beyond_Roca_TF_Web_Big;BEYOND;;;0;
+Roca_Beyond_Iridia_02_TF_Web_Big;BEYOND;;;0;
+Roca_Beyond_Iridia_04_TF_Web_Big;BEYOND;;;0;
+inspira_007_00950_00_TF_Web_Big;INSPIRA;;;0;
+Beyond_A851395402_Roca_TF_Web_Big;;;;0;
+Beyond_A851395806_Roca_TF_Web_Big;;;;0;
+A3270B8000_TF_Web_Big;;;;0;
+Beyond_3270B1xx0_2_Roca_TF_Web_Big;;;;0;
+>>>>>>> jjd/cloudinary

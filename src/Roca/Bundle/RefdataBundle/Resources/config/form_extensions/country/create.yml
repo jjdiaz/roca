@@ -1,0 +1,32 @@
+extensions:
+    pim-country-create-modal:
+        module: custom_entity/form/creation/modal
+        config:
+            labels:
+               title: pim_custom_entity.create_popin.title
+               subTitle: roca_custom.menu.item.reference_data.country
+            picture: illustrations/User.svg
+            successMessage: pim_custom_entity.message.created
+            editRoute: pim_customentity_rest_get
+            postUrl:
+                route: pim_customentity_rest_create
+                parameters:
+                    customEntityName: country
+
+    pim-country-create-code:
+        module: pim/form/common/creation/field
+        parent: pim-country-create-modal
+        targetZone: fields
+        position: 10
+        config:
+            identifier: code
+            label: pim_custom_entity.form.field.label.code
+
+    pim-country-create-isocode:
+        module: pim/form/common/creation/field
+        parent: pim-country-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: isocode
+            label: pim_custom_entity.form.field.label.isocode

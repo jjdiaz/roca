@@ -31,7 +31,7 @@ vendor
 !/bin/docker/pim-initialize.sh
 !/bin/console
 bin/console
-
+lib/
 behat.yml
 .phpspec/*.tpl
 composer.phar

@@ -1,6 +1,0 @@
-extensions:
-    cloudinary-system-configuration:
-        module: cloudinary/system/configuration
-        parent: oro-system-config-tabs
-        targetZone: container
-        position: 140

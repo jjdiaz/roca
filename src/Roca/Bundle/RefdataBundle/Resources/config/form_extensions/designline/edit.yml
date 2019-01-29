@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 extensions:
     pim-designline-edit-form:
         module: custom_entity/form/common/edit-form
@@ -219,3 +220,274 @@ extensions:
             entityName: designer
             required: false
             isMultiple: false
+=======
+extensions:
+    pim-designline-edit-form:
+        module: custom_entity/form/common/edit-form
+
+    pim-designline-edit-form-breadcrumbs:
+        module: pim/common/breadcrumbs
+        parent: pim-designline-edit-form
+        targetZone: breadcrumbs
+        config:
+            tab: pim-menu-reference_data
+            item: roca_custom-menu-reference_data-item-designline
+
+    pim-designline-edit-form-cache-invalidator:
+        module: pim/cache-invalidator
+        parent: pim-designline-edit-form
+        position: 1000
+
+    pim-designline-edit-form-label:
+        module: custom_entity/form/common/label
+        parent: pim-designline-edit-form
+        targetZone: title
+        position: 90
+
+    pim-designline-edit-form-form-tabs:
+        module: pim/form/common/form-tabs
+        parent: pim-designline-edit-form
+        targetZone: content
+        position: 100
+
+    pim-designline-edit-form-secondary-actions:
+        module: pim/form/common/secondary-actions
+        parent: pim-designline-edit-form
+        targetZone: buttons
+        position: 50
+
+    pim-designline-edit-form-delete:
+        module: custom_entity/form/common/delete
+        parent: pim-designline-edit-form-secondary-actions
+        targetZone: secondary-actions
+        aclResourceId: pim_enrich_group_remove
+        position: 100
+        config:
+            route: pim_customentity_rest_delete
+            routeParams:
+                customEntityName: designline
+            trans:
+                title: roca_custom.message.confirmation.remove.designline
+                container: pim_enrich.confirmation.delete_item
+                success: pim_custom_entity.message.confirmation.removed
+                fail: pim_custom_entity.error.removing
+            redirect: pim_customentity_index
+
+    pim-designline-edit-form-publish:
+        module: custom_entity/form/common/delete
+        parent: pim-designline-edit-form-secondary-actions
+        targetZone: secondary-actions
+        aclResourceId: pim_enrich_group_remove
+        position: 110
+        config:
+            route: pim_customentity_index
+            routeParams:
+                customEntityName: designline
+            trans:
+                title: Publish
+                label: Publish
+                container: pim_enrich.confirmation.delete_item
+                success: pim_custom_entity.message.confirmation.removed
+                fail: pim_custom_entity.error.removing
+            redirect: pim_customentity_index
+
+    pim-designline-edit-form-save-buttons:
+        module: pim/form/common/save-buttons
+        parent: pim-designline-edit-form
+        targetZone: buttons
+        position: 120
+
+    pim-designline-edit-form-save:
+        module: custom_entity/form/common/save-form
+        parent: pim-designline-edit-form
+        targetZone: buttons
+        position: 0
+        config:
+            updateSuccessMessage: acme_custom.designline.info.update_successful
+            updateFailureMessage: acme_custom.designline.info.update_failed
+            notReadyMessage: acme_custom.designline.info.field_not_ready
+            url: pim_customentity_rest_edit
+            route_params:
+                customEntityName: designline
+            redirectAfter: pim_customentity_rest_get
+            excludedProperties: []
+
+    pim-designline-edit-form-properties-tab:
+        module: pim/common/tab
+        parent: pim-designline-edit-form-form-tabs
+        targetZone: container
+        position: 100
+        config:
+            label: pim_custom_entity.form.tab.properties.title
+
+    pim-designline-edit-form-resources-tab:
+        module: pim/common/tab
+        parent: pim-designline-edit-form-form-tabs
+        targetZone: container
+        position: 110
+        config:
+#            label: roca_custom_entity.form.tab.resources.title
+            label: roca_test
+            title: roca_test
+
+    pim-designline-edit-form-relations-tab:
+        module: pim/common/tab
+        parent: pim-designline-edit-form-form-tabs
+        targetZone: container
+        position: 120
+        config:
+            label: Relations
+            title: Relations
+
+    pim-designline-edit-form-history:
+        module: pim/common/tab/history
+        parent: pim-designline-edit-form-form-tabs
+        targetZone: container
+        position: 130
+        config:
+            class: designline
+            title: pim_custom_entity.form.tab.history.title
+
+
+    pim-designline-edit-form-properties:
+        module: pim/common/simple-view
+        parent: pim-designline-edit-form-properties-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-designline-edit-form-resources:
+        module: pim/common/simple-view
+        parent: pim-designline-edit-form-resources-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+
+    pim-designline-edit-form-properties-common:
+        module: pim/common/simple-view
+        parent: pim-designline-edit-form-properties
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-designline-edit-form-resources-common:
+        module: pim/common/simple-view
+        parent: pim-designline-edit-form-resources
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-designline-edit-form-properties-code:
+        module: pim/form/common/fields/text
+        parent: pim-designline-edit-form-properties-common
+        targetZone: content
+        position: 10
+        config:
+            fieldName: code
+            label: roca_custom.designline.field.label.code
+            required: true
+            readOnly: true
+
+    pim-designline-edit-form-properties-name:
+#        module: pim/form/common/fields/text
+        module: roca/form/common/field/text
+        parent: pim-designline-edit-form-properties-common
+        targetZone: content
+        position: 20
+        config:
+            fieldName: name
+            required: true
+            label: roca_custom.designline.field.label.name
+
+    pim-designline-edit-form-properties-status:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-edit-form-properties-common
+        targetZone: content
+        position: 30
+        config:
+            fieldName: status
+            required: true
+            label: roca_custom.designline.field.label.status
+
+    pim-designline-edit-form-properties-version:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-edit-form-properties-common
+        targetZone: content
+        position: 40
+        config:
+            fieldName: version
+            required: true
+            label: roca_custom.designline.field.label.version
+
+    pim-designline-edit-form-properties-designer:
+        module: custom_entity/field/custom-entity-select
+        parent: pim-designline-edit-form-properties-common
+        targetZone: content
+        position: 120
+        config:
+            fieldName: designer
+            label: roca_custom.designline.field.label.designer
+            choiceNameField: code
+            choiceValueField: pcmname
+            isCustomEntity: true
+            entityName: designer
+            required: false
+            isMultiple: false
+
+    pim-designline-edit-form-properties-assets:
+        module: roca/form/common/fields/assets
+        parent: pim-designline-edit-form-resources
+        targetZone: content
+        position: 150
+        config:
+            template: PimEnterpriseProductAsset/Property/assetsCollection.html.twig
+            fieldName: assets
+            required: false
+            label: roca_custom.designline.field.label.assets
+            micampo: valor_de_micampo
+            choiceNameField: code
+
+    pim-designline-edit-form-attribute-scope-switcher:
+        module: pim/product-edit-form/scope-switcher
+        parent:  pim-designline-edit-form
+        targetZone: context
+        position: 100
+        config:
+            context: base_product
+
+    pim-designline-edit-form-attribute-locale-switcher:
+        module: pim/product-edit-form/locale-switcher
+        parent: pim-designline-edit-form
+        targetZone: context
+        position: 110
+        config:
+            context: base_product
+
+    pim-designline-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent:  pim-designline-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+
+#    pim-designline-edit-form-properties-translation:
+#        module: pim/common/properties/translation
+#        parent: pim-designline-edit-form-properties-translation-section
+#        targetZone: content
+#        position: 100
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_label_'
+>>>>>>> jjd/cloudinary

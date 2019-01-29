@@ -1,4 +1,0 @@
-config:
-    paths:
-        cloudinary/system/configuration: asmcloudinary/js/form/system
-        cloudinary/template/system/group/configuration: asmcloudinary/js/templates/system/group/configuration.html
