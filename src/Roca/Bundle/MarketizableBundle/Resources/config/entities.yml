@@ -1,0 +1,3 @@
+parameters:
+  pim_catalog.entity.locale.class:              Roca\Bundle\MarketizableBundle\Entity\Locale
+  pimee_security.entity.locale_access.class:    Roca\Bundle\MarketizableBundle\Entity\LocaleAccess
