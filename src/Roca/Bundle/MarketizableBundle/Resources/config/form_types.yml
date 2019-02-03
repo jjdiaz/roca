@@ -1,0 +1,22 @@
+parameters:
+    ## Form Types
+    ##pimee_enrich.form.type.locale_permissions.class: Roca\Bundle\MarketizableBundle\Form\Type\LocalePermissionsType
+    pimee_enrich.form.type.locale.class: Roca\Bundle\MarketizableBundle\Form\Type\LocaleType
+
+services:
+
+    ##
+    # New forms
+    ##
+#    pimee_enrich.form.type.locale:
+#        class: '%pimee_enrich.form.type.locale.class%'
+#        tags:
+#        - { name: form.type, alias: pimee_enrich_locale }
+#        calls:
+#        - [addEventSubscriber, ['@pimee_enrich.form.subscriber.locale_permissions']]
+
+#    pimee_enrich.form.type.locale_permissions:
+#        class: '%pimee_enrich.form.type.locale_permissions.class%'
+#        tags:
+#            - { name: form.type, alias: pimee_enrich_locale_permissions }
+

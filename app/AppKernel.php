@@ -30,10 +30,11 @@ class AppKernel extends Kernel
         return [
             new Roca\Bundle\InstallerBundle\RocaInstallerBundle(),
             new Roca\Bundle\MeasureBundle\RocaMeasureBundle(),
-            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
-
-            new \Roca\Bundle\MarketizableBundle\RocaMarketizableBundle(),
+//            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
+//            new \Roca\Bundle\MarketizableBundle\RocaMarketizableBundle(),
 //            new Roca\Bundle\EnrichBundle\RocaEnrichBundle()
+            new \Roca\Bundle\NlocaleBundle\RocaNlocaleBundle(),
+
         ];
     }
 
@@ -104,6 +105,7 @@ class AppKernel extends Kernel
             new PimEnterprise\Bundle\VersioningBundle\PimEnterpriseVersioningBundle(),
             new PimEnterprise\Bundle\WorkflowBundle\PimEnterpriseWorkflowBundle(),
             new PimEnterprise\Bundle\ApiBundle\PimEnterpriseApiBundle(),
+
         ];
     }
 
@@ -144,6 +146,7 @@ class AppKernel extends Kernel
             new PimEnterprise\Bundle\ReferenceDataBundle\PimEnterpriseReferenceDataBundle(),
             //Custom Entitu Bundle
             new \Pim\Bundle\CustomEntityBundle\PimCustomEntityBundle(),
+
         ];
     }
 

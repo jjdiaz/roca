@@ -1,0 +1,5 @@
+parameters:
+    pim_catalog.entity.locale.class:              Roca\Bundle\NlocaleBundle\Entity\Locale
+    roca_catalog.entity.locale.class:             Roca\Bundle\NlocaleBundle\Entity\Locale
+
+#    pimee_security.entity.locale_access.class:    Roca\Bundle\MarketizableBundle\Entity\LocaleAccess

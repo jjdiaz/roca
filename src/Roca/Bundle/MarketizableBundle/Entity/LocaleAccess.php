@@ -12,15 +12,18 @@
 namespace Roca\Bundle\MarketizableBundle\Entity;
 
 use Pim\Component\Catalog\Model\LocaleInterface;
+use Roca\Bundle\MarketizableBundle\Model\LocaleInterface as RocaLocaleInterface;
 use Pim\Component\User\Model\GroupInterface;
 use PimEnterprise\Component\Security\Model\LocaleAccessInterface;
+use Roca\Bundle\MarketizableBundle\Model\LocaleAccessInterface as RocaLocaleAccessInterface;
+
 
 /**
  * Locale Access entity
  *
  * @author Nicolas Dupont <nicolas@akeneo.com>
  */
-class LocaleAccess implements LocaleAccessInterface
+class LocaleAccess implements RocaLocaleAccessInterface
 {
     /**
      * @var int
@@ -28,7 +31,7 @@ class LocaleAccess implements LocaleAccessInterface
     protected $id;
 
     /**
-     * @var LocaleInterface
+     * @var RocaLocaleInterface
      */
     protected $locale;
 
