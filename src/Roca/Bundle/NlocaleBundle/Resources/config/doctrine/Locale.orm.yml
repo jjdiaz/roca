@@ -14,3 +14,6 @@ Roca\Bundle\NlocaleBundle\Entity\Locale:
             nullable: true
         isamarket:
             type: boolean
+            nullable: true
+            options:
+                default: 0
