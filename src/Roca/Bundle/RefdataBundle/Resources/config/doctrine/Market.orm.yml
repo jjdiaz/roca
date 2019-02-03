@@ -12,9 +12,9 @@ Roca\Bundle\RefdataBundle\Entity\Market:
             type: string
             length: 10
             unique: true
-#        locales:
-#            type: string
-#            length: 100
+        locales:
+            type: string
+            length: 100
         currency:
             type: string
             length: 10
@@ -24,26 +24,26 @@ Roca\Bundle\RefdataBundle\Entity\Market:
             nullable: true
         mdmMarket:
             type: boolean
-            nullable: false
+            nullable: true
 
-    manyToMany:
-        locales:
-            targetEntity: Roca\Bundle\RefdataBundle\Entity\Locale
-            cascade:
-                - persist
-                - detach
-                - remove
-                - refresh
-            joinTable:
-                name: asm_market_locale
-                joinColumns:
-                    market_id:
-                        referencedColumnName: id
-                        onDelete: CASCADE
-                inverseJoinColumns:
-                    locale_id:
-                        referencedColumnName: id
-                        onDelete: CASCADE
+#    manyToMany:
+#        locales:
+#            targetEntity: Roca\Bundle\RefdataBundle\Entity\Locale
+#            cascade:
+#                - persist
+#                - detach
+#                - remove
+#                - refresh
+#            joinTable:
+#                name: asm_market_locale
+#                joinColumns:
+#                    market_id:
+#                        referencedColumnName: id
+#                        onDelete: CASCADE
+#                inverseJoinColumns:
+#                    locale_id:
+#                        referencedColumnName: id
+#                        onDelete: CASCADE
 
     oneToMany:
         translations:

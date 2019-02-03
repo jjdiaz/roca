@@ -35,7 +35,7 @@ extensions:
     targetZone: breadcrumbs
     config:
       tab: pim-menu-reference_data
-      item: acme_custom-menu-reference_data-item-designer
+      item: roca_custom-menu-reference_data-item-designer
 
   pim-designer-index-grid-filters-list:
     module: oro/datafilter/filters-list
@@ -52,7 +52,7 @@ extensions:
     parent: pim-designer-index
     targetZone: bottom-panel
     config:
-      label: acme_custom.designer.selected
+      label: roca_custom.designer.selected
 
   pim-designer-index-actions-panel:
     module: oro/datagrid/actions-panel

@@ -1,52 +1,140 @@
+# borrado desde icono de borrar del listado
 confirmation.remove:
-    brand: Do you really want to delete this brand?
-roca_custom:
-    message:
-        confrmation:
-            remove:
-                brand: Do you really want to delete this brand?
+    brand: Do you really want to delete this Brand?
+    country: Do you really want to delete this Country?
+    market: Do you really want to delete this Market?
+    designer: Do you really want to delete this Designer?
+
+# borrado desde boton Delete de dentro de la entidad
+#roca_custom:
+#    message:
+#        confirmation:
+#            remove:
+#                brand: Do you really want to delete this brand?
+#                country: Do you really want to delete this Country?
 flash:
     brand:
         created: The brand has been created
         removed: The brand has been removed
         updated: The brand has been updated
+    country:
+        created: The Country has been created
+        removed: The Country has been removed
+        updated: The Country has been updated
+    market:
+        created: The market has been created
+        removed: The market has been removed
+        updated: The market has been updated
+    designer:
+        created: The designer has been created
+        removed: The designer has been removed
+        updated: The designer has been updated
+
 
 error.removing:
     brand: The brand could not be removed
+    country: The Country could not be removed
+    market: The market could not be removed
+    designer: The designer could not be removed
 
 brand:
     overview: Brand overview
     edit: Edit a brand
     create: Create a brand
     this:
-        edit: Edit this brand
+        edit: roca_custom.brand.index_edit
         show: Show this brand
-        delete: Delete this brand
+        delete: roca_custom.brand.index_delete
     mass_edit:
         title: Mass edit these Brands
         subtitle: Edit this brand|Edit these brands
         confirm: Confirm update
 
+country:
+    overview: Country overview
+    edit: Edit a Country
+    create: Create a Country
+    this:
+        edit: roca_custom.country.index_edit
+        show: Show this Country
+        delete: roca_custom.country.index_delete
+    mass_edit:
+        title: Mass edit these Countries
+        subtitle: Edit this Country|Edit these Countries
+        confirm: Confirm update
+
+market:
+    overview: market overview
+    edit: Edit a market
+    create: Create a market
+    this:
+        edit: roca_custom.market.index_edit
+        show: Show this market
+        delete: roca_custom.market.index_delete
+    mass_edit:
+        title: Mass edit these markets
+        subtitle: Edit this market|Edit these markets
+        confirm: Confirm update
+
+designer:
+    overview: designer overview
+    edit: Edit a designer
+    create: Create a designer
+    this:
+        edit: roca_custom.designer.index_edit
+        show: Show this designer
+        delete: roca_custom.designer.index_delete
+    mass_edit:
+        title: Mass edit these designers
+        subtitle: Edit this designer|Edit these designers
+        confirm: Confirm update
+
+
 btn.create:
     brand: Create a brand
-pim_custom_entity.reference_data.brand:
-    edit: Edit a brand
-    create: Create a brand
-    index: List brands
-    delete: Delete a brand
-    menu_entry: Brands
+    country: Create a Country
+    market: Create a Market
+    designer: Create a Designer
 
-pim_custom_entity.form.tab.resources:
-    title: Resources
-
-pim_custom_entity.form.tab.resources.title: Resources2
-
-acme_custom:
-    acl:
+pim_custom_entity:
+    reference_data:
         brand:
-            index: List Brand
-            create: Create Brand
-            edit: Edit Brand
-            delete: Delete Brand
+            edit: Edit a brand
+            create: Create a brand
+            index: List brands
+            delete: Delete a brand
+            menu_entry: Brands
+
+        country:
+            edit: Edit a Country
+            create: Create a Country
+            index: List Countries
+            delete: Delete a Country
+            menu_entry: Countries
+
+
+    form:
+        tab.resources:
+            title: Resources
+        field.label:
+            isocode: ISOCode
+
+
+#acme_custom:
+#    acl:
+#        brand:
+#            index: List Brand
+#            create: Create Brand
+#            edit: Edit Brand
+#            delete: Delete Brand
+#            selected: Selected Brand
+#
+#        country:
+#            index: List Country
+#            create: Create Country
+#            edit: Edit Country
+#            delete: Delete Country
+#            selected: Selected Country
+
 
 roca_test: Reso_Mesa

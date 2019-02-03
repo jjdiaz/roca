@@ -32,10 +32,6 @@ Roca\Bundle\RefdataBundle\Entity\Resource:
             type: string
             length: 100
             nullable: true
-        idRoca:
-            type: string
-            length: 100
-            nullable: true
         file:
             column: resource_file
             type: string

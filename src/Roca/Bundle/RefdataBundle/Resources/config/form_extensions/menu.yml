@@ -42,9 +42,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.country
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: country
 
-  roca_custom-menu-reference_data-item-markets:
+  roca_custom-menu-reference_data-item-market:
     module: pim/menu/item
     parent: pim-menu-reference_data-navigation-block
     position: 30
@@ -52,19 +52,20 @@ extensions:
       title: roca_custom.menu.item.reference_data.markets
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: market
 
-  roca_custom-menu-reference_data-item-resources:
-    module: pim/menu/item
-    parent: roca_custon-menu-reference_data-navigation-block-it
-    position: 40
-    config:
-      title: roca_custom.menu.item.reference_data.resources
-      to: pim_customentity_index
-      routeParams:
-        customEntityName: brand
+# ???
+#  roca_custom-menu-reference_data-item-resources:
+#    module: pim/menu/item
+#    parent: roca_custon-menu-reference_data-navigation-block-it
+#    position: 40
+#    config:
+#      title: roca_custom.menu.item.reference_data.resources
+#      to: pim_customentity_index
+#      routeParams:
+#        customEntityName: brand
 
-  roca_custom-menu-reference_data-item-designers:
+  roca_custom-menu-reference_data-item-designer:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -74,7 +75,7 @@ extensions:
       routeParams:
         customEntityName: designer
 
-  roca_custom-menu-reference_data-item-designlines:
+  roca_custom-menu-reference_data-item-designline:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -84,7 +85,7 @@ extensions:
       routeParams:
         customEntityName: designline
 
-  roca_custom-menu-reference_data-item-distinctions:
+  roca_custom-menu-reference_data-item-distinction:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -92,9 +93,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.distinctions
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: distinction
 
-  roca_custom-menu-reference_data-item-emblematic_works:
+  roca_custom-menu-reference_data-item-emblematic_work:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -102,7 +103,7 @@ extensions:
       title: roca_custom.menu.item.reference_data.emblematic_works
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: emblematic_work
 
   roca_custom-menu-reference_data-item-finish:
     module: pim/menu/item
@@ -112,9 +113,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.finish
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: finish
 
-  roca_custom-menu-reference_data-item-solutions:
+  roca_custom-menu-reference_data-item-solution:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -122,9 +123,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.solutions
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: solution
 
-  roca_custom-menu-reference_data-item-pictos:
+  roca_custom-menu-reference_data-item-picto:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-manager
     position: 40
@@ -132,9 +133,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.pictos
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: picto
 
-  roca_custom-menu-reference_data-item-sellings:
+  roca_custom-menu-reference_data-item-selling:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-hierarchies
     position: 10
@@ -142,8 +143,9 @@ extensions:
       title: roca_custom.menu.item.reference_data.sellings
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
-  roca_custom-menu-reference_data-item-searchs:
+        customEntityName: selling
+
+  roca_custom-menu-reference_data-item-search:
     module: pim/menu/item
     parent: roca_custon-menu-reference_data-navigation-block-hierarchies
     position: 20
@@ -151,4 +153,4 @@ extensions:
       title: roca_custom.menu.item.reference_data.searchs
       to: pim_customentity_index
       routeParams:
-        customEntityName: brand
+        customEntityName: search

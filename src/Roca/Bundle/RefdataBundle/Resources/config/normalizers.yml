@@ -1,0 +1,32 @@
+# Normalizers
+# The custom entities normalizer priority must be > 150 to take priority on the
+# Pim\Bundle\CustomEntityBundle\Normalizer\Standard\MinimalStandardNormalizer
+
+services:
+
+  roca_custom_entity.normalizer.brand:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\BrandNormalizer
+    arguments:
+#      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.country:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\CountryNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+
+
+  roca_custom_entity.normalizer.market:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\MarketNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+

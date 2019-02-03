@@ -22,11 +22,41 @@ extensions:
             identifier: code
             label: pim_custom_entity.form.field.label.code
 
-    pim-country-create-isocode:
+    pim-country-create-isoCode:
         module: pim/form/common/creation/field
         parent: pim-country-create-modal
         targetZone: fields
         position: 20
         config:
-            identifier: isocode
-            label: pim_custom_entity.form.field.label.isocode
+            identifier: isoCode
+            label: roca_custom.country.field.label.isoCode
+
+    pim-country-create-maincountry:
+        module: pim/form/common/fields/boolean
+        parent: pim-country-create-modal
+        targetZone: fields
+        position: 30
+        config:
+            identifier: maincountry
+            fieldName: maincountry
+            label: roca_custom.country.field.label.maincountry
+
+    ##Sección de Traducción
+    pim-country-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent: pim-country-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+    #Campos de traducción
+    pim-country-edit-form-properties-translation:
+        module: pim/common/properties/translation
+        parent: pim-country-edit-form-properties-translation-section
+        targetZone: content
+        position: 100
+        config:
+            fieldBaseId: 'pim_enrich_group_form_label_'

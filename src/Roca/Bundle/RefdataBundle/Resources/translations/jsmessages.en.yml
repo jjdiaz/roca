@@ -1,50 +1,11 @@
 roca_custom:
-    brand:
-        index_title: "] -Inf, 1] {{ count }} Brand|] 1, Inf [{{ count }} Brands"
-        selected: brands selected
-        field.label:
-            code: Code Brand
-        form:
-            tab.properties.section.common: Common
-            tab.properties.section.label_translations: Labels
-        info:
-            update_successful: Brand successfully updated
-            update_failed: The brand could not be updated
-            field_not_ready: "The brand cannot be saved right now. The following fields are not ready: {{ fields }}"
 
-    designer:
-        index_title: "] -Inf, 1] {{ count }} Designer|] 1, Inf [{{ count }} Designers"
-        selected: brands selected
-        field.label:
-            code: Code
-            pcmname: PCMName
-            websort: WebSort
-        form:
-            tab.properties.section.common: Common
-            tab.properties.section.label_translations: Labels
-        info:
-            update_successful: Designer successfully updated
-            update_failed: The designer could not be updated
-            field_not_ready: "The designer cannot be saved right now. The following fields are not ready: {{ fields }}"
-
-    designline:
-        index_title: "] -Inf, 1] {{ count }} DesingLines|] 1, Inf [{{ count }} DesignLines"
-        selected: brands selected
-
-        field.label:
-            code: Code
-            name: Name
-            designer: Designer
-            status: Status
-            version: Version
-
-        form:
-            tab.properties.section.common: Common
-            tab.properties.section.label_translations: Labels
-        info:
-            update_successful: Design Line successfully updated
-            update_failed: The Design Line could not be updated
-            field_not_ready: "The Design Line cannot be saved right now. The following fields are not ready: {{ fields }}"
+   # borrado desde boton Delete de dentro de la entidad
+    message:
+        confirmation:
+            remove:
+                brand: Do you really want to delete this brand?
+                country: Do you really want to delete this Country?
 
     menu.item:
         reference_data:
@@ -65,16 +26,114 @@ roca_custom:
             sellings: Sellings
             searchs: Searchs
 
-
-acl:
     brand:
-        index: List Brand
-        create: Create Brand
-        edit: Edit Brand
-        delete: Delete Brand
+        index_title: "] -Inf, 1] {{ count }} Brand|] 1, Inf [{{ count }} Brands"
+        selected: brands selected
+        field.label:
+            code: Code Brand
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Brand successfully updated
+            update_failed: The brand could not be updated
+            field_not_ready: "The brand cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this brand
+        index_delete: Delete this brand
+
+    country:
+        index_title: "] -Inf, 1] {{ count }} Country|] 1, Inf [{{ count }} Countries"
+        selected: countries selected
+        field:
+            label.code: Code
+            label.isoCode: ISO Code
+            label.maincountry: Main Country
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Country successfully updated
+            update_failed: The Country could not be updated
+            field_not_ready: "The Country cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this Country
+        index_delete: Delete this Country
+
+    market:
+        index_title: "] -Inf, 1] {{ count }} Market|] 1, Inf [{{ count }} Markets"
+        selected: markets selected
+        field:
+            label.code: Code
+            label.name: Name
+            label.locales: Locales
+            label.currency: Currency
+            label.mdmMarket: MdmMarket
+            label.webBaseUrl: WebBaseUrl
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Market successfully updated
+            update_failed: The Market could not be updated
+            field_not_ready: "The Market cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this Market
+        index_delete: Delete this Market
+
+
+
+    designer:
+        index_title: "] -Inf, 1] {{ count }} Designer|] 1, Inf [{{ count }} Designers"
+        selected: designers selected
+        field.label:
+            code: Code
+            pcmname: PCMName
+            websort: WebSort
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Designer successfully updated
+            update_failed: The designer could not be updated
+            field_not_ready: "The designer cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    designline:
+        index_title: "] -Inf, 1] {{ count }} DesingLines|] 1, Inf [{{ count }} DesignLines"
+        selected: brands selected
+        field.label:
+            code: Code
+            name: Name
+            designer: Designer
+            status: Status
+            version: Version
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: Design Line successfully updated
+            update_failed: The Design Line could not be updated
+            field_not_ready: "The Design Line cannot be saved right now. The following fields are not ready: {{ fields }}"
+
+    acl:
+        brand:
+            index: List Brand
+            create: Create Brand
+            edit: Edit Brand
+            delete: Delete Brand
+        country:
+            index: List Countries
+            create: Create Country
+            edit: Edit Country
+            delete: Delete Country
+        market:
+          index: List Markets
+          create: Create Market
+          edit: Edit Market
+          delete: Delete Market
+
 
 roca_custom_entity:
     form.tab:
         resources.title: Resources
 
 roca_test: Resources
+
+

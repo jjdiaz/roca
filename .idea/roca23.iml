@@ -8,8 +8,8 @@
       <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="false" packagePrefix="Akeneo\TestEnterprise\Integration\" />
       <sourceFolder url="file://$MODULE_DIR$/lib/CloudinaryBundle/src" isTestSource="false" packagePrefix="Asm\Bundle\CloudinaryBundle\" />
       <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/lib" />
       <excludeFolder url="file://$MODULE_DIR$/vendor" />
-      <excludeFolder url="file://$MODULE_DIR$/vendor/akeneo-labs/custom-entity-bundle" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

@@ -10,37 +10,33 @@ datagrid:
         columns:
             code:
                 label: Code
-            isocode:
+            isoCode:
                 label:     ISOCode
             maincountry:
                 label:     maincountry
                 type: twig
                 template: PimDataGridBundle:Property:activated.html.twig
                 frontend_type: html
-
         filters:
             columns:
                 code:
                     type:      string
                     label:     Code
                     data_name: rd.code
-                isocode:
+                isoCode:
                     type:      string
                     label:     ISOCode
-                    data_name: rd.isocode
+                    data_name: rd.isoCode
                 maincountry:
                     type:      boolean
                     label:     maincountry
                     data_name: rd.maincountry
-
-
         sorters:
             columns:
                 code:
                     data_name: rd.code
             default:
                 code: '%oro_datagrid.extension.orm_sorter.class%::DIRECTION_ASC'
-
         properties:
             id: ~
             edit_link:
@@ -50,22 +46,21 @@ datagrid:
                     - id
                     - customEntityName
             delete_link:
-                ype: url
+                type: url
                 route: pim_customentity_rest_delete
                 params:
                     - id
                     - customEntityName
-
         actions:
             edit:
                 type:       navigate
-                label:      designline.this.edit
+                label:      country.this.edit
                 icon:       edit
                 link:       edit_link
                 rowAction:  true
             delete:
                 type:       delete
-                label:      designline.this.delete
+                label:      country.this.delete
                 icon:       trash
                 link:       delete_link
 #

@@ -8,7 +8,7 @@ extensions:
         targetZone: breadcrumbs
         config:
             tab: pim-menu-reference_data
-            item: acme_custom-menu-reference_data-item-brand
+            item: roca_custom-menu-reference_data-item-brand
 
     pim-brand-edit-form-cache-invalidator:
         module: pim/cache-invalidator
@@ -62,9 +62,9 @@ extensions:
         targetZone: buttons
         position: 0
         config:
-            updateSuccessMessage: acme_custom.brand.info.update_successful
-            updateFailureMessage: acme_custom.brand.info.update_failed
-            notReadyMessage: acme_custom.brand.info.field_not_ready
+            updateSuccessMessage: roca_custom.brand.info.update_successful
+            updateFailureMessage: roca_custom.brand.info.update_failed
+            notReadyMessage: roca_custom.brand.info.field_not_ready
             url: pim_customentity_rest_edit
             route_params:
                 customEntityName: brand
@@ -141,7 +141,7 @@ extensions:
         position: 90
         config:
             fieldName: code
-            label: acme_custom.brand.field.label.code
+            label: roca_custom.brand.field.label.code
             required: true
             readOnly: true
 

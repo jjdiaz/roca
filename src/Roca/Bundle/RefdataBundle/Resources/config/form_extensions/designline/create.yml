@@ -30,3 +30,49 @@ extensions:
         config:
             identifier: name
             label: pim_custom_entity.form.field.label.name
+
+    pim-designline-create-fullset:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 30
+        config:
+            identifier: fullset
+            label: roca_custom.field.label.fullset
+
+    pim-designline-create-websort:
+        module: pim/form/common/creation/field
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 40
+        config:
+            identifier: websort
+            label: roca_custom.field.label.websort
+
+    pim-designline-create-status:
+        module: pim/form/common/creation/field
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 50
+        config:
+            identifier: status
+            label: roca_custom.field.label.status
+
+    pim-designline-create-version:
+        module: pim/form/common/creation/field
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 60
+        config:
+            identifier: version
+            label: roca_custom.field.label.version
+
+    pim-designline-create-technology:
+        module: pim/form/common/creation/field
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 70
+        config:
+            identifier: technology
+            label: roca_custom.field.label.technology
+

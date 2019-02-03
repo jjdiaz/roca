@@ -16,7 +16,7 @@ use spec\Pim\Bundle\CustomEntityBundle\Entity\CustomEntity;
 class Market extends AbstractTranslatableCustomEntity
 {
 
-    /** @var ArrayCollection */
+    /** @var string */
     protected $locales;
 
     /**
@@ -31,7 +31,7 @@ class Market extends AbstractTranslatableCustomEntity
     protected $mdmMarket;
 
     /**
-     * @var ArrayCollection
+     * @var string
      */
     protected $countries;
 
@@ -83,7 +83,7 @@ class Market extends AbstractTranslatableCustomEntity
     }
 
     /**
-     * @return ArrayCollection
+     * @return string
      */
     public function getCountries()
     {
@@ -91,7 +91,7 @@ class Market extends AbstractTranslatableCustomEntity
     }
 
     /**
-     * @param ArrayCollection $countries
+     * @param string $countries
      */
     public function setCountries($countries)
     {
@@ -114,14 +114,14 @@ class Market extends AbstractTranslatableCustomEntity
         $this->currency = $currency;
     }
 
-    public function __construct()
-    {
-        $this->countries = new ArrayCollection();
-        $this->locales = new ArrayCollection();
-    }
+//    public function __construct()
+//    {
+////        $this->countries = new ArrayCollection();
+////        $this->locales = new ArrayCollection();
+//    }
 
     /**
-     * @return ArrayCollection
+     * @return string
      */
     public function getLocales()
     {
@@ -129,7 +129,7 @@ class Market extends AbstractTranslatableCustomEntity
     }
 
     /**
-     * @param ArrayCollection $locales
+     * @param string $locales
      */
     public function setLocales($locales)
     {

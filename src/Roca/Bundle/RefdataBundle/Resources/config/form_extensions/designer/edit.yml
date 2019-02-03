@@ -8,7 +8,7 @@ extensions:
         targetZone: breadcrumbs
         config:
             tab: pim-menu-reference_data
-            item: acme_custom-menu-reference_data-item-designer
+            item: roca_custom-menu-reference_data-item-designer
 
     pim-designer-edit-form-cache-invalidator:
         module: pim/cache-invalidator
@@ -79,9 +79,9 @@ extensions:
         targetZone: buttons
         position: 0
         config:
-            updateSuccessMessage: acme_custom.designer.info.update_successful
-            updateFailureMessage: acme_custom.designer.info.update_failed
-            notReadyMessage: acme_custom.designer.info.field_not_ready
+            updateSuccessMessage: roca_custom.designer.info.update_successful
+            updateFailureMessage: roca_custom.designer.info.update_failed
+            notReadyMessage: roca_custom.designer.info.field_not_ready
             url: pim_customentity_rest_edit
             route_params:
                 customEntityName: designer
@@ -181,3 +181,63 @@ extensions:
             fieldName: websort
             required: false
             label: roca_custom.designer.field.label.websort
+
+    ##Sección + lead
+#    pim-designer-edit-form-properties-translation-section:
+#        module: pim/common/simple-view
+#        parent: pim-designer-edit-form-properties
+#        targetZone: accordion
+#        position: 110
+#        config:
+#            template: pim/template/form/tab/section
+#            templateParams:
+#                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+#                dropZone: content
+#
+#    pim-designer-edit-form-properties-lead:
+#        module: pim/common/properties/translation
+#        parent: pim-designer-edit-form-properties-translation-section
+#        targetZone: content
+#        position: 120
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_lead_'
+#
+#    ##Sección + resume
+#    pim-designer-edit-form-properties-translation-section-resume:
+#        module: pim/common/simple-view
+#        parent: pim-designer-edit-form-properties
+#        targetZone: accordion
+#        position: 130
+#        config:
+#            template: pim/template/form/tab/section
+#            templateParams:
+#                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+#                dropZone: content
+#
+#    pim-designer-edit-form-properties-resume:
+#        module: pim/common/properties/translation
+#        parent: pim-designer-edit-form-properties-translation-section-resume
+#        targetZone: content
+#        position: 130
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_resume_'
+#
+#    ##Sección + name
+#    pim-designer-edit-form-properties-translation-section-name:
+#        module: pim/common/simple-view
+#        parent: pim-designer-edit-form-properties
+#        targetZone: accordion
+#        position: 130
+#        config:
+#            template: pim/template/form/tab/section
+#            templateParams:
+#                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+#                dropZone: content
+#
+#    pim-designer-edit-form-properties-name:
+#        module: pim/common/properties/translation
+#        parent: pim-designer-edit-form-properties-translation-section-name
+#        targetZone: content
+#        position: 140
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_name_'

@@ -18,3 +18,9 @@ custom_entities:
         entity_class: Roca\Bundle\RefdataBundle\Entity\Designer
         options:
             edit_form_extension: pim-designer-edit-form
+
+    market:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Market
+        options:
+            edit_form_extension: pim-market-edit-form
+

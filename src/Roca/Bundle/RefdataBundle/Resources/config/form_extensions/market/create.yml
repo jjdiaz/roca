@@ -1,0 +1,72 @@
+extensions:
+    
+    pim-market-create-modal:
+        module: custom_entity/form/creation/modal
+        config:
+            labels:
+               title: pim_custom_entity.create_popin.title
+               subTitle: roca_custom.menu.item.reference_data.market
+            picture: illustrations/User.svg
+            successMessage: pim_custom_entity.message.created
+            editRoute: pim_customentity_rest_get
+            postUrl:
+                route: pim_customentity_rest_create
+                parameters:
+                    customEntityName: market
+
+    pim-market-create-code:
+        module: pim/form/common/creation/field
+        parent: pim-market-create-modal
+        targetZone: fields
+        position: 10
+        config:
+            identifier: code
+            label: roca_custom.market.field.label.code
+
+#    pim-market-create-name:
+#        module: pim/form/common/creation/field
+#        parent: pim-market-create-modal
+#        targetZone: fields
+#        position: 20
+#        config:
+#            identifier: name
+#            label: roca_custom.market.field.label.name
+
+    pim-market-create-locales:
+        module: pim/form/common/creation/field
+        parent: pim-market-create-modal
+        targetZone: fields
+        position: 25
+        config:
+            identifier: locales
+            label: roca_custom.market.field.label.locales
+
+
+    pim-market-create-currency:
+        module: pim/form/common/creation/field
+        parent: pim-market-create-modal
+        targetZone: fields
+        position: 30
+        config:
+            identifier: currency
+            label: roca_custom.market.field.label.currency
+
+    pim-market-create-mdmMarket:
+        module: pim/form/common/fields/boolean
+        parent: pim-market-create-modal
+        targetZone: fields
+        position: 40
+        config:
+            identifier: mdmMarket
+            fieldName: mdmMarket
+            label: roca_custom.market.field.label.mdmMarket
+
+    pim-market-create-webBaseUrl:
+        module: pim/form/common/creation/field
+        parent: pim-market-create-modal
+        targetZone: fields
+        position: 50
+        config:
+            identifier: webBaseUrl
+            fieldName: webBaseUrl
+            label: roca_custom.market.field.label.webBaseUrl

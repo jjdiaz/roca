@@ -1,9 +1,9 @@
 <?php
 /**
  * Created by ASM Web Services.
- * @date:   11/10/2018 12:53
- * @author:     Joaquín Jiménez <jjimenez@asmws.com>
- * @copyright   2018 ASM Web Services (http://asmws.com)
+ * @date:   01/02/2019 12:53
+ * @author:     J <jlopez@asmws.com>
+ * @copyright   2019 ASM Web Services (http://www.asmws.com)
  *
  */
 
@@ -11,18 +11,18 @@ namespace Roca\Bundle\RefdataBundle\Normalizer;
 
 use Pim\Bundle\CustomEntityBundle\Entity\AbstractTranslatableCustomEntity;
 use Roca\Bundle\RefdataBundle\Entity\Country;
+use Roca\Bundle\RefdataBundle\Entity\Market;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
-use Symfony\Component\Serializer\Normalizer\scalar;
 
 
-class CountryNormalizer implements NormalizerInterface
+class MarketNormalizer implements NormalizerInterface
 {
     /** @var string[] */
     protected $supportedFormats = ['standard'];
 
 
     /**
-     * @param Country $entity
+     * @param Market $entity
      * @param null $format
      * @param array $context
      * @return array|bool|float|int|string
@@ -33,9 +33,11 @@ class CountryNormalizer implements NormalizerInterface
        $result= [
            'id'             => $entity->getId(),
            'code'           => $entity->getCode(),
-           'isoCode'        => $entity->getIsoCode(),
-           'mainCountry'    => $entity->isMainCountry(),
-           'labels'         => $this->getLabels($entity),
+           'currency'        => $entity->getCurrency(),
+           'locales'        => $entity->getLocales(),
+           'mdmMarket'        => $entity->isMdmMarket(),
+           'webBaseUrl'        => $entity->getWebBaseUrl(),
+           'descriptions'         => $this->getDescriptions($entity),
        ];
        return $result;
     }
@@ -47,7 +49,7 @@ class CountryNormalizer implements NormalizerInterface
      */
     public function supportsNormalization($data, $format = null)
     {
-        return $data instanceof Country  && in_array($format, $this->supportedFormats);
+        return $data instanceof Market  && in_array($format, $this->supportedFormats);
     }
 
 
@@ -56,11 +58,11 @@ class CountryNormalizer implements NormalizerInterface
      *
      * @return array
      */
-    protected function getLabels(AbstractTranslatableCustomEntity $entity): array
+    protected function getDescriptions(AbstractTranslatableCustomEntity $entity): array
     {
         $labels = [];
         foreach ($entity->getTranslations() as $translation) {
-            $labels[$translation->getLocale()] = $translation->getLabel();
+            $labels[$translation->getLocale()] = $translation->getDescription();
         }
         return $labels;
     }

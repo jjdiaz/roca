@@ -1,87 +1,87 @@
 extensions:
-    pim-country-edit-form:
+    pim-market-edit-form:
         module: custom_entity/form/common/edit-form
 
-    pim-country-edit-form-breadcrumbs:
+    pim-market-edit-form-breadcrumbs:
         module: pim/common/breadcrumbs
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         targetZone: breadcrumbs
         config:
             tab: pim-menu-reference_data
-            item: roca_custom-menu-reference_data-item-country
+            item: roca_custom-menu-reference_data-item-market
 
-    pim-country-edit-form-cache-invalidator:
+    pim-market-edit-form-cache-invalidator:
         module: pim/cache-invalidator
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         position: 1000
 
-    pim-country-edit-form-label:
+    pim-color-edit-form-label:
         module: custom_entity/form/common/label
-        parent: pim-country-edit-form
+        parent: pim-color-edit-form
         targetZone: title
         position: 90
 
-    pim-country-edit-form-form-tabs:
+    pim-market-edit-form-form-tabs:
         module: pim/form/common/form-tabs
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         targetZone: content
         position: 100
 
-    pim-country-edit-form-secondary-actions:
+    pim-market-edit-form-secondary-actions:
         module: pim/form/common/secondary-actions
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         targetZone: buttons
         position: 50
 
-    pim-country-edit-form-delete:
+    pim-market-edit-form-delete:
         module: custom_entity/form/common/delete
-        parent: pim-country-edit-form-secondary-actions
+        parent: pim-market-edit-form-secondary-actions
         targetZone: secondary-actions
         aclResourceId: pim_enrich_group_remove
         position: 100
         config:
             route: pim_customentity_rest_delete
             routeParams:
-                customEntityName: country
+                customEntityName: market
             trans:
-                title: roca_custom.message.confirmation.remove.country
+                title: roca_custom.message.confirmation.remove.market
                 container: pim_enrich.confirmation.delete_item
                 success: pim_custom_entity.message.confirmation.removed
                 fail: pim_custom_entity.error.removing
             redirect: pim_customentity_index
 
-    pim-country-edit-form-save-buttons:
+    pim-market-edit-form-save-buttons:
         module: pim/form/common/save-buttons
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         targetZone: buttons
         position: 120
 
-    pim-country-edit-form-save:
+    pim-market-edit-form-save:
         module: custom_entity/form/common/save-form
-        parent: pim-country-edit-form
+        parent: pim-market-edit-form
         targetZone: buttons
         position: 0
         config:
-            updateSuccessMessage: roca_custom.country.info.update_successful
-            updateFailureMessage: roca_custom.country.info.update_failed
-            notReadyMessage: roca_custom.country.info.field_not_ready
+            updateSuccessMessage: roca_custom.market.info.update_successful
+            updateFailureMessage: roca_custom.market.info.update_failed
+            notReadyMessage: roca_custom.market.info.field_not_ready
             url: pim_customentity_rest_edit
             route_params:
-                customEntityName: country
+                customEntityName: market
             redirectAfter: pim_customentity_rest_get
             excludedProperties: []
 
-    pim-country-edit-form-properties-tab:
+    pim-market-edit-form-properties-tab:
         module: pim/common/tab
-        parent: pim-country-edit-form-form-tabs
+        parent: pim-market-edit-form-form-tabs
         targetZone: container
         position: 100
         config:
             label: pim_custom_entity.form.tab.properties.title
 
-    pim-country-edit-form-resources-tab:
+    pim-market-edit-form-resources-tab:
         module: pim/common/tab
-        parent: pim-country-edit-form-form-tabs
+        parent: pim-market-edit-form-form-tabs
         targetZone: container
         position: 110
         config:
@@ -89,32 +89,32 @@ extensions:
             label: roca_test
             title: roca_test
 
-    pim-country-edit-form-properties:
+    pim-market-edit-form-properties:
         module: pim/common/simple-view
-        parent: pim-country-edit-form-properties-tab
+        parent: pim-market-edit-form-properties-tab
         targetZone: self
         config:
             template: pim/template/form/tab/sections
 
-    pim-country-edit-form-resources:
+    pim-market-edit-form-resources:
         module: pim/common/simple-view
-        parent: pim-country-edit-form-resources-tab
+        parent: pim-market-edit-form-resources-tab
         targetZone: self
         config:
             template: pim/template/form/tab/sections
 
-    pim-country-edit-form-history:
+    pim-market-edit-form-history:
         module: pim/common/tab/history
-        parent: pim-country-edit-form-form-tabs
+        parent: pim-market-edit-form-form-tabs
         targetZone: container
         position: 120
         config:
-            class: country
+            class: market
             title: pim_custom_entity.form.tab.history.title
 
-    pim-country-edit-form-properties-common:
+    pim-market-edit-form-properties-common:
         module: pim/common/simple-view
-        parent: pim-country-edit-form-properties
+        parent: pim-market-edit-form-properties
         targetZone: accordion
         position: 100
         config:
@@ -123,9 +123,9 @@ extensions:
                 sectionTitle: pim_custom_entity.form.tab.properties.section.common
                 dropZone: content
 
-    pim-country-edit-form-resources-common:
+    pim-market-edit-form-resources-common:
         module: pim/common/simple-view
-        parent: pim-country-edit-form-resources
+        parent: pim-market-edit-form-resources
         targetZone: accordion
         position: 100
         config:
@@ -134,58 +134,59 @@ extensions:
                 sectionTitle: pim_custom_entity.form.tab.properties.section.common
                 dropZone: content
 
-#    Campo code
-    pim-country-edit-form-properties-code:
+    pim-market-edit-form-properties-code:
         module: pim/form/common/fields/text
-        parent: pim-country-edit-form-properties-common
+        parent: pim-market-edit-form-properties-common
         targetZone: content
         position: 90
         config:
             fieldName: code
-            label: roca_custom.country.field.label.code
+            label: roca_custom.market.field.label.code
             required: true
             readOnly: true
-    #Campo ISO Code
-    pim-country-edit-form-properties-isoCode:
+
+#    pim-market-edit-form-properties-name:
+#        module: pim/form/common/fields/text
+#        parent: pim-market-edit-form-properties-common
+#        targetZone: content
+#        position: 100
+#        config:
+#            fieldName: name
+#            choiceNameField: code
+#            choiceValueField: name
+#            isCustomEntity: false
+#            required: true
+
+    pim-market-edit-form-properties-currency:
         module: pim/form/common/fields/text
-        parent: pim-country-edit-form-properties-common
+        parent: pim-market-edit-form-properties-common
         targetZone: content
         position: 100
         config:
-            fieldName: isoCode
-            label: roca_custom.country.field.label.isoCode
+            fieldName: currency
+            label: roca_custom.market.field.label.currency
             required: true
             readOnly: false
 
-    #Campo MainCountry
-    pim-country-edit-form-properties-maincountry:
+    pim-market-edit-form-properties-mdmMarket:
         module: pim/form/common/fields/boolean
-        parent: pim-country-edit-form-properties-common
+        parent: pim-market-edit-form-properties-common
         targetZone: content
         position: 110
         config:
-            fieldName: maincountry
-            label: roca_custom.country.field.label.maincountry
+            fieldName: mdmMarket
+            label: roca_custom.market.field.label.mdmMarket
             required: true
             readOnly: false
 
-    ##Sección de Traducción
-    pim-country-edit-form-properties-translation-section:
-        module: pim/common/simple-view
-        parent: pim-country-edit-form-properties
-        targetZone: accordion
-        position: 110
-        config:
-            template: pim/template/form/tab/section
-            templateParams:
-                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
-                dropZone: content
-
-    #Campos de traducción
-    pim-country-edit-form-properties-translation:
-        module: pim/common/properties/translation
-        parent: pim-country-edit-form-properties-translation-section
+    pim-market-edit-form-properties-webBaseUrl:
+        module: pim/form/common/fields/text
+        parent: pim-market-edit-form-properties-common
         targetZone: content
-        position: 100
+        position: 120
         config:
-            fieldBaseId: 'pim_enrich_group_form_translation_'
+            fieldName: webBaseUrl
+            label: roca_custom.market.field.label.webBaseUrl
+            required: true
+            readOnly: false
+

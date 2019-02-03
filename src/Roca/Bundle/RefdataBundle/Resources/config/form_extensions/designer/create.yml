@@ -20,7 +20,7 @@ extensions:
         position: 10
         config:
             identifier: code
-            label: roca_custom_entity.form.field.label.code
+            label: roca_custom.designer.field.label.code
 
     pim-designer-create-pcmname:
         module: pim/form/common/creation/field
@@ -29,4 +29,33 @@ extensions:
         position: 20
         config:
             identifier: pcmname
-            label: roca_custom_entity.form.field.label.pcmname
+            label: roca_custom.designer.field.label.pcmname
+
+    pim-designer-create-websort:
+        module: pim/form/common/creation/field
+        parent: pim-designer-create-modal
+        targetZone: fields
+        position: 30
+        config:
+            identifier: websort
+            label: roca_custom.designer.field.label.websort
+
+#    pim-designer-create-form-properties-translation-section:
+#        module: pim/common/simple-view
+#        parent: pim-designer-create-modal
+#        targetZone: accordion
+#        position: 40
+#        config:
+#            template: pim/template/form/tab/section
+#            templateParams:
+#                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+#                dropZone: content
+#
+#
+#    pim-designer-create-form-properties-lead:
+#        module: pim/common/properties/translation
+#        parent: pim-designer-create-form-properties-translation-section
+#        targetZone: fields
+#        position: 50
+#        config:
+#            fieldBaseId: 'pim_enrich_group_form_label_'
