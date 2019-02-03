@@ -38,7 +38,7 @@ class Configuration implements ConfigurationInterface
             'api_secret'            => ['value' => null],
             'environment_variable'  => ['value' => null],
     ]);
-    VarDumper::dump($treeBuilder);die;
+
     return $treeBuilder;
     }
 }

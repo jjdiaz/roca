@@ -1,0 +1,11 @@
+akeneo_storage_utils:
+    mapping_overrides:
+        -
+            original: Pim\Bundle\CatalogBundle\Entity\Locale
+            override: Roca\Bundle\MarketizableBundle\Entity\Locale
+        -
+            original: PimEnterprise\Bundle\SecurityBundle\Entity\LocaleAccess
+            override: Roca\Bundle\MarketizableBundle\Entity\LocaleAccess
+#        -
+#            original: Pim\Bundle\CatalogBundle\Entity\Category
+#            override: Roca\Bundle\MarketizableBundle\Entity\Category
