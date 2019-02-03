@@ -1,0 +1,16 @@
+config:
+    paths:
+
+       #Product Locale Switcher
+        pim/product-edit-form/locale-switcher:                      rocamarketizable/js/product/form/locale-switcher
+        asm/template/product/locale-switcher:                       rocamarketizable/templates/product/locale-switcher.html
+
+        pim/product-edit-form/scope-switcher:                       rocamarketizable/js/product/form/scope-switcher
+        asm/template/product/scope-switcher:                        rocamarketizable/templates/product/scope-switcher.html
+
+       #Grid Locale Switcher
+        pim/grid/locale-switcher:                                   rocamarketizable/js/product/grid/locale-switcher
+        asm/template/product/grid/locale-switcher:                  rocamarketizable/templates/grid/locale-switcher.html
+
+
+        pim/i18n:                                                   rocamarketizable/js/i18n.ts

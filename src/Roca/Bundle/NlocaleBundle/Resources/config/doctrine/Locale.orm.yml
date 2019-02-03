@@ -1,0 +1,16 @@
+Roca\Bundle\NlocaleBundle\Entity\Locale:
+    type: entity
+    table: pim_catalog_locale
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    repositoryClass: Pim\Bundle\CatalogBundle\Doctrine\ORM\Repository\LocaleRepository
+    uniqueConstraints:
+        pim_category_code_uc:
+            columns:
+                - code
+    fields:
+        marketname:
+            type: string
+            length: 25
+            nullable: true
+        isamarket:
+            type: boolean

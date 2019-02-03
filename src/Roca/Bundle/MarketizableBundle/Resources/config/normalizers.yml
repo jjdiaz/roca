@@ -1,0 +1,10 @@
+parameters:
+    asm_enrich.normalizer.locale.class: Roca\Bundle\MarketizableBundle\Normalizer\LocaleNormalizer
+
+services:
+    pim_enrich.normalizer.locale:
+      class: '%asm_enrich.normalizer.locale.class%'
+      arguments:
+      - '@pim_user.context.user'
+      tags:
+      - { name: pim_internal_api_serializer.normalizer }
