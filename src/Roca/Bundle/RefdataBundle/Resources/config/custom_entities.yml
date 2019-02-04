@@ -24,3 +24,18 @@ custom_entities:
         options:
             edit_form_extension: pim-market-edit-form
 
+    distinction:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Distinction
+        options:
+            edit_form_extension: pim-distinction-edit-form
+
+    solution:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\Solution
+        options:
+            edit_form_extension: pim-solution-edit-form
+
+    emblematic_work:
+        entity_class: Roca\Bundle\RefdataBundle\Entity\EmblematicWork
+        options:
+            edit_form_extension: pim-emblematic_work-edit-form
+

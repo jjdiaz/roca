@@ -1,0 +1,84 @@
+extensions:
+  pim-emblematic_work-index:
+    module: pim/common/simple-view
+    config:
+      template: pim/template/common/default-template
+    forwarded-events:
+      grid_load:start: grid_load:start
+      grid_load:complete: grid_load:complete
+
+  pim-emblematic_work-index-grid-container:
+    module: pim/common/simple-view
+    parent: pim-emblematic_work-index
+    targetZone: content
+    config:
+      template: pim/template/form/index/index
+
+  pim-emblematic_work-index-user-navigation:
+    module: pim/menu/user-navigation
+    parent: pim-emblematic_work-index
+    targetZone: user-menu
+    config:
+      userAccount: pim_menu.user.user_account
+      logout: pim_menu.user.logout
+
+  pim-emblematic_work-index-grid-title:
+    module: pim/common/grid-title
+    parent: pim-emblematic_work-index
+    targetZone: title
+    config:
+      title: roca_custom.emblematic_work.index_title
+
+  pim-emblematic_work-index-breadcrumbs:
+    module: pim/common/breadcrumbs
+    parent: pim-emblematic_work-index
+    targetZone: breadcrumbs
+    config:
+      tab: pim-menu-reference_data
+      item: roca_custom-menu-reference_data-item-emblematic_work
+
+  pim-emblematic_work-index-grid-filters-list:
+    module: oro/datafilter/filters-list
+    parent: pim-emblematic_work-index-grid-container
+    targetZone: filters
+
+  pim-emblematic_work-index-grid-filters-manage:
+    module: oro/datafilter/filters-button
+    parent: pim-emblematic_work-index-grid-container
+    targetZone: filters
+
+  pim-emblematic_work-index-mass-actions:
+    module: pim/grid/mass-actions
+    parent: pim-emblematic_work-index
+    targetZone: bottom-panel
+    config:
+      label: roca_custom.emblematic_work.selected
+
+  pim-emblematic_work-index-actions-panel:
+    module: oro/datagrid/actions-panel
+    parent: pim-emblematic_work-index-mass-actions
+    targetZone: actions-panel
+
+  pim-emblematic_work-index-pagination:
+    module: oro/datagrid/pagination-input
+    parent: pim-emblematic_work-index-grid-container
+    targetZone: toolbar
+    config:
+      gridName: emblematic_work
+
+  pim-emblematic_work-index-grid:
+    module: pim/form/common/index/grid
+    parent: pim-emblematic_work-index
+    targetZone: content
+    position: 1000
+    config:
+      alias: emblematic_work
+
+  pim-emblematic_work-index-create-button:
+    module: pim/form/common/index/create-button
+    parent: pim-emblematic_work-index
+    targetZone: buttons
+    aclResourceId: pim_enrich_product_create
+    config:
+      title:     pim_custom_entity.button.create
+      modalForm: pim-emblematic_work-create-modal

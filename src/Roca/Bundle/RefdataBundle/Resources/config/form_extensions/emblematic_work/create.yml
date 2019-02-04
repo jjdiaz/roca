@@ -1,0 +1,63 @@
+extensions:
+    
+    pim-emblematic_work-create-modal:
+        module: custom_entity/form/creation/modal
+        config:
+            labels:
+               title: pim_custom_entity.create_popin.title
+               subTitle: roca_custom.menu.item.reference_data.emblematic_work
+            picture: illustrations/User.svg
+            successMessage: pim_custom_entity.message.created
+            editRoute: pim_customentity_rest_get
+            postUrl:
+                route: pim_customentity_rest_create
+                parameters:
+                    customEntityName: emblematic_work
+
+    pim-emblematic_work-create-code:
+        module: pim/form/common/creation/field
+        parent: pim-emblematic_work-create-modal
+        targetZone: fields
+        position: 10
+        config:
+            identifier: code
+            label: pim_custom_entity.form.field.label.code
+
+    pim-emblematic_work-create-pcmName:
+        module: pim/form/common/creation/field
+        parent: pim-emblematic_work-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: pcmName
+            label: roca_custom.emblematic_work.field.label.pcmName
+
+    pim-emblematic_work-create-installationDate:
+        module: pim/form/common/creation/field
+        parent: pim-emblematic_work-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: installationDate
+            label: roca_custom.emblematic_work.field.label.installationDate
+
+
+    ##Sección de Traducción
+    pim-emblematic_work-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent: pim-emblematic_work-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+    #Campos de traducción
+    pim-emblematic_work-edit-form-properties-translation:
+        module: pim/common/properties/translation
+        parent: pim-emblematic_work-edit-form-properties-translation-section
+        targetZone: content
+        position: 100
+        config:
+            fieldBaseId: 'pim_enrich_group_form_label_'

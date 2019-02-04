@@ -1,4 +1,5 @@
 extensions:
+
     pim-designline-create-modal:
         module: custom_entity/form/creation/modal
         config:
@@ -20,7 +21,7 @@ extensions:
         position: 10
         config:
             identifier: code
-            label: pim_custom_entity.form.field.label.code
+            label: roca_custom.designline.field.label.code
 
     pim-designline-create-name:
         module: pim/form/common/creation/field
@@ -29,7 +30,7 @@ extensions:
         position: 20
         config:
             identifier: name
-            label: pim_custom_entity.form.field.label.name
+            label: roca_custom.designline.field.label.name
 
     pim-designline-create-fullset:
         module: pim/form/common/fields/boolean
@@ -38,7 +39,8 @@ extensions:
         position: 30
         config:
             identifier: fullset
-            label: roca_custom.field.label.fullset
+            fieldName: fullset
+            label: roca_custom.designline.field.label.fullset
 
     pim-designline-create-websort:
         module: pim/form/common/creation/field
@@ -47,7 +49,7 @@ extensions:
         position: 40
         config:
             identifier: websort
-            label: roca_custom.field.label.websort
+            label: roca_custom.designline.field.label.websort
 
     pim-designline-create-status:
         module: pim/form/common/creation/field
@@ -56,7 +58,7 @@ extensions:
         position: 50
         config:
             identifier: status
-            label: roca_custom.field.label.status
+            label: roca_custom.designline.field.label.status
 
     pim-designline-create-version:
         module: pim/form/common/creation/field
@@ -65,7 +67,7 @@ extensions:
         position: 60
         config:
             identifier: version
-            label: roca_custom.field.label.version
+            label: roca_custom.designline.field.label.version
 
     pim-designline-create-technology:
         module: pim/form/common/creation/field
@@ -74,5 +76,45 @@ extensions:
         position: 70
         config:
             identifier: technology
-            label: roca_custom.field.label.technology
+            label: roca_custom.designline.field.label.technology
 
+    pim-designline-create-accesible:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 80
+        config:
+            identifier: accesible
+            fieldName: accesible
+            label: roca_custom.designline.field.label.accesible
+
+
+    pim-designline-create-publicSpaces:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 90
+        config:
+            identifier: publicSpaces
+            fieldName: publicSpaces
+            label: roca_custom.designline.field.label.publicSpaces
+
+    pim-designline-create-eco:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 100
+        config:
+            identifier: eco
+            fieldName: eco
+            label: roca_custom.designline.field.label.eco
+
+    pim-designline-create-children:
+        module: pim/form/common/fields/boolean
+        parent: pim-designline-create-modal
+        targetZone: fields
+        position: 110
+        config:
+            identifier: children
+            fieldName: children
+            label: roca_custom.designline.field.label.children

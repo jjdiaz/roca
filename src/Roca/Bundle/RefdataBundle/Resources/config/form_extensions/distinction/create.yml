@@ -1,0 +1,62 @@
+extensions:
+    pim-distinction-create-modal:
+        module: custom_entity/form/creation/modal
+        config:
+            labels:
+               title: pim_custom_entity.create_popin.title
+               subTitle: roca_custom.menu.item.reference_data.distinction
+            picture: illustrations/User.svg
+            successMessage: pim_custom_entity.message.created
+            editRoute: pim_customentity_rest_get
+            postUrl:
+                route: pim_customentity_rest_create
+                parameters:
+                    customEntityName: distinction
+
+    pim-distinction-create-code:
+        module: pim/form/common/creation/field
+        parent: pim-distinction-create-modal
+        targetZone: fields
+        position: 10
+        config:
+            identifier: code
+            label: pim_custom_entity.form.field.label.code
+
+    pim-distinction-create-pcmName:
+        module: pim/form/common/creation/field
+        parent: pim-distinction-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: pcmName
+            label: roca_custom.distinction.field.label.pcmName
+
+    pim-distinction-create-year:
+        module: pim/form/common/creation/field
+        parent: pim-distinction-create-modal
+        targetZone: fields
+        position: 20
+        config:
+            identifier: year
+            label: roca_custom.distinction.field.label.year
+
+    ##Sección de Traducción
+    pim-distinction-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+
+    #Campos de traducción
+    pim-distinction-edit-form-properties-translation:
+        module: pim/common/properties/translation
+        parent: pim-distinction-edit-form-properties-translation-section
+        targetZone: content
+        position: 120
+        config:
+            fieldBaseId: 'pim_enrich_group_form_label_'

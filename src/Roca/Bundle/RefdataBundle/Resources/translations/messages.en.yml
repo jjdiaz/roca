@@ -5,13 +5,7 @@ confirmation.remove:
     market: Do you really want to delete this Market?
     designer: Do you really want to delete this Designer?
 
-# borrado desde boton Delete de dentro de la entidad
-#roca_custom:
-#    message:
-#        confirmation:
-#            remove:
-#                brand: Do you really want to delete this brand?
-#                country: Do you really want to delete this Country?
+
 flash:
     brand:
         created: The brand has been created

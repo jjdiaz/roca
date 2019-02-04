@@ -1,0 +1,191 @@
+extensions:
+    pim-solution-edit-form:
+        module: custom_entity/form/common/edit-form
+
+    pim-solution-edit-form-breadcrumbs:
+        module: pim/common/breadcrumbs
+        parent: pim-solution-edit-form
+        targetZone: breadcrumbs
+        config:
+            tab: pim-menu-reference_data
+            item: roca_custom-menu-reference_data-item-solution
+
+    pim-solution-edit-form-cache-invalidator:
+        module: pim/cache-invalidator
+        parent: pim-solution-edit-form
+        position: 1000
+
+    pim-solution-edit-form-label:
+        module: custom_entity/form/common/label
+        parent: pim-solution-edit-form
+        targetZone: title
+        position: 90
+
+    pim-solution-edit-form-form-tabs:
+        module: pim/form/common/form-tabs
+        parent: pim-solution-edit-form
+        targetZone: content
+        position: 100
+
+    pim-solution-edit-form-secondary-actions:
+        module: pim/form/common/secondary-actions
+        parent: pim-solution-edit-form
+        targetZone: buttons
+        position: 50
+
+    pim-solution-edit-form-delete:
+        module: custom_entity/form/common/delete
+        parent: pim-solution-edit-form-secondary-actions
+        targetZone: secondary-actions
+        aclResourceId: pim_enrich_group_remove
+        position: 100
+        config:
+            route: pim_customentity_rest_delete
+            routeParams:
+                customEntityName: solution
+            trans:
+                title: roca_custom.message.confirmation.remove.solution
+                container: pim_enrich.confirmation.delete_item
+                success: pim_custom_entity.message.confirmation.removed
+                fail: pim_custom_entity.error.removing
+            redirect: pim_customentity_index
+
+    pim-solution-edit-form-save-buttons:
+        module: pim/form/common/save-buttons
+        parent: pim-solution-edit-form
+        targetZone: buttons
+        position: 120
+
+    pim-solution-edit-form-save:
+        module: custom_entity/form/common/save-form
+        parent: pim-solution-edit-form
+        targetZone: buttons
+        position: 0
+        config:
+            updateSuccessMessage: roca_custom.solution.info.update_successful
+            updateFailureMessage: roca_custom.solution.info.update_failed
+            notReadyMessage: roca_custom.solution.info.field_not_ready
+            url: pim_customentity_rest_edit
+            route_params:
+                customEntityName: solution
+            redirectAfter: pim_customentity_rest_get
+            excludedProperties: []
+
+    pim-solution-edit-form-properties-tab:
+        module: pim/common/tab
+        parent: pim-solution-edit-form-form-tabs
+        targetZone: container
+        position: 100
+        config:
+            label: pim_custom_entity.form.tab.properties.title
+
+    pim-solution-edit-form-resources-tab:
+        module: pim/common/tab
+        parent: pim-solution-edit-form-form-tabs
+        targetZone: container
+        position: 110
+        config:
+#            label: roca_custom_entity.form.tab.resources.title
+            label: roca_test
+            title: roca_test
+
+    pim-solution-edit-form-properties:
+        module: pim/common/simple-view
+        parent: pim-solution-edit-form-properties-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-solution-edit-form-resources:
+        module: pim/common/simple-view
+        parent: pim-solution-edit-form-resources-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-solution-edit-form-history:
+        module: pim/common/tab/history
+        parent: pim-solution-edit-form-form-tabs
+        targetZone: container
+        position: 120
+        config:
+            class: solution
+            title: pim_custom_entity.form.tab.history.title
+
+    pim-solution-edit-form-properties-common:
+        module: pim/common/simple-view
+        parent: pim-solution-edit-form-properties
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-solution-edit-form-resources-common:
+        module: pim/common/simple-view
+        parent: pim-solution-edit-form-resources
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+#    Campo code
+    pim-solution-edit-form-properties-code:
+        module: pim/form/common/fields/text
+        parent: pim-solution-edit-form-properties-common
+        targetZone: content
+        position: 90
+        config:
+            fieldName: code
+            label: roca_custom.solution.field.label.code
+            required: true
+            readOnly: true
+    #name
+    pim-solution-edit-form-properties-name:
+        module: pim/form/common/fields/text
+        parent: pim-solution-edit-form-properties-common
+        targetZone: content
+        position: 100
+        config:
+            fieldName: name
+            label: roca_custom.solution.field.label.name
+            required: true
+            readOnly: false
+
+    #websort
+    pim-solution-edit-form-properties-websort:
+        module: pim/form/common/fields/text
+        parent: pim-solution-edit-form-properties-common
+        targetZone: content
+        position: 100
+        config:
+            fieldName: websort
+            label: roca_custom.solution.field.label.websort
+            required: true
+            readOnly: false
+
+    ##Sección de Traducción
+    pim-solution-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent: pim-solution-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+
+    #Campos de traducción
+    pim-solution-edit-form-properties-translation:
+        module: pim/common/properties/translation
+        parent: pim-solution-edit-form-properties-translation-section
+        targetZone: content
+        position: 100
+        config:
+            fieldBaseId: 'pim_enrich_group_form_translation_'

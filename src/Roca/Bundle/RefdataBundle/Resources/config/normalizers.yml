@@ -20,11 +20,49 @@ services:
     tags:
       - { name: pim_serializer.normalizer, priority: 200 }
 
-
-
   roca_custom_entity.normalizer.market:
     public: false
     class: Roca\Bundle\RefdataBundle\Normalizer\MarketNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.designer:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\DesignerNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.designline:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\DesignLineNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.distinction:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\DistinctionNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.solution:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\SolutionNormalizer
+    arguments:
+    #      - '@pim_custom_entity.normalizer.standard.fabric'
+    tags:
+      - { name: pim_serializer.normalizer, priority: 200 }
+
+  roca_custom_entity.normalizer.emblematic_work:
+    public: false
+    class: Roca\Bundle\RefdataBundle\Normalizer\EmblematicNormalizer
     arguments:
     #      - '@pim_custom_entity.normalizer.standard.fabric'
     tags:

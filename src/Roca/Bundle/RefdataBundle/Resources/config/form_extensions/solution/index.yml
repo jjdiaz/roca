@@ -1,0 +1,84 @@
+extensions:
+  pim-solution-index:
+    module: pim/common/simple-view
+    config:
+      template: pim/template/common/default-template
+    forwarded-events:
+      grid_load:start: grid_load:start
+      grid_load:complete: grid_load:complete
+
+  pim-solution-index-grid-container:
+    module: pim/common/simple-view
+    parent: pim-solution-index
+    targetZone: content
+    config:
+      template: pim/template/form/index/index
+
+  pim-solution-index-user-navigation:
+    module: pim/menu/user-navigation
+    parent: pim-solution-index
+    targetZone: user-menu
+    config:
+      userAccount: pim_menu.user.user_account
+      logout: pim_menu.user.logout
+
+  pim-solution-index-grid-title:
+    module: pim/common/grid-title
+    parent: pim-solution-index
+    targetZone: title
+    config:
+      title: roca_custom.solution.index_title
+
+  pim-solution-index-breadcrumbs:
+    module: pim/common/breadcrumbs
+    parent: pim-solution-index
+    targetZone: breadcrumbs
+    config:
+      tab: pim-menu-reference_data
+      item: roca_custom-menu-reference_data-item-solution
+
+  pim-solution-index-grid-filters-list:
+    module: oro/datafilter/filters-list
+    parent: pim-solution-index-grid-container
+    targetZone: filters
+
+  pim-solution-index-grid-filters-manage:
+    module: oro/datafilter/filters-button
+    parent: pim-solution-index-grid-container
+    targetZone: filters
+
+  pim-solution-index-mass-actions:
+    module: pim/grid/mass-actions
+    parent: pim-solution-index
+    targetZone: bottom-panel
+    config:
+      label: roca_custom.solution.selected
+
+  pim-solution-index-actions-panel:
+    module: oro/datagrid/actions-panel
+    parent: pim-solution-index-mass-actions
+    targetZone: actions-panel
+
+  pim-solution-index-pagination:
+    module: oro/datagrid/pagination-input
+    parent: pim-solution-index-grid-container
+    targetZone: toolbar
+    config:
+      gridName: solution
+
+  pim-solution-index-grid:
+    module: pim/form/common/index/grid
+    parent: pim-solution-index
+    targetZone: content
+    position: 1000
+    config:
+      alias: solution
+
+  pim-solution-index-create-button:
+    module: pim/form/common/index/create-button
+    parent: pim-solution-index
+    targetZone: buttons
+    aclResourceId: pim_enrich_product_create
+    config:
+      title:     pim_custom_entity.button.create
+      modalForm: pim-solution-create-modal

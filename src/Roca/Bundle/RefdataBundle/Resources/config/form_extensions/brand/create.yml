@@ -20,7 +20,7 @@ extensions:
         position: 10
         config:
             identifier: code
-            label: pim_custom_entity.form.field.label.code
+            label: roca_custom.brand.field.label.code
 
     pim-brand-create-name:
         module: pim/form/common/creation/field
@@ -29,4 +29,4 @@ extensions:
         position: 20
         config:
             identifier: name
-            label: pim_custom_entity.form.field.label.name
+            label: roca_custom.brand.field.label.name

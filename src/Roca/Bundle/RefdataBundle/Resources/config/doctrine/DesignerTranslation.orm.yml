@@ -13,6 +13,9 @@ Roca\Bundle\RefdataBundle\Entity\DesignerTranslation:
             id: true
             generator:
                 strategy: AUTO
+        locale:
+            type: string
+            length: 20
         descriptionName:
             type: string
             length: 100
@@ -25,9 +28,6 @@ Roca\Bundle\RefdataBundle\Entity\DesignerTranslation:
             type: string
             length: 1000
             nullable: true
-        locale:
-            type: string
-            length: 20
     manyToOne:
         foreignKey:
             targetEntity: Roca\Bundle\RefdataBundle\Entity\Designer

@@ -1,0 +1,192 @@
+extensions:
+    pim-distinction-edit-form:
+        module: custom_entity/form/common/edit-form
+
+    pim-distinction-edit-form-breadcrumbs:
+        module: pim/common/breadcrumbs
+        parent: pim-distinction-edit-form
+        targetZone: breadcrumbs
+        config:
+            tab: pim-menu-reference_data
+            item: roca_custom-menu-reference_data-item-distinction
+
+    pim-distinction-edit-form-cache-invalidator:
+        module: pim/cache-invalidator
+        parent: pim-distinction-edit-form
+        position: 1000
+
+    pim-distinction-edit-form-label:
+        module: custom_entity/form/common/label
+        parent: pim-distinction-edit-form
+        targetZone: title
+        position: 90
+
+    pim-distinction-edit-form-form-tabs:
+        module: pim/form/common/form-tabs
+        parent: pim-distinction-edit-form
+        targetZone: content
+        position: 100
+
+    pim-distinction-edit-form-secondary-actions:
+        module: pim/form/common/secondary-actions
+        parent: pim-distinction-edit-form
+        targetZone: buttons
+        position: 50
+
+    pim-distinction-edit-form-delete:
+        module: custom_entity/form/common/delete
+        parent: pim-distinction-edit-form-secondary-actions
+        targetZone: secondary-actions
+        aclResourceId: pim_enrich_group_remove
+        position: 100
+        config:
+            route: pim_customentity_rest_delete
+            routeParams:
+                customEntityName: distinction
+            trans:
+                title: roca_custom.message.confirmation.remove.distinction
+                container: pim_enrich.confirmation.delete_item
+                success: pim_custom_entity.message.confirmation.removed
+                fail: pim_custom_entity.error.removing
+            redirect: pim_customentity_index
+
+    pim-distinction-edit-form-save-buttons:
+        module: pim/form/common/save-buttons
+        parent: pim-distinction-edit-form
+        targetZone: buttons
+        position: 120
+
+    pim-distinction-edit-form-save:
+        module: custom_entity/form/common/save-form
+        parent: pim-distinction-edit-form
+        targetZone: buttons
+        position: 0
+        config:
+            updateSuccessMessage: roca_custom.distinction.info.update_successful
+            updateFailureMessage: roca_custom.distinction.info.update_failed
+            notReadyMessage: roca_custom.distinction.info.field_not_ready
+            url: pim_customentity_rest_edit
+            route_params:
+                customEntityName: distinction
+            redirectAfter: pim_customentity_rest_get
+            excludedProperties: []
+
+    pim-distinction-edit-form-properties-tab:
+        module: pim/common/tab
+        parent: pim-distinction-edit-form-form-tabs
+        targetZone: container
+        position: 100
+        config:
+            label: pim_custom_entity.form.tab.properties.title
+
+    pim-distinction-edit-form-resources-tab:
+        module: pim/common/tab
+        parent: pim-distinction-edit-form-form-tabs
+        targetZone: container
+        position: 110
+        config:
+#            label: roca_custom_entity.form.tab.resources.title
+            label: roca_test
+            title: roca_test
+
+    pim-distinction-edit-form-properties:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-properties-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-distinction-edit-form-resources:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-resources-tab
+        targetZone: self
+        config:
+            template: pim/template/form/tab/sections
+
+    pim-distinction-edit-form-history:
+        module: pim/common/tab/history
+        parent: pim-distinction-edit-form-form-tabs
+        targetZone: container
+        position: 120
+        config:
+            class: distinction
+            title: pim_custom_entity.form.tab.history.title
+
+    pim-distinction-edit-form-properties-common:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-properties
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+    pim-distinction-edit-form-resources-common:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-resources
+        targetZone: accordion
+        position: 100
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.common
+                dropZone: content
+
+#    Campo code
+    pim-distinction-edit-form-properties-code:
+        module: pim/form/common/fields/text
+        parent: pim-distinction-edit-form-properties-common
+        targetZone: content
+        position: 90
+        config:
+            fieldName: code
+            label: roca_custom.distinction.field.label.code
+            required: true
+            readOnly: true
+    # pcmName
+    pim-distinction-edit-form-properties-pcmName:
+        module: pim/form/common/fields/text
+        parent: pim-distinction-edit-form-properties-common
+        targetZone: content
+        position: 100
+        config:
+            fieldName: pcmName
+            label: roca_custom.distinction.field.label.pcmName
+            required: true
+            readOnly: false
+
+    # year
+    pim-distinction-edit-form-properties-year:
+        module: pim/form/common/fields/text
+        parent: pim-distinction-edit-form-properties-common
+        targetZone: content
+        position: 100
+        config:
+            fieldName: year
+            label: roca_custom.distinction.field.label.year
+            required: true
+            readOnly: false
+
+
+    ##Sección de Traducción
+    pim-distinction-edit-form-properties-translation-section:
+        module: pim/common/simple-view
+        parent: pim-distinction-edit-form-properties
+        targetZone: accordion
+        position: 110
+        config:
+            template: pim/template/form/tab/section
+            templateParams:
+                sectionTitle: pim_custom_entity.form.tab.properties.section.label_translations
+                dropZone: content
+
+    #Campos de traducción
+    pim-distinction-edit-form-properties-translation:
+        module: pim/common/properties/translation
+        parent: pim-distinction-edit-form-properties-translation-section
+        targetZone: content
+        position: 100
+        config:
+            fieldBaseId: 'pim_enrich_group_form_translation_'

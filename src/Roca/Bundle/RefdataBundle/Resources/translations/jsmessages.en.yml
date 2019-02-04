@@ -6,6 +6,8 @@ roca_custom:
             remove:
                 brand: Do you really want to delete this brand?
                 country: Do you really want to delete this Country?
+                market: Do you really want to delete this Market?
+                designer: Do you really want to delete this Designer?
 
     menu.item:
         reference_data:
@@ -16,12 +18,16 @@ roca_custom:
             country: Countries
             markets: Markets
             resources: Resources
+            designer: Designer
             designers: Designers
+            designline: Design Line
             designlines: Design Lines
+            distinction: Distinction
             distinctions: Distinctions
             emblematic_works: Emblematic Works
             finish: Finish
             solutions: Solutions
+            solution: Solution
             pictos: Pictos
             sellings: Sellings
             searchs: Searchs
@@ -30,7 +36,8 @@ roca_custom:
         index_title: "] -Inf, 1] {{ count }} Brand|] 1, Inf [{{ count }} Brands"
         selected: brands selected
         field.label:
-            code: Code Brand
+            code: Code
+            name: Name
         form:
             tab.properties.section.common: Common
             tab.properties.section.label_translations: Labels
@@ -94,16 +101,26 @@ roca_custom:
             update_successful: Designer successfully updated
             update_failed: The designer could not be updated
             field_not_ready: "The designer cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this Designer
+        index_delete: Delete this Designer
+
 
     designline:
         index_title: "] -Inf, 1] {{ count }} DesingLines|] 1, Inf [{{ count }} DesignLines"
-        selected: brands selected
+        selected: designlines selected
         field.label:
             code: Code
             name: Name
             designer: Designer
             status: Status
             version: Version
+            fullset: Fullset
+            eco: Eco
+            children: Children
+            accesible: Accesible
+            technology: Technology
+            publicSpaces: publicSpaces
+            websort: WebSort
         form:
             tab.properties.section.common: Common
             tab.properties.section.label_translations: Labels
@@ -111,6 +128,63 @@ roca_custom:
             update_successful: Design Line successfully updated
             update_failed: The Design Line could not be updated
             field_not_ready: "The Design Line cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this Designline
+        index_delete: Delete this Designline
+
+
+    distinction:
+        index_title: "] -Inf, 1] {{ count }} distinctions|] 1, Inf [{{ count }} distinctions"
+        selected: distinctions selected
+        field.label:
+            code: Code
+            pcmName: Name
+            year: Year
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: distinction successfully updated
+            update_failed: The distinction could not be updated
+            field_not_ready: "The distinction cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this distinction
+        index_delete: Delete this distinction
+
+
+    solution:
+        index_title: "] -Inf, 1] {{ count }} solutions|] 1, Inf [{{ count }} solutions"
+        selected: solutions selected
+        field.label:
+            code: Code
+            name: Name
+            websort: Websort
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: solution successfully updated
+            update_failed: The solution could not be updated
+            field_not_ready: "The solution cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this solution
+        index_delete: Delete this solution
+
+    emblematic_work:
+        index_title: "] -Inf, 1] {{ count }} emblematic_work|] 1, Inf [{{ count }} emblematic_works"
+        selected: emblematic_works selected
+        field.label:
+            code: Code
+            pcmName: Name
+            installationDate: installationDate
+        form:
+            tab.properties.section.common: Common
+            tab.properties.section.label_translations: Labels
+        info:
+            update_successful: emblematic_work successfully updated
+            update_failed: The emblematic_work could not be updated
+            field_not_ready: "The emblematic_work cannot be saved right now. The following fields are not ready: {{ fields }}"
+        index_edit: Edit this emblematic_work
+        index_delete: Delete this emblematic_work
+
+
 
     acl:
         brand:
@@ -124,10 +198,30 @@ roca_custom:
             edit: Edit Country
             delete: Delete Country
         market:
-          index: List Markets
-          create: Create Market
-          edit: Edit Market
-          delete: Delete Market
+            index: List Markets
+            create: Create Market
+            edit: Edit Market
+            delete: Delete Market
+        designer:
+            index: List designers
+            create: Create designer
+            edit: Edit designer
+            delete: Delete designer
+        designline:
+            index: List designlines
+            create: Create designline
+            edit: Edit designline
+            delete: Delete designline
+        distinction:
+            index: List distinction
+            create: Create distinction
+            edit: Edit distinction
+            delete: Delete distinction
+        solution:
+            index: List solution
+            create: Create solution
+            edit: Edit solution
+            delete: Delete solution
 
 
 roca_custom_entity:
