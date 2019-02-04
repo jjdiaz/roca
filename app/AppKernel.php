@@ -30,7 +30,7 @@ class AppKernel extends Kernel
         return [
             new Roca\Bundle\InstallerBundle\RocaInstallerBundle(),
             new Roca\Bundle\MeasureBundle\RocaMeasureBundle(),
-//            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
+            new Roca\Bundle\RefdataBundle\RocaRefdataBundle(),
             new \Roca\Bundle\NlocaleBundle\RocaNlocaleBundle(),
 //            new \Roca\Bundle\MarketizableBundle\RocaMarketizableBundle(),
 //            new Roca\Bundle\EnrichBundle\RocaEnrichBundle()
