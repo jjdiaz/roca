@@ -17,34 +17,29 @@ export const getFlag = (locale: string, displayLanguage: boolean = true, market 
   let country = '';
   // let market = '';
 
-  if (locale.match('_M_')){
-    ismarket = true;
+  if (market != '') {
+      ismarket = true;
+      locale = locale.substr(4, 15);
   }
-
   const info = locale.split('_');
 
-
   if(ismarket){
-      // console.dir(info);
       language = info[0];
       country = info[1];
       if (info.length === 4) {
-          market = info[3];
           country = info[1];
       }
       if (info.length === 5) {
-          market = info[4];
           country = info[2];
       }
   }else
   {
-      // console.dir(info);
-      // console.dir('Locale');
       language = info[0];
       country = info[1];
       if (info.length === 3) {
           country = info[2];
       }
+
   }
 
     // console.dir('Country:  ' + country);

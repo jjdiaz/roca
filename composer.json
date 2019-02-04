@@ -31,8 +31,8 @@
         ]
     },
     "require": {
-        "akeneo/pim-enterprise-dev": "~2.3.8",
-        "akeneo/pim-community-dev": "~2.3.8",
+        "akeneo/pim-enterprise-dev": "2.3.23",
+        "akeneo/pim-community-dev": "2.3.23",
         "akeneo-labs/custom-entity-bundle": "2.4.*",
         "misteio/cloudinary-bundle": "^0.2.0",
         "textmaster/akeneo-extension": "2.3"

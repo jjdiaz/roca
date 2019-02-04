@@ -1,6 +1,6 @@
 <?php
 
-namespace Roca\Bundle\MarketizableBundle\Normalizer;
+namespace Roca\Bundle\NlocaleBundle\Normalizer;
 
 use Pim\Bundle\UserBundle\Context\UserContext;
 use Pim\Component\Catalog\Model\LocaleInterface;
@@ -42,9 +42,9 @@ class LocaleNormalizer implements NormalizerInterface
         return [
             'code'     => $locale->getCode(),
             'label'    => $this->getLocaleLabel($locale->getCode()),
-            'region'   => \Locale::getDisplayRegion($locale->getCode()),
-            'language' => \Locale::getDisplayLanguage($locale->getCode()),
-            'market'   => $locale->getMarketname(),
+            'region'   => \Locale::getDisplayRegion($locale->getLocaleCode()),
+            'language' => \Locale::getDisplayLanguage($locale->getLocaleCode()),
+            'marketname'   => $locale->getMarketname(),
         ];
     }
 

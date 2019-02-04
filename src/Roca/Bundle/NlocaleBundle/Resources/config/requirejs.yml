@@ -1,0 +1,14 @@
+config:
+    paths:
+
+       #Product Locale Switcher
+        pim/product-edit-form/locale-switcher:              rocanlocale/js/product/form/locale-switcher
+        asm/template/product/locale-switcher:               rocanlocale/templates/product/locale-switcher.html
+#        pim/template/product/field/field:                   rocanlocale/templates/product/field/field.html
+#        pim/product-edit-form/scope-switcher:                rocanlocale/js/product/form/scope-switcher
+#        asm/template/product/scope-switcher:                 rocanlocale/templates/product/scope-switcher.html
+
+       #Grid Locale Switcher
+        pim/grid/locale-switcher:                           rocanlocale/js/product/grid/locale-switcher
+        asm/template/product/grid/locale-switcher:          rocanlocale/templates/grid/locale-switcher.html
+        pim/i18n:                                           rocanlocale/js/i18n.ts

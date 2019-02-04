@@ -1076,7 +1076,7 @@ price2;Precio;Price;Price;;;;;;1;;COMMON;0;0;;;;;;;;;1;9;pim_catalog_price_colle
 main_variation_name;Product Name;Product Name;Product Name;;;;;;;;COMMON;0;1;;;;;;;;;1;4;pim_catalog_text;0;1;;;
 tipo_lista;;;;;;;;;;;UNKNOWN;0;0;;;;;;;;;0;0;pim_catalog_simpleselect;0;0;;;
 product_sku_image;SKU IMAGE;SKU IMAGE;SKU IMAGE;;;;;;;;resources;0;0;;;;;;;;assets;0;1;pim_assets_collection;0;1;;;
-product_sku_markets;AVAILABLE IN MARKETS;AVAILABLE IN MARKETS;AVAILABLE IN MARKETS;;;;;;;;COMMON;0;0;;;;;;;;;0;2;pim_catalog_text;0;0;;;
+product_sku_markets;AVAILABLE IN MARKETS;AVAILABLE IN MARKETS;AVAILABLE IN MARKETS;;;;;;;;COMMON;0;0;;;;;;;;;0;2;pim_catalog_multiselect;0;0;;;
 antislip;Antideslizante;Antislip;Antislip;;;;;;;;other;0;0;;;;;;;;;0;8;pim_catalog_text;0;0;;;
 pt_bundle_toilet_iss_waterinletposition;Posición de la toma de agua;WaterInletPosition;WaterInletPosition;;;;;;;;BUNDLE_TOILET;0;0;;;;;;;;;0;1;pim_catalog_simpleselect;0;0;;;
 pt_bundle_toilet_iss_outlettype;Tipo de salida;OutletType;OutletType;;;;;;;;BUNDLE_TOILET;0;0;;;;;;;;;0;2;pim_catalog_simpleselect;0;0;;;
