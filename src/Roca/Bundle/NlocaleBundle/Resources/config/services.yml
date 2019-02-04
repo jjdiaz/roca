@@ -1,12 +1,9 @@
 parameters:
 
 #Normalizers
-    asm_enrich.normalizer.locale.class: Roca\Bundle\MarketizableBundle\Normalizer\LocaleNormalizer
+    asm_enrich.normalizer.locale.class: Roca\Bundle\NlocaleBundle\Normalizer\LocaleNormalizer
 
-
-
-
-#  pim_enrich.twig.locale_extension.class:       Pim\Bundle\EnrichBundle\Twig\LocaleExtension
+#  pim_enrich.twig.locale_extension.class:       Pim\Bundle\NlocaleBundle\Twig\LocaleExtension
 
 
 services:
@@ -16,10 +13,6 @@ services:
             - '@pim_user.context.user'
         tags:
             - { name: pim_internal_api_serializer.normalizer }
-
-
-
-
 
 
 #  # Twig extensions

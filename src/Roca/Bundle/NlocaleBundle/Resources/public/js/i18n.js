@@ -14,26 +14,22 @@ exports.getFlag = function (locale, displayLanguage, market) {
     var language = '';
     var country = '';
     // let market = '';
-    if (locale.match('_M_')) {
+    if (market != '') {
         ismarket = true;
+        locale = locale.substr(4, 15);
     }
     var info = locale.split('_');
     if (ismarket) {
-        // console.dir(info);
         language = info[0];
         country = info[1];
         if (info.length === 4) {
-            market = info[3];
             country = info[1];
         }
         if (info.length === 5) {
-            market = info[4];
             country = info[2];
         }
     }
     else {
-        // console.dir(info);
-        // console.dir('Locale');
         language = info[0];
         country = info[1];
         if (info.length === 3) {

@@ -3,6 +3,3 @@ akeneo_storage_utils:
         -
             original: Pim\Bundle\CatalogBundle\Entity\Locale
             override: Roca\Bundle\NlocaleBundle\Entity\Locale
-#        -
-#            original: PimEnterprise\Bundle\SecurityBundle\Entity\LocaleAccess
-#            override: Roca\Bundle\MarketizableBundle\Entity\LocaleAccess

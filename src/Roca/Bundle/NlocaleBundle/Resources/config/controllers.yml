@@ -1,7 +1,7 @@
 parameters:
-  roca_enrich.controller.locale.class:    Roca\Bundle\NlocaleBundle\Controller\LocaleController
+    roca_enrich.controller.locale.class:    Roca\Bundle\NlocaleBundle\Controller\LocaleController
 services:
-  pim_enrich.controller.locale:
-    class: '%roca_enrich.controller.locale.class%'
-    arguments:
-    - '@form.factory'
+    pim_enrich.controller.locale:
+        class: '%roca_enrich.controller.locale.class%'
+        arguments:
+            - '@form.factory'

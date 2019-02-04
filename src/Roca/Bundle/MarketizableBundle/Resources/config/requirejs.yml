@@ -12,5 +12,4 @@ config:
         pim/grid/locale-switcher:                                   rocamarketizable/js/product/grid/locale-switcher
         asm/template/product/grid/locale-switcher:                  rocamarketizable/templates/grid/locale-switcher.html
 
-
         pim/i18n:                                                   rocamarketizable/js/i18n.ts

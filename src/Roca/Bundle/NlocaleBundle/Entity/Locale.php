@@ -30,7 +30,7 @@ class Locale extends BaseLocale //implements LocaleInterface, VersionableInterfa
      */
     public function getMarketname()
     {
-        return $this->marketname;
+        return is_null($this->marketname) ? '' : $this->marketname;
     }
 
     /**
